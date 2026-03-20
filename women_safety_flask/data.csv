@@ -1,0 +1,203 @@
+Latitude,Longitude,Area_Name,Time_Period,Crime_Count,Street_Light,CCTV,Police_Patrol,Isolation_Level
+9.908693,76.223327,Edappally Lulu Mall Area,Afternoon,6,Good,No,Occasional,Medium
+9.896042,76.210164,Thevara Ferry,Night,8,Moderate,Yes,Frequent,Low
+9.95566,76.213065,Fort Kochi Beach,Evening,10,Poor,No,Rare,Medium
+9.988877,76.2438,Angamaly Town,Evening,1,Poor,No,Occasional,Medium
+9.878654,76.271258,Willingdon Island,Evening,10,Good,No,Rare,Low
+9.904853,76.242124,Fort Kochi Beach,Morning,4,Poor,No,Frequent,Low
+9.935515,76.307154,Perumbavoor Town,Evening,7,Good,Yes,Rare,Medium
+9.986756,76.278135,Vyttila Junction,Evening,1,Moderate,Yes,Occasional,Medium
+9.957313,76.274511,Bolgatty Palace Road,Afternoon,9,Good,Yes,Rare,Low
+9.952628,76.288942,Mattancherry,Evening,9,Good,No,Rare,Low
+9.928361,76.243985,Fort Kochi Beach,Night,5,Poor,No,Frequent,Low
+9.885749,76.271683,Vyttila Junction,Night,7,Poor,Yes,Rare,High
+9.895899,76.26482,Willingdon Island,Morning,5,Moderate,No,Occasional,Medium
+9.880412,76.277788,Kadavanthra Junction,Evening,9,Moderate,Yes,Occasional,Low
+9.964125,76.226213,Panampilly Nagar,Night,2,Moderate,No,Rare,Medium
+9.981399,76.257967,Broadway Market,Night,7,Good,No,Frequent,Medium
+9.945394,76.224865,MG Road,Night,10,Good,No,Frequent,Medium
+9.969414,76.277567,Kakkanad Infopark,Evening,3,Moderate,No,Frequent,High
+9.960731,76.256353,Kaloor Stadium Area,Night,4,Moderate,Yes,Frequent,Medium
+9.960829,76.254173,Kadavanthra Junction,Morning,9,Good,Yes,Occasional,Low
+9.873024,76.26057,High Court Junction,Morning,6,Moderate,No,Rare,Low
+9.946445,76.273472,North Paravur Town,Evening,3,Good,Yes,Rare,High
+9.940071,76.21765,Aluva Metro Area,Evening,8,Moderate,Yes,Occasional,High
+9.924075,76.323838,Kaloor Stadium Area,Afternoon,8,Moderate,Yes,Frequent,Medium
+9.955451,76.306282,Vyttila Junction,Night,3,Moderate,No,Rare,Medium
+9.875301,76.314045,Edappally Lulu Mall Area,Night,10,Poor,Yes,Rare,Low
+9.88332,76.28104,Fort Kochi Beach,Night,6,Moderate,No,Occasional,Low
+9.915198,76.233217,High Court Junction,Morning,0,Poor,No,Rare,Medium
+9.875625,76.305956,Angamaly Town,Afternoon,4,Poor,Yes,Frequent,Low
+9.938297,76.249004,Angamaly Town,Night,7,Poor,Yes,Occasional,Medium
+9.932223,76.318105,Palarivattom,Morning,3,Moderate,Yes,Frequent,Medium
+9.906145,76.257237,Willingdon Island,Evening,5,Moderate,Yes,Frequent,High
+9.980955,76.317733,Panampilly Nagar,Afternoon,8,Poor,No,Frequent,High
+9.989615,76.298318,Kalamassery HMT Road,Morning,0,Good,Yes,Occasional,Low
+9.957316,76.212664,Broadway Market,Morning,7,Poor,Yes,Occasional,Low
+9.951876,76.256451,Aluva Metro Area,Evening,5,Good,No,Occasional,Low
+9.909638,76.214362,Varapuzha Bridge,Afternoon,10,Good,No,Rare,High
+9.929932,76.220028,Kalamassery HMT Road,Afternoon,3,Poor,No,Occasional,Low
+9.903859,76.284703,Vyttila Junction,Morning,0,Moderate,Yes,Occasional,Medium
+9.955845,76.25804,Palarivattom,Afternoon,0,Moderate,Yes,Rare,Medium
+9.892447,76.2543,Palarivattom,Morning,2,Moderate,Yes,Occasional,Low
+9.953046,76.216564,High Court Junction,Afternoon,9,Good,No,Occasional,Medium
+9.959036,76.265856,High Court Junction,Evening,7,Poor,Yes,Frequent,High
+9.966745,76.260116,Edappally Lulu Mall Area,Afternoon,2,Good,No,Frequent,Low
+9.877977,76.213722,Thevara Ferry,Afternoon,2,Good,Yes,Rare,Medium
+9.903371,76.26861,Perumbavoor Town,Afternoon,2,Poor,Yes,Rare,Medium
+9.969389,76.294977,High Court Junction,Evening,4,Good,No,Rare,High
+9.986189,76.221528,Marine Drive,Afternoon,5,Poor,No,Frequent,Medium
+9.986833,76.236007,Edappally Lulu Mall Area,Afternoon,10,Poor,No,Occasional,Low
+9.890629,76.295457,Broadway Market,Morning,7,Good,No,Frequent,Medium
+9.906577,76.319074,Mattancherry,Evening,7,Poor,No,Rare,Low
+9.952219,76.306694,Angamaly Town,Afternoon,0,Poor,No,Occasional,Medium
+9.905677,76.266766,Aluva Metro Area,Morning,10,Poor,No,Frequent,Medium
+9.930193,76.211332,Cherai Beach Road,Afternoon,3,Poor,No,Frequent,Medium
+9.873566,76.303255,Kakkanad Infopark,Morning,10,Poor,No,Frequent,Low
+9.925739,76.302044,Cherai Beach Road,Afternoon,8,Good,Yes,Rare,High
+9.940147,76.216745,Panampilly Nagar,Night,1,Moderate,Yes,Frequent,Medium
+9.988038,76.259262,Kadavanthra Junction,Night,7,Good,No,Rare,High
+9.889972,76.253132,Angamaly Town,Afternoon,0,Good,No,Rare,Medium
+9.924097,76.251292,Panampilly Nagar,Evening,2,Poor,No,Occasional,Low
+9.875697,76.326559,Panampilly Nagar,Evening,5,Poor,Yes,Frequent,Low
+9.911892,76.289424,Kadavanthra Junction,Evening,2,Moderate,Yes,Occasional,High
+9.909763,76.207325,Kakkanad Infopark,Afternoon,2,Moderate,Yes,Rare,High
+9.935922,76.266309,Varapuzha Bridge,Afternoon,1,Moderate,No,Frequent,High
+9.886773,76.318812,Vyttila Junction,Night,4,Moderate,Yes,Occasional,Low
+9.98205,76.212181,Marine Drive,Morning,0,Good,Yes,Rare,Low
+9.965289,76.265115,Fort Kochi Beach,Afternoon,4,Good,No,Frequent,Low
+9.963984,76.307114,Tripunithura Market,Evening,8,Good,No,Frequent,Low
+9.918743,76.237937,Fort Kochi Beach,Night,2,Good,Yes,Rare,Low
+9.90579,76.210684,Kalamassery HMT Road,Afternoon,3,Moderate,Yes,Rare,High
+9.887342,76.309001,Mattancherry,Night,9,Good,Yes,Rare,High
+9.925523,76.241663,Bolgatty Palace Road,Evening,10,Good,Yes,Occasional,Low
+9.979648,76.2603,Willingdon Island,Morning,1,Moderate,Yes,Frequent,High
+9.88804,76.22845,Mattancherry,Evening,7,Poor,Yes,Frequent,Low
+9.887335,76.225902,Broadway Market,Morning,7,Moderate,No,Frequent,Low
+9.940047,76.282145,Palarivattom,Evening,3,Good,Yes,Rare,High
+9.958231,76.30772,Perumbavoor Town,Afternoon,1,Good,No,Rare,Medium
+9.89092,76.30733,Kalamassery HMT Road,Night,1,Moderate,Yes,Frequent,Medium
+9.919109,76.265099,Kaloor Stadium Area,Night,5,Good,No,Frequent,High
+9.985189,76.217466,North Paravur Town,Morning,5,Poor,No,Rare,High
+9.9514,76.300705,Thrippunithura Temple Road,Morning,3,Poor,Yes,Rare,Low
+9.895317,76.297001,Aluva Metro Area,Night,4,Moderate,Yes,Occasional,High
+9.980052,76.218829,Bolgatty Palace Road,Evening,10,Moderate,No,Occasional,Low
+9.986111,76.323782,Edappally Lulu Mall Area,Evening,8,Moderate,No,Frequent,High
+9.88547,76.327029,MG Road,Afternoon,4,Poor,No,Occasional,Low
+9.970059,76.269415,Panampilly Nagar,Morning,2,Poor,No,Frequent,Medium
+9.986044,76.312544,Aluva Metro Area,Evening,5,Poor,Yes,Occasional,Medium
+9.934396,76.308748,Kalamassery HMT Road,Evening,4,Poor,Yes,Occasional,Medium
+9.90594,76.297214,Thrippunithura Temple Road,Night,5,Poor,Yes,Frequent,Medium
+9.963844,76.225515,Kalamassery HMT Road,Evening,9,Good,No,Occasional,Medium
+9.894852,76.281259,Tripunithura Market,Afternoon,4,Moderate,Yes,Rare,Medium
+9.876113,76.231262,Tripunithura Market,Evening,6,Poor,No,Occasional,Medium
+9.934166,76.21921,MG Road,Night,7,Poor,Yes,Frequent,Medium
+9.926611,76.22719,Panampilly Nagar,Morning,10,Moderate,Yes,Occasional,Medium
+9.940821,76.225762,Broadway Market,Afternoon,5,Good,No,Occasional,High
+9.932433,76.316609,High Court Junction,Night,4,Moderate,Yes,Frequent,Medium
+9.968814,76.273556,Broadway Market,Evening,9,Poor,No,Frequent,High
+9.907717,76.224123,Tripunithura Market,Morning,6,Moderate,Yes,Rare,Low
+9.935818,76.263397,Thevara Ferry,Morning,8,Good,No,Occasional,Medium
+9.965333,76.218282,Marine Drive,Morning,4,Poor,Yes,Rare,High
+9.956007,76.258302,Palarivattom,Afternoon,2,Good,Yes,Occasional,Medium
+9.918364,76.276999,Kaloor Stadium Area,Evening,2,Moderate,Yes,Rare,High
+9.950881,76.319269,Vyttila Junction,Night,5,Poor,Yes,Rare,Medium
+9.912028,76.211865,Perumbavoor Town,Evening,2,Good,Yes,Occasional,High
+9.979522,76.244309,Thevara Ferry,Morning,7,Moderate,Yes,Frequent,High
+9.952683,76.264486,Aluva Metro Area,Afternoon,10,Moderate,Yes,Frequent,Medium
+9.897433,76.21317,Tripunithura Market,Night,8,Poor,Yes,Rare,High
+9.923574,76.227504,Marine Drive,Evening,5,Moderate,No,Occasional,High
+9.89629,76.322508,Mattancherry,Night,5,Poor,Yes,Frequent,High
+9.888502,76.308422,Thevara Ferry,Afternoon,9,Poor,No,Occasional,Medium
+9.957853,76.246753,Mattancherry,Night,2,Good,Yes,Occasional,High
+9.929665,76.231795,Thrippunithura Temple Road,Afternoon,4,Poor,No,Rare,Low
+9.931425,76.250349,Kalamassery HMT Road,Afternoon,0,Poor,No,Occasional,Low
+9.961083,76.262861,Kadavanthra Junction,Afternoon,1,Good,No,Rare,Low
+9.981325,76.296676,Cherai Beach Road,Night,0,Poor,No,Frequent,Low
+9.975445,76.300684,North Paravur Town,Afternoon,0,Poor,No,Rare,Medium
+9.928125,76.267189,Mattancherry,Evening,7,Poor,No,Occasional,High
+9.984542,76.299693,Tripunithura Market,Night,4,Moderate,Yes,Rare,Low
+9.916098,76.296767,Marine Drive,Morning,10,Poor,Yes,Rare,High
+9.957537,76.210594,Kalamassery HMT Road,Evening,10,Poor,Yes,Occasional,Medium
+9.883688,76.273353,Kadavanthra Junction,Evening,10,Moderate,No,Rare,High
+9.896581,76.277176,Broadway Market,Morning,7,Good,Yes,Frequent,High
+9.911401,76.295169,Broadway Market,Evening,1,Poor,No,Occasional,Low
+9.954665,76.319644,Broadway Market,Evening,6,Poor,Yes,Frequent,Low
+9.988438,76.27812,Marine Drive,Afternoon,0,Poor,No,Frequent,Medium
+9.943563,76.272235,Kaloor Stadium Area,Evening,2,Good,No,Rare,Medium
+9.915931,76.213558,Angamaly Town,Afternoon,4,Good,Yes,Frequent,High
+9.908323,76.277982,Mattancherry,Afternoon,10,Good,Yes,Frequent,Low
+9.965845,76.226224,Broadway Market,Afternoon,8,Moderate,Yes,Occasional,High
+9.905057,76.25241,MG Road,Evening,1,Moderate,No,Occasional,High
+9.978034,76.252919,Palarivattom,Morning,4,Good,Yes,Frequent,Medium
+9.973822,76.301208,Varapuzha Bridge,Morning,10,Good,Yes,Occasional,High
+9.964076,76.220859,Varapuzha Bridge,Night,1,Moderate,Yes,Frequent,High
+9.910026,76.322136,Angamaly Town,Morning,7,Poor,No,Rare,Low
+9.877561,76.269416,Angamaly Town,Afternoon,10,Poor,No,Rare,High
+9.947205,76.312372,Tripunithura Market,Evening,5,Moderate,No,Occasional,Low
+9.983046,76.253369,North Paravur Town,Evening,7,Good,No,Rare,Low
+9.899797,76.284298,Perumbavoor Town,Evening,1,Good,No,Frequent,Medium
+9.935777,76.273077,Angamaly Town,Morning,1,Poor,Yes,Rare,Medium
+9.98349,76.311605,Edappally Lulu Mall Area,Night,8,Moderate,No,Occasional,Medium
+9.897357,76.225304,Bolgatty Palace Road,Afternoon,3,Poor,Yes,Frequent,High
+9.896795,76.319982,Panampilly Nagar,Evening,2,Moderate,Yes,Frequent,High
+9.934385,76.297326,MG Road,Evening,2,Poor,No,Frequent,Medium
+9.894021,76.258012,Angamaly Town,Night,5,Poor,Yes,Frequent,High
+9.891286,76.257808,Tripunithura Market,Afternoon,9,Moderate,No,Occasional,Medium
+9.934723,76.268344,Kalamassery HMT Road,Night,3,Poor,Yes,Occasional,Low
+9.970419,76.227099,North Paravur Town,Morning,9,Poor,Yes,Frequent,Medium
+9.886427,76.251039,Kaloor Stadium Area,Afternoon,7,Poor,No,Occasional,High
+9.952969,76.25381,Kaloor Stadium Area,Night,3,Good,Yes,Rare,Medium
+9.978877,76.314179,Thevara Ferry,Afternoon,8,Moderate,No,Rare,Medium
+9.900104,76.290307,Mattancherry,Afternoon,4,Poor,No,Rare,Low
+9.979452,76.303258,Willingdon Island,Night,2,Poor,Yes,Occasional,High
+9.888706,76.273348,MG Road,Morning,2,Moderate,No,Rare,Medium
+9.885752,76.241356,Thevara Ferry,Night,8,Good,Yes,Rare,Low
+9.915359,76.247891,Kadavanthra Junction,Afternoon,8,Moderate,Yes,Occasional,Medium
+9.945509,76.262529,North Paravur Town,Afternoon,2,Poor,No,Occasional,Medium
+9.911412,76.279054,Panampilly Nagar,Morning,10,Good,Yes,Frequent,High
+9.961553,76.237596,Varapuzha Bridge,Morning,8,Moderate,Yes,Frequent,High
+9.877579,76.297099,Angamaly Town,Night,4,Good,Yes,Rare,Medium
+9.915343,76.218096,Kalamassery HMT Road,Night,3,Moderate,Yes,Occasional,Low
+9.902381,76.304107,Aluva Metro Area,Morning,0,Moderate,Yes,Frequent,Low
+9.951874,76.236595,Varapuzha Bridge,Afternoon,10,Poor,No,Occasional,Medium
+9.928768,76.295829,Angamaly Town,Evening,8,Good,No,Frequent,Low
+9.970862,76.302441,Bolgatty Palace Road,Night,8,Poor,Yes,Rare,Low
+9.878398,76.238733,Cherai Beach Road,Evening,7,Poor,No,Occasional,Medium
+9.916964,76.246759,Fort Kochi Beach,Afternoon,3,Moderate,No,Frequent,Low
+9.957619,76.28908,Edappally Lulu Mall Area,Night,10,Moderate,Yes,Frequent,Low
+9.906495,76.323179,Angamaly Town,Afternoon,7,Poor,Yes,Frequent,High
+9.931802,76.263306,Marine Drive,Night,6,Moderate,Yes,Rare,High
+9.915546,76.273009,High Court Junction,Evening,6,Poor,No,Occasional,Low
+9.894229,76.25577,MG Road,Evening,6,Good,Yes,Occasional,Medium
+9.880508,76.251153,Angamaly Town,Evening,1,Good,Yes,Frequent,High
+9.952677,76.271157,Edappally Lulu Mall Area,Afternoon,4,Good,Yes,Rare,Medium
+9.975101,76.226287,Fort Kochi Beach,Afternoon,9,Moderate,Yes,Occasional,High
+9.885257,76.265597,Thevara Ferry,Afternoon,3,Moderate,No,Frequent,Low
+9.978959,76.211279,Tripunithura Market,Evening,6,Poor,Yes,Occasional,Medium
+9.906151,76.29528,High Court Junction,Evening,7,Moderate,No,Rare,High
+9.921784,76.284162,Aluva Metro Area,Evening,7,Poor,Yes,Frequent,Low
+9.883214,76.244697,Varapuzha Bridge,Night,9,Poor,No,Rare,Medium
+9.981579,76.277285,MG Road,Night,1,Good,No,Occasional,Low
+9.983822,76.312862,High Court Junction,Afternoon,2,Poor,No,Rare,High
+9.878724,76.241024,Marine Drive,Evening,9,Moderate,No,Frequent,Medium
+9.939803,76.22338,Vyttila Junction,Morning,4,Moderate,Yes,Occasional,Medium
+9.877645,76.258923,Thrippunithura Temple Road,Evening,7,Poor,Yes,Rare,Low
+9.960881,76.255505,Thrippunithura Temple Road,Night,2,Good,No,Occasional,Low
+9.91286,76.303776,Fort Kochi Beach,Evening,4,Moderate,Yes,Occasional,High
+9.895362,76.315664,Mattancherry,Night,6,Good,No,Rare,Medium
+9.879934,76.261151,Broadway Market,Evening,7,Good,No,Occasional,Low
+9.937093,76.247007,Kakkanad Infopark,Evening,4,Good,Yes,Frequent,Low
+9.965116,76.235739,Kakkanad Infopark,Night,4,Good,No,Frequent,High
+9.894115,76.228532,Marine Drive,Afternoon,7,Good,No,Occasional,Low
+9.956233,76.287386,High Court Junction,Night,7,Poor,No,Frequent,Medium
+9.904957,76.316307,Tripunithura Market,Evening,0,Poor,Yes,Frequent,Medium
+9.876173,76.303709,Thevara Ferry,Afternoon,10,Poor,No,Frequent,Low
+9.928757,76.294112,Fort Kochi Beach,Morning,9,Poor,Yes,Occasional,High
+9.951526,76.226666,Angamaly Town,Afternoon,4,Poor,No,Frequent,High
+9.91842,76.212826,Varapuzha Bridge,Evening,9,Poor,No,Frequent,Low
+9.895846,76.264439,Palarivattom,Night,9,Moderate,No,Rare,High
+9.933639,76.259095,Fort Kochi Beach,Morning,2,Good,Yes,Occasional,Low
+9.90134,76.246849,Perumbavoor Town,Night,6,Poor,Yes,Rare,Low
+9.9312,76.2673,MG Road,Night,7,Poor,No,Rare,High
+9.978478,76.275773,Marine Drive,Evening,4,Moderate,Yes,Occasional,Medium
