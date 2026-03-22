@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Risk Heatmap — SafeCity</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+<style>
+:root {
+  --rose: #b5294e;
+  --rose-dark: #8c1a38;
+  --rose-light: #f9eef2;
+  --rose-mid: #e8c4d0;
+  --ink: #1a1218;
+  --ink-muted: #5a4d53;
+  --ink-faint: #9a8d92;
+  --surface: #ffffff;
+  --bg: #faf7f8;
+  --border: #eddde3;
+  --shadow: 0 1px 3px rgba(26,18,24,0.06), 0 4px 16px rgba(26,18,24,0.04);
+}
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'DM Sans', sans-serif; background: var(--bg); color: var(--ink); min-height: 100vh; }
+
+/* NAV */
+.nav { position: sticky; top: 0; z-index: 100; background: rgba(255,255,255,0.92); backdrop-filter: blur(12px); border-bottom: 1px solid var(--border); padding: 0 40px; display: flex; align-items: center; height: 60px; gap: 32px; }
+.nav-brand { font-family: 'DM Serif Display', serif; font-size: 18px; color: var(--rose); text-decoration: none; margin-right: auto; }
+.nav-link { font-size: 14px; font-weight: 500; color: var(--ink-muted); text-decoration: none; transition: color 0.15s; }
+.nav-link:hover, .nav-link.active { color: var(--rose); }
+
+/* PAGE LAYOUT */
+.page-header { padding: 40px 40px 24px; max-width: 1100px; margin: 0 auto; display: flex; align-items: flex-end; justify-content: space-between; gap: 24px; flex-wrap: wrap; }
+.page-title-group {}
+.page-eyebrow { font-size: 11px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink-faint); margin-bottom: 8px; }
+.page-title { font-family: 'DM Serif Display', serif; font-size: 32px; color: var(--ink); letter-spacing: -0.02em; }
+
+/* FILTER BAR */
+.filter-bar { display: flex; align-items: center; gap: 10px; }
+.filter-select {
+  padding: 9px 14px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  font-size: 13px;
+  font-weight: 500;
+  font-family: 'DM Sans', sans-serif;
+  background: var(--surface);
+  color: var(--ink);
+  cursor: pointer;
+  outline: none;
+  transition: border-color 0.15s;
+}
+.filter-select:focus { border-color: var(--rose); }
+.btn-apply {
+  padding: 9px 20px;
+  background: var(--rose);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  font-family: 'DM Sans', sans-serif;
+  transition: background 0.15s;
+  text-decoration: none;
+  display: inline-block;
+}
+.btn-apply:hover { background: var(--rose-dark); }
+.btn-outline {
+  padding: 9px 18px;
+  background: transparent;
+  color: var(--rose);
+  border: 1px solid var(--rose-mid);
+  border-radius: 10px;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  font-family: 'DM Sans', sans-serif;
+  text-decoration: none;
+  transition: all 0.15s;
+}
+.btn-outline:hover { background: var(--rose-light); border-color: var(--rose); }
+
+/* MAIN */
+.main { max-width: 1100px; margin: 0 auto; padding: 0 40px 60px; display: flex; flex-direction: column; gap: 20px; }
+
+/* RISK SUMMARY */
+.risk-summary { display: grid; grid-template-columns: 1fr 1fr 3fr; gap: 16px; }
+.summary-card { background: var(--surface); border: 1px solid var(--border); border-radius: 16px; padding: 20px 24px; box-shadow: var(--shadow); }
+.summary-label { font-size: 11px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-faint); margin-bottom: 8px; }
+.summary-value { font-family: 'DM Serif Display', serif; font-size: 26px; color: var(--ink); margin-bottom: 2px; }
+.summary-sub { font-size: 12.5px; color: var(--ink-faint); }
+
+/* TOP ZONES */
+.zones-card { background: var(--surface); border: 1px solid var(--border); border-radius: 16px; padding: 20px 24px; box-shadow: var(--shadow); }
+.zones-header { font-size: 13px; font-weight: 600; color: var(--ink); margin-bottom: 14px; display: flex; align-items: center; gap: 8px; }
+.zones-header::before { content: ''; width: 10px; height: 10px; border-radius: 50%; background: #b52929; flex-shrink: 0; }
+.zone-rows { display: flex; flex-direction: column; gap: 8px; }
+.zone-row { display: flex; align-items: center; justify-content: space-between; padding: 10px 14px; background: var(--bg); border-radius: 10px; border: 1px solid var(--border); }
+.zone-coords { font-size: 13px; color: var(--ink-muted); font-variant-numeric: tabular-nums; }
+.zone-meta { display: flex; align-items: center; gap: 12px; }
+.zone-time { font-size: 12px; color: var(--ink-faint); }
+.zone-score { font-size: 13px; font-weight: 700; color: #b52929; background: #fff0f0; border: 1px solid #ffd0d0; border-radius: 6px; padding: 2px 8px; }
+
+/* MAP CARD */
+.map-card { background: var(--surface); border: 1px solid var(--border); border-radius: 20px; padding: 20px; box-shadow: var(--shadow); }
+.map-card iframe { width: 100%; height: 540px; border: none; border-radius: 14px; display: block; }
+
+/* LEGEND */
+.legend-row { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 16px; }
+.legend-items { display: flex; align-items: center; gap: 24px; }
+.legend-item { display: flex; align-items: center; gap: 8px; font-size: 13px; color: var(--ink-muted); }
+.leg-dot { width: 10px; height: 10px; border-radius: 50%; }
+.leg-low { background: #2a6b3a; }
+.leg-med { background: #e07a14; }
+.leg-high { background: #b52929; }
+
+/* ADD BUTTON */
+.add-btn { padding: 10px 22px; background: var(--rose); color: white; border: none; border-radius: 10px; font-size: 13px; font-weight: 600; cursor: pointer; font-family: 'DM Sans', sans-serif; transition: background 0.15s; }
+.add-btn:hover { background: var(--rose-dark); }
+
+/* MODAL */
+.modal-overlay { display: none; position: fixed; inset: 0; background: rgba(26,18,24,0.5); backdrop-filter: blur(4px); z-index: 1000; justify-content: center; align-items: center; padding: 24px; }
+.modal-overlay.active { display: flex; }
+.modal { background: var(--surface); border-radius: 24px; padding: 36px; width: 90%; max-width: 480px; max-height: 88vh; overflow-y: auto; position: relative; box-shadow: 0 24px 64px rgba(26,18,24,0.2); }
+.modal-header { display: flex; align-items: flex-start; justify-content: space-between; margin-bottom: 8px; gap: 16px; }
+.modal-title { font-family: 'DM Serif Display', serif; font-size: 22px; color: var(--ink); }
+.modal-sub { font-size: 13.5px; color: var(--ink-faint); margin-bottom: 28px; }
+.modal-close { width: 36px; height: 36px; border-radius: 50%; border: 1px solid var(--border); background: var(--bg); cursor: pointer; font-size: 18px; display: flex; align-items: center; justify-content: center; color: var(--ink-muted); transition: all 0.15s; flex-shrink: 0; }
+.modal-close:hover { background: var(--rose-light); color: var(--rose); }
+.form-group { margin-bottom: 16px; }
+.form-group label { display: block; font-size: 12px; font-weight: 600; color: var(--ink-muted); margin-bottom: 6px; letter-spacing: 0.04em; text-transform: uppercase; }
+.form-group input, .form-group select { width: 100%; padding: 10px 14px; border: 1px solid var(--border); border-radius: 10px; font-size: 14px; font-family: 'DM Sans', sans-serif; background: var(--bg); color: var(--ink); transition: border-color 0.15s; outline: none; }
+.form-group input:focus, .form-group select:focus { border-color: var(--rose); background: var(--surface); }
+input[readonly] { background: var(--rose-light) !important; color: var(--ink-muted); }
+.form-row { display: flex; gap: 12px; }
+.form-row .form-group { flex: 1; }
+.input-with-btn { display: flex; gap: 8px; }
+.input-with-btn input { flex: 1; }
+.btn-inline { padding: 10px 16px; background: var(--rose); color: white; border: none; border-radius: 10px; font-size: 13px; font-weight: 600; cursor: pointer; font-family: 'DM Sans', sans-serif; white-space: nowrap; transition: background 0.15s; }
+.btn-inline:hover { background: var(--rose-dark); }
+.status-text { font-size: 12px; margin-top: 5px; color: var(--ink-faint); min-height: 18px; }
+.status-text.ok { color: #2e7d32; }
+.status-text.err { color: #c62828; }
+.submit-btn { width: 100%; padding: 14px; background: var(--rose); color: white; border: none; border-radius: 12px; font-size: 15px; font-weight: 600; cursor: pointer; font-family: 'DM Sans', sans-serif; margin-top: 8px; transition: background 0.15s; }
+.submit-btn:hover { background: var(--rose-dark); }
+.success-msg { display: none; text-align: center; color: #2e7d32; font-weight: 600; font-size: 14px; margin-top: 14px; padding: 12px; background: #f1f8f1; border-radius: 10px; }
+
+@media (max-width: 768px) {
+  .nav { padding: 0 20px; }
+  .page-header, .main { padding-left: 20px; padding-right: 20px; }
+  .risk-summary { grid-template-columns: 1fr 1fr; }
+  .risk-summary .zones-card { grid-column: 1/-1; }
+}
+</style>
+</head>
+<body>
+
+<nav class="nav">
+  <a href="/" class="nav-brand">SafeCity</a>
+  <a href="/" class="nav-link">Home</a>
+  <a href="/dashboard" class="nav-link active">Heatmap</a>
+  <a href="/safe-route" class="nav-link">Safe Route</a>
+</nav>
+
+<div class="page-header">
+  <div class="page-title-group">
+    <div class="page-eyebrow">Risk Intelligence</div>
+    <div class="page-title">Risk Zone Heatmap</div>
+  </div>
+  <div class="filter-bar">
+    <form method="get" action="/dashboard" style="display:flex;align-items:center;gap:10px;">
+      <select name="time" class="filter-select">
+        <option value="All">All Time Periods</option>
+        <option value="Morning">Morning</option>
+        <option value="Evening">Evening</option>
+        <option value="Night">Night</option>
+      </select>
+      <button type="submit" class="btn-apply">Apply Filter</button>
+    </form>
+    <a href="/safe-route" class="btn-outline">Safe Route Finder</a>
+  </div>
+</div>
+
+<main class="main">
+
+  <!-- SUMMARY ROW -->
+  <div class="risk-summary">
+    <div class="summary-card">
+      <div class="summary-label">Riskiest Period</div>
+      <div class="summary-value">{{ most_risky_period }}</div>
+      <div class="summary-sub">Avg score: {{ highest_avg_risk }}</div>
+    </div>
+
+    <div class="summary-card">
+      <div class="summary-label">Zone Breakdown</div>
+      <div class="summary-value">{{ high_count }}</div>
+      <div class="summary-sub">High-risk zones &nbsp;|&nbsp; {{ medium_count }} medium &nbsp;|&nbsp; {{ low_count }} low</div>
+    </div>
+
+    <div class="zones-card">
+      <div class="zones-header">Top 3 High-Risk Zones</div>
+      <div class="zone-rows">
+        {% for zone in top_zones %}
+        <div class="zone-row">
+          <div class="zone-coords">{{ zone.Latitude }}, {{ zone.Longitude }}</div>
+          <div class="zone-meta">
+            <span class="zone-time">{{ zone.Time_Period }}</span>
+            <span class="zone-score">{{ zone.Risk_Score }}</span>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+
+  <!-- MAP -->
+  <div class="map-card">
+    <iframe src="/static/heatmap.html"></iframe>
+  </div>
+
+  <!-- LEGEND + ADD -->
+  <div class="legend-row">
+    <div class="legend-items">
+      <div class="legend-item"><div class="leg-dot leg-low"></div>Low Risk ({{ low_count }})</div>
+      <div class="legend-item"><div class="leg-dot leg-med"></div>Medium Risk ({{ medium_count }})</div>
+      <div class="legend-item"><div class="leg-dot leg-high"></div>High Risk ({{ high_count }})</div>
+    </div>
+    <button class="add-btn" onclick="document.getElementById('dataModal').classList.add('active')">Add Location Data</button>
+  </div>
+
+</main>
+
+<!-- MODAL -->
+<div class="modal-overlay" id="dataModal">
+  <div class="modal">
+    <div class="modal-header">
+      <div class="modal-title">Report Location Data</div>
+      <button class="modal-close" onclick="closeModal()">&#x2715;</button>
+    </div>
+    <div class="modal-sub">Help improve predictions by submitting area safety info</div>
+
+    <div class="form-group">
+      <label>Search Location</label>
+      <div class="input-with-btn">
+        <input type="text" id="location_search" placeholder="e.g. Thrissur Park">
+        <button class="btn-inline" onclick="searchLocation()">Search</button>
+      </div>
+      <div class="status-text" id="location_status"></div>
+    </div>
+    <div class="form-group"><label>Area Name</label><input type="text" id="area_name" placeholder="Auto-filled or enter manually"></div>
+    <div class="form-row">
+      <div class="form-group"><label>Latitude</label><input type="number" step="any" id="latitude" placeholder="Auto-filled" readonly></div>
+      <div class="form-group"><label>Longitude</label><input type="number" step="any" id="longitude" placeholder="Auto-filled" readonly></div>
+    </div>
+    <div class="form-group"><label>Crime Count</label><input type="number" id="crime_count" placeholder="e.g. 5"></div>
+    <div class="form-row">
+      <div class="form-group"><label>Street Light</label><select id="street_light"><option value="Poor">Poor</option><option value="Moderate">Moderate</option><option value="Good">Good</option></select></div>
+      <div class="form-group"><label>CCTV</label><select id="cctv"><option value="No">No</option><option value="Yes">Yes</option></select></div>
+    </div>
+    <div class="form-row">
+      <div class="form-group"><label>Police Patrol</label><select id="police_patrol"><option value="Rare">Rare</option><option value="Occasional">Occasional</option><option value="Frequent">Frequent</option></select></div>
+      <div class="form-group"><label>Isolation Level</label><select id="isolation_level"><option value="Low">Low</option><option value="Medium">Medium</option><option value="High">High</option></select></div>
+    </div>
+    <div class="form-group"><label>Time Period</label><select id="time_period"><option value="Morning">Morning</option><option value="Afternoon">Afternoon</option><option value="Evening">Evening</option><option value="Night">Night</option></select></div>
+    <button class="submit-btn" onclick="submitData()">Submit Report</button>
+    <div class="success-msg" id="successMsg">Location data submitted successfully.</div>
+  </div>
+</div>
+
+<script>
+function closeModal() { document.getElementById('dataModal').classList.remove('active'); document.getElementById('successMsg').style.display='none'; }
+document.getElementById('dataModal').addEventListener('click',e=>{ if(e.target===e.currentTarget) closeModal(); });
+
+function searchLocation() {
+  const query=document.getElementById('location_search').value.trim();
+  const status=document.getElementById('location_status');
+  if (!query) { status.className='status-text err'; status.textContent='Please enter a location.'; return; }
+  status.className='status-text'; status.textContent='Searching...';
+  fetch(`https://nominatim.openstreetmap.org/search?q=${encodeURIComponent(query)}&format=json&limit=1`,{headers:{'Accept-Language':'en'}})
+  .then(r=>r.json()).then(results=>{
+    if (!results.length) { status.className='status-text err'; status.textContent='Location not found. Try a more specific name.'; return; }
+    const place=results[0];
+    document.getElementById('latitude').value=parseFloat(place.lat).toFixed(6);
+    document.getElementById('longitude').value=parseFloat(place.lon).toFixed(6);
+    if (!document.getElementById('area_name').value) document.getElementById('area_name').value=place.display_name.split(',')[0].trim();
+    status.className='status-text ok'; status.textContent='Found: '+place.display_name.split(',').slice(0,2).join(',');
+  }).catch(()=>{ status.className='status-text err'; status.textContent='Search failed. Check your connection.'; });
+}
+document.addEventListener('DOMContentLoaded',()=>{ document.getElementById('location_search').addEventListener('keypress',e=>{ if(e.key==='Enter') searchLocation(); }); });
+
+function submitData() {
+  const data={Latitude:document.getElementById('latitude').value,Longitude:document.getElementById('longitude').value,Area_Name:document.getElementById('area_name').value,Crime_Count:document.getElementById('crime_count').value,Street_Light:document.getElementById('street_light').value,CCTV:document.getElementById('cctv').value,Police_Patrol:document.getElementById('police_patrol').value,Isolation_Level:document.getElementById('isolation_level').value,Time_Period:document.getElementById('time_period').value};
+  if (!data.Latitude||!data.Longitude||!data.Crime_Count||!data.Area_Name) { alert('Please search for a location and enter the Crime Count.'); return; }
+  fetch('/add-data',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(data)})
+  .then(r=>r.json()).then(result=>{ if(result.status==='success'){document.getElementById('successMsg').style.display='block';setTimeout(()=>{closeModal();location.reload();},1500);}})
+  .catch(()=>alert('Something went wrong. Please try again.'));
+}
+</script>
+</body>
+</html>

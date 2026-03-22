@@ -1,0 +1,2461 @@
+Latitude,Longitude,Area_Name,Crime_Count,Street_Light,CCTV,Police_Patrol,Isolation_Level,Time_Period
+10.526596,76.218006,Round,14,Poor,No,Rare,High,Morning
+10.524848,76.211648,Round,16,Moderate,Yes,Rare,Medium,Morning
+10.524065,76.217329,Round,16,Poor,No,Occasional,High,Morning
+10.523765,76.218159,Round,14,Moderate,No,Rare,High,Night
+10.53026,76.212099,Round,12,Poor,Yes,Frequent,Medium,Night
+10.526034,76.214598,Round,12,Poor,No,Rare,Medium,Morning
+10.527056,76.21273,Round,11,Moderate,No,Frequent,Medium,Morning
+10.525937,76.213331,Round,14,Moderate,No,Occasional,High,Evening
+10.527249,76.216681,Round,13,Poor,Yes,Rare,Low,Morning
+10.528339,76.210772,Round,10,Moderate,No,Rare,High,Afternoon
+10.52846,76.211764,Round,12,Poor,Yes,Rare,High,Afternoon
+10.529074,76.213921,Round,12,Moderate,Yes,Occasional,Medium,Morning
+10.524576,76.214361,Round,14,Poor,No,Occasional,Medium,Night
+10.526094,76.214561,Round,11,Moderate,No,Rare,Low,Evening
+10.527974,76.211879,Round,14,Poor,Yes,Frequent,High,Evening
+10.524308,76.211968,Round,13,Poor,No,Frequent,High,Evening
+10.523962,76.213003,Round,10,Poor,No,Rare,Medium,Afternoon
+10.53023,76.213254,Round,12,Good,No,Rare,High,Night
+10.525847,76.214742,Round,14,Poor,Yes,Rare,High,Night
+10.524196,76.218295,Round,12,Moderate,No,Occasional,High,Night
+10.529778,76.21199,Round,15,Good,No,Rare,High,Evening
+10.52977,76.210992,Round,15,Moderate,No,Rare,Medium,Evening
+10.526468,76.211327,Round,14,Good,No,Rare,High,Morning
+10.526247,76.210908,Round,15,Poor,Yes,Occasional,High,Afternoon
+10.526088,76.213001,Round,14,Poor,No,Rare,High,Afternoon
+10.530698,76.214178,Round,15,Moderate,No,Rare,Medium,Morning
+10.524557,76.216106,Round,14,Poor,No,Rare,Low,Evening
+10.529768,76.21435,Round,16,Moderate,No,Rare,Low,Night
+10.527782,76.21382,Round,13,Good,Yes,Rare,High,Night
+10.526115,76.214469,Round,12,Good,No,Occasional,High,Afternoon
+10.530861,76.212394,Round,16,Good,No,Rare,High,Night
+10.52543,76.211016,Round,12,Poor,Yes,Rare,High,Morning
+10.525918,76.21169,Round,15,Poor,No,Rare,Low,Afternoon
+10.530029,76.211893,Round,14,Moderate,Yes,Rare,High,Morning
+10.53074,76.214715,Round,12,Poor,No,Frequent,High,Afternoon
+10.525423,76.213817,Round,12,Moderate,No,Rare,Low,Afternoon
+10.530144,76.217286,Round,13,Poor,No,Occasional,Low,Night
+10.526939,76.212177,Round,13,Poor,No,Occasional,Low,Morning
+10.524559,76.213101,Round,13,Poor,No,Rare,Medium,Afternoon
+10.52775,76.216024,Round,14,Good,Yes,Occasional,High,Afternoon
+10.526509,76.218174,Round,10,Poor,No,Occasional,High,Morning
+10.525879,76.210695,Round,13,Poor,No,Rare,Medium,Afternoon
+10.528477,76.214421,Round,13,Poor,Yes,Rare,High,Morning
+10.524759,76.214316,Round,14,Poor,No,Occasional,High,Night
+10.531485,76.212336,Round,15,Poor,No,Frequent,High,Night
+10.525501,76.216226,Round,14,Moderate,Yes,Rare,High,Morning
+10.526542,76.215458,Round,14,Poor,No,Occasional,Low,Afternoon
+10.524322,76.217082,Round,17,Moderate,No,Rare,High,Morning
+10.526166,76.211892,Round,13,Poor,Yes,Rare,High,Afternoon
+10.529021,76.210533,Round,12,Good,Yes,Occasional,Medium,Evening
+10.527697,76.212212,Round,11,Poor,No,Rare,High,Night
+10.529128,76.213494,Round,14,Poor,No,Rare,Low,Morning
+10.531094,76.2115,Round,12,Poor,Yes,Rare,Low,Afternoon
+10.530998,76.217419,Round,12,Poor,Yes,Occasional,High,Afternoon
+10.525664,76.21568,Round,13,Moderate,No,Frequent,Low,Morning
+10.527837,76.212335,Round,15,Poor,No,Occasional,Medium,Afternoon
+10.524345,76.217578,Round,13,Moderate,No,Rare,High,Evening
+10.526312,76.213194,Round,14,Poor,No,Frequent,Low,Evening
+10.529408,76.217577,Round,13,Moderate,Yes,Rare,Medium,Night
+10.528736,76.211073,Round,14,Poor,No,Occasional,High,Evening
+10.524893,76.217588,Round,14,Poor,No,Frequent,High,Morning
+10.52364,76.211686,Round,12,Poor,Yes,Rare,Medium,Evening
+10.52799,76.215935,Round,11,Good,Yes,Rare,Low,Morning
+10.529297,76.212298,Round,14,Good,No,Frequent,Medium,Night
+10.526203,76.216372,Round,15,Good,No,Frequent,Low,Afternoon
+10.528861,76.214946,Round,14,Moderate,No,Occasional,High,Evening
+10.524349,76.213342,Round,11,Poor,No,Rare,High,Afternoon
+10.531384,76.213545,Round,12,Poor,No,Rare,Medium,Night
+10.530736,76.215449,Round,13,Poor,No,Rare,Medium,Afternoon
+10.528215,76.21434,Round,16,Good,No,Occasional,Medium,Morning
+10.525162,76.21618,Round,11,Good,Yes,Frequent,Medium,Evening
+10.531124,76.218031,Round,14,Poor,No,Rare,High,Evening
+10.530919,76.213361,Round,14,Moderate,No,Rare,High,Night
+10.531309,76.217224,Round,13,Poor,No,Rare,High,Evening
+10.525956,76.213481,Round,12,Poor,Yes,Occasional,Medium,Afternoon
+10.524956,76.214854,Round,15,Moderate,Yes,Frequent,High,Evening
+10.531089,76.215968,Round,11,Poor,No,Rare,Medium,Night
+10.52852,76.21832,Round,13,Moderate,No,Occasional,Medium,Night
+10.524721,76.214547,Round,14,Poor,Yes,Occasional,High,Morning
+10.529176,76.21602,Round,14,Poor,No,Rare,High,Evening
+10.526476,76.212749,Round,14,Moderate,No,Occasional,High,Afternoon
+10.530537,76.217706,Round,14,Moderate,No,Occasional,Medium,Morning
+10.527691,76.214412,Round,14,Poor,Yes,Frequent,High,Afternoon
+10.529216,76.216766,Round,15,Poor,No,Rare,High,Morning
+10.53072,76.213104,Round,12,Poor,No,Occasional,Low,Night
+10.528226,76.210688,Round,13,Moderate,Yes,Occasional,High,Morning
+10.527325,76.214741,Round,14,Poor,No,Occasional,High,Night
+10.523844,76.210699,Round,10,Moderate,No,Occasional,High,Night
+10.530181,76.213282,Round,13,Moderate,No,Rare,High,Night
+10.52976,76.212127,Round,11,Good,No,Rare,Medium,Night
+10.528583,76.211083,Round,13,Moderate,No,Occasional,High,Afternoon
+10.527925,76.215499,Round,12,Poor,Yes,Rare,Medium,Afternoon
+10.529409,76.218207,Round,9,Good,Yes,Rare,Medium,Evening
+10.529961,76.212567,Round,13,Moderate,Yes,Rare,High,Afternoon
+10.527112,76.211028,Round,14,Poor,No,Rare,High,Night
+10.526872,76.211786,Round,15,Moderate,No,Rare,Low,Morning
+10.524851,76.212402,Round,16,Poor,No,Frequent,High,Evening
+10.528882,76.212639,Round,14,Poor,No,Rare,Medium,Afternoon
+10.531239,76.216303,Round,17,Moderate,No,Frequent,High,Night
+10.526957,76.212382,Round,15,Good,No,Occasional,Low,Morning
+10.520848,76.216463,Round South,13,Poor,No,Rare,Medium,Night
+10.521793,76.211183,Round South,14,Poor,No,Frequent,Medium,Afternoon
+10.521933,76.214188,Round South,12,Poor,Yes,Rare,High,Night
+10.521188,76.215327,Round South,10,Poor,Yes,Frequent,Low,Evening
+10.523081,76.210762,Round South,15,Good,Yes,Rare,Medium,Morning
+10.522025,76.217252,Round South,10,Poor,Yes,Frequent,High,Afternoon
+10.52327,76.211703,Round South,13,Moderate,Yes,Occasional,High,Evening
+10.518212,76.215086,Round South,12,Moderate,Yes,Rare,High,Morning
+10.525522,76.215004,Round South,16,Moderate,No,Rare,High,Evening
+10.521666,76.214765,Round South,10,Poor,No,Occasional,Low,Afternoon
+10.525532,76.213489,Round South,13,Moderate,No,Rare,High,Evening
+10.51857,76.212952,Round South,12,Poor,No,Rare,High,Morning
+10.524759,76.210586,Round South,12,Poor,No,Rare,High,Evening
+10.518945,76.215974,Round South,14,Moderate,No,Occasional,High,Evening
+10.523032,76.21742,Round South,14,Moderate,No,Occasional,High,Evening
+10.520256,76.21182,Round South,14,Poor,Yes,Frequent,Medium,Evening
+10.524005,76.216855,Round South,13,Poor,No,Occasional,Medium,Night
+10.520976,76.216611,Round South,13,Poor,No,Rare,Medium,Morning
+10.520726,76.217846,Round South,12,Poor,No,Occasional,Medium,Evening
+10.524007,76.216436,Round South,15,Poor,Yes,Rare,Medium,Morning
+10.518825,76.21762,Round South,15,Moderate,No,Rare,High,Afternoon
+10.52056,76.217564,Round South,13,Poor,No,Rare,High,Morning
+10.521114,76.210487,Round South,13,Poor,No,Rare,High,Evening
+10.525605,76.214988,Round South,12,Poor,No,Rare,Medium,Evening
+10.523055,76.213988,Round South,11,Poor,No,Frequent,High,Afternoon
+10.52338,76.216419,Round South,11,Poor,No,Occasional,High,Afternoon
+10.524333,76.216717,Round South,13,Good,No,Rare,Medium,Evening
+10.51846,76.214796,Round South,11,Poor,No,Rare,High,Evening
+10.521532,76.217502,Round South,11,Moderate,Yes,Frequent,High,Evening
+10.519144,76.216492,Round South,12,Moderate,No,Rare,Medium,Morning
+10.522946,76.211209,Round South,13,Poor,No,Rare,Low,Morning
+10.518582,76.216975,Round South,12,Poor,No,Rare,Medium,Night
+10.52365,76.211051,Round South,10,Poor,Yes,Rare,Medium,Evening
+10.524502,76.217978,Round South,10,Moderate,No,Frequent,Medium,Afternoon
+10.525888,76.216427,Round South,11,Poor,No,Occasional,High,Night
+10.524217,76.214867,Round South,12,Moderate,No,Rare,Medium,Afternoon
+10.521394,76.217651,Round South,13,Poor,No,Occasional,High,Morning
+10.518091,76.214149,Round South,11,Poor,No,Occasional,High,Morning
+10.51845,76.211351,Round South,13,Good,No,Occasional,High,Afternoon
+10.523968,76.215067,Round South,11,Poor,No,Occasional,High,Afternoon
+10.525697,76.213399,Round South,14,Poor,Yes,Rare,High,Afternoon
+10.519789,76.218106,Round South,12,Poor,No,Rare,Medium,Evening
+10.518097,76.218159,Round South,13,Poor,No,Rare,Low,Evening
+10.51859,76.214831,Round South,13,Moderate,No,Rare,Medium,Night
+10.525754,76.214585,Round South,15,Good,No,Rare,Low,Morning
+10.521636,76.21542,Round South,14,Poor,No,Frequent,Medium,Afternoon
+10.522675,76.217609,Round South,17,Moderate,No,Rare,Medium,Night
+10.520219,76.211905,Round South,11,Poor,Yes,Rare,Medium,Evening
+10.52171,76.213227,Round South,11,Poor,No,Occasional,High,Night
+10.525795,76.21829,Round South,13,Poor,No,Rare,High,Night
+10.523585,76.214689,Round South,14,Moderate,No,Rare,Medium,Morning
+10.523478,76.211701,Round South,12,Moderate,No,Rare,Low,Evening
+10.525287,76.21698,Round South,10,Poor,No,Rare,High,Evening
+10.525462,76.217329,Round South,16,Poor,No,Occasional,High,Morning
+10.518362,76.210611,Round South,15,Poor,No,Rare,High,Evening
+10.525898,76.211603,Round South,12,Poor,Yes,Occasional,High,Morning
+10.522753,76.213447,Round South,12,Poor,No,Occasional,High,Evening
+10.521319,76.212587,Round South,15,Poor,Yes,Rare,High,Afternoon
+10.518451,76.217318,Round South,13,Good,No,Occasional,Medium,Afternoon
+10.524152,76.217958,Round South,13,Moderate,No,Rare,High,Evening
+10.524797,76.212379,Round South,11,Good,No,Rare,Medium,Night
+10.525632,76.215249,Round South,12,Poor,No,Rare,High,Night
+10.519829,76.215774,Round South,10,Poor,No,Rare,High,Night
+10.518908,76.215773,Round South,15,Poor,No,Occasional,High,Night
+10.522162,76.216579,Round South,15,Good,Yes,Frequent,Medium,Night
+10.522415,76.214888,Round South,13,Good,No,Rare,High,Morning
+10.525013,76.213628,Round South,14,Poor,No,Rare,High,Afternoon
+10.523633,76.212104,Round South,15,Poor,No,Occasional,High,Evening
+10.519091,76.210516,Round South,15,Good,No,Frequent,High,Night
+10.521138,76.2139,Round South,10,Moderate,Yes,Occasional,Medium,Morning
+10.525233,76.213186,Round South,15,Moderate,No,Rare,High,Afternoon
+10.521172,76.215377,Round South,13,Poor,No,Frequent,Low,Morning
+10.524899,76.217996,Round South,10,Poor,No,Rare,High,Morning
+10.521673,76.21824,Round South,13,Poor,Yes,Frequent,High,Afternoon
+10.521941,76.21303,Round South,10,Poor,No,Rare,High,Afternoon
+10.518607,76.211431,Round South,14,Poor,Yes,Occasional,High,Night
+10.519024,76.211615,Round South,13,Poor,No,Frequent,Medium,Afternoon
+10.519455,76.213165,Round South,11,Moderate,No,Rare,High,Night
+10.525174,76.214192,Round South,11,Poor,No,Rare,Medium,Night
+10.519538,76.210727,Round South,14,Poor,No,Rare,Low,Evening
+10.519351,76.212629,Round South,13,Good,No,Occasional,High,Morning
+10.519651,76.213314,Round South,11,Moderate,No,Occasional,High,Afternoon
+10.522027,76.215923,Round South,11,Moderate,No,Occasional,Medium,Afternoon
+10.524989,76.217767,Round South,13,Poor,No,Rare,High,Night
+10.518489,76.212615,Round South,14,Moderate,Yes,Rare,High,Evening
+10.519476,76.212075,Round South,14,Poor,No,Occasional,Medium,Evening
+10.520964,76.214276,Round South,10,Good,No,Frequent,High,Night
+10.5217,76.21638,Round South,15,Good,Yes,Frequent,High,Night
+10.518293,76.212419,Round South,14,Good,No,Rare,High,Night
+10.522093,76.214657,Round South,13,Poor,Yes,Rare,High,Morning
+10.530057,76.213979,Round North,10,Moderate,No,Frequent,Low,Evening
+10.531354,76.213418,Round North,13,Poor,No,Frequent,Medium,Afternoon
+10.529361,76.212977,Round North,11,Moderate,No,Rare,High,Afternoon
+10.530158,76.217524,Round North,11,Poor,Yes,Rare,High,Night
+10.533949,76.215833,Round North,13,Poor,No,Rare,High,Morning
+10.529895,76.214697,Round North,15,Moderate,No,Frequent,High,Night
+10.533895,76.216364,Round North,11,Moderate,No,Rare,High,Night
+10.53147,76.213305,Round North,12,Poor,No,Frequent,Low,Afternoon
+10.534367,76.214966,Round North,10,Poor,No,Rare,Medium,Evening
+10.530014,76.211623,Round North,14,Good,No,Occasional,Low,Afternoon
+10.531168,76.211685,Round North,11,Moderate,No,Rare,High,Afternoon
+10.530587,76.217574,Round North,11,Good,No,Rare,High,Afternoon
+10.529842,76.214596,Round North,13,Moderate,No,Rare,High,Afternoon
+10.530096,76.213583,Round North,12,Poor,No,Frequent,High,Morning
+10.536956,76.217324,Round North,12,Poor,No,Rare,Medium,Afternoon
+10.530567,76.215749,Round North,14,Moderate,Yes,Rare,Low,Afternoon
+10.536635,76.214854,Round North,10,Poor,No,Rare,High,Night
+10.535356,76.211896,Round North,14,Poor,Yes,Occasional,High,Morning
+10.531789,76.213803,Round North,10,Poor,No,Rare,High,Evening
+10.530119,76.215285,Round North,13,Poor,Yes,Occasional,High,Night
+10.531509,76.21505,Round North,12,Poor,Yes,Rare,High,Morning
+10.533461,76.210815,Round North,10,Poor,No,Rare,High,Evening
+10.531893,76.211475,Round North,14,Poor,No,Frequent,High,Night
+10.531237,76.215852,Round North,12,Poor,No,Rare,High,Afternoon
+10.535282,76.215165,Round North,8,Poor,Yes,Rare,High,Night
+10.531991,76.217836,Round North,11,Good,No,Rare,Low,Evening
+10.535845,76.21812,Round North,13,Poor,Yes,Occasional,High,Morning
+10.536707,76.21185,Round North,11,Moderate,No,Rare,Low,Morning
+10.529732,76.216329,Round North,15,Good,No,Rare,High,Evening
+10.530318,76.216762,Round North,13,Good,No,Rare,High,Morning
+10.530813,76.211709,Round North,13,Poor,No,Occasional,Medium,Afternoon
+10.534522,76.214585,Round North,12,Poor,No,Rare,Medium,Evening
+10.532071,76.217418,Round North,15,Moderate,No,Occasional,Low,Morning
+10.532713,76.213416,Round North,12,Moderate,No,Rare,Low,Evening
+10.532901,76.212811,Round North,13,Moderate,No,Rare,High,Afternoon
+10.531058,76.217597,Round North,16,Poor,No,Rare,High,Morning
+10.532271,76.214748,Round North,13,Poor,No,Occasional,High,Afternoon
+10.530135,76.217919,Round North,14,Good,Yes,Occasional,Low,Morning
+10.534222,76.213079,Round North,13,Poor,No,Rare,High,Morning
+10.534161,76.214668,Round North,12,Poor,No,Rare,Low,Evening
+10.536351,76.216709,Round North,12,Poor,No,Rare,High,Night
+10.531188,76.216352,Round North,11,Poor,No,Rare,Low,Morning
+10.529468,76.214959,Round North,13,Poor,Yes,Rare,Medium,Evening
+10.531937,76.21697,Round North,13,Poor,No,Rare,High,Afternoon
+10.530085,76.217172,Round North,12,Poor,No,Rare,Low,Evening
+10.535578,76.211599,Round North,11,Good,No,Occasional,High,Morning
+10.531034,76.216178,Round North,14,Poor,No,Frequent,Medium,Night
+10.534752,76.214742,Round North,15,Moderate,No,Rare,High,Night
+10.531214,76.213166,Round North,9,Poor,No,Rare,High,Afternoon
+10.532896,76.217978,Round North,15,Poor,No,Rare,High,Evening
+10.530427,76.21509,Round North,17,Good,No,Occasional,High,Afternoon
+10.529345,76.217377,Round North,13,Poor,Yes,Rare,High,Afternoon
+10.536657,76.214921,Round North,13,Poor,No,Rare,High,Morning
+10.534858,76.21162,Round North,13,Moderate,No,Occasional,High,Night
+10.53381,76.215254,Round North,15,Good,No,Rare,Low,Evening
+10.536675,76.217805,Round North,12,Moderate,No,Occasional,Medium,Night
+10.532807,76.211306,Round North,13,Poor,No,Rare,High,Morning
+10.53393,76.213592,Round North,15,Moderate,No,Rare,High,Morning
+10.529638,76.213082,Round North,11,Poor,No,Occasional,High,Night
+10.533499,76.217759,Round North,10,Good,No,Rare,High,Night
+10.531971,76.213176,Round North,12,Good,No,Occasional,High,Afternoon
+10.530997,76.21402,Round North,16,Poor,Yes,Rare,High,Morning
+10.530327,76.211811,Round North,8,Poor,No,Rare,High,Night
+10.536519,76.213299,Round North,12,Poor,No,Occasional,High,Night
+10.533845,76.215458,Round North,12,Poor,Yes,Occasional,Medium,Evening
+10.529883,76.218375,Round North,11,Poor,No,Rare,Medium,Afternoon
+10.533218,76.215163,Round North,13,Poor,No,Rare,High,Night
+10.530879,76.217584,Round North,13,Moderate,No,Occasional,High,Evening
+10.530841,76.211926,Round North,13,Moderate,No,Rare,Medium,Morning
+10.533719,76.210926,Round North,12,Good,No,Occasional,Medium,Afternoon
+10.535404,76.214026,Round North,8,Poor,No,Occasional,High,Afternoon
+10.532406,76.214877,Round North,15,Moderate,No,Occasional,High,Morning
+10.530442,76.211855,Round North,10,Poor,No,Occasional,High,Afternoon
+10.534352,76.21367,Round North,11,Moderate,Yes,Rare,High,Afternoon
+10.529403,76.211649,Round North,14,Moderate,No,Occasional,Medium,Night
+10.529417,76.212176,Round North,15,Poor,No,Rare,High,Afternoon
+10.531049,76.215775,Round North,12,Moderate,No,Rare,High,Evening
+10.534422,76.212305,Round North,13,Poor,No,Rare,Medium,Night
+10.529996,76.212345,Round North,14,Good,Yes,Rare,Medium,Afternoon
+10.535842,76.213577,Round North,13,Moderate,No,Rare,Low,Morning
+10.534545,76.21204,Round North,14,Poor,No,Rare,High,Afternoon
+10.529304,76.211084,Round North,12,Moderate,No,Frequent,Medium,Afternoon
+10.530863,76.210612,Round North,13,Poor,Yes,Frequent,Medium,Night
+10.532571,76.217541,Round North,10,Poor,Yes,Occasional,Medium,Morning
+10.53574,76.213135,Round North,11,Poor,No,Occasional,High,Afternoon
+10.533922,76.212545,Round North,10,Moderate,No,Occasional,High,Afternoon
+10.534193,76.213675,Round North,9,Poor,No,Rare,High,Morning
+10.531556,76.217988,Round North,16,Poor,No,Rare,Low,Night
+10.535309,76.211521,Round North,12,Moderate,No,Rare,High,Night
+10.536356,76.216799,Round North,15,Moderate,Yes,Rare,Medium,Night
+10.527002,76.21718,Round East,13,Poor,Yes,Rare,High,Afternoon
+10.528668,76.219063,Round East,9,Moderate,Yes,Frequent,Low,Afternoon
+10.524715,76.223679,Round East,12,Poor,No,Occasional,High,Morning
+10.524973,76.219178,Round East,13,Moderate,No,Rare,Medium,Evening
+10.523747,76.224314,Round East,13,Moderate,No,Rare,Low,Morning
+10.525792,76.221433,Round East,11,Moderate,Yes,Occasional,High,Evening
+10.528811,76.223638,Round East,13,Moderate,No,Rare,High,Night
+10.528404,76.22232,Round East,14,Poor,Yes,Occasional,High,Night
+10.525003,76.224315,Round East,9,Good,No,Frequent,High,Evening
+10.527751,76.217376,Round East,10,Poor,No,Rare,High,Evening
+10.52493,76.222904,Round East,13,Good,No,Rare,Medium,Morning
+10.525563,76.220114,Round East,11,Moderate,No,Rare,High,Night
+10.52591,76.219845,Round East,11,Moderate,No,Occasional,Medium,Night
+10.528131,76.220808,Round East,14,Moderate,Yes,Occasional,High,Morning
+10.528909,76.224495,Round East,11,Poor,Yes,Occasional,Medium,Evening
+10.523849,76.219098,Round East,14,Poor,No,Rare,High,Night
+10.528361,76.217411,Round East,17,Moderate,No,Occasional,High,Evening
+10.526274,76.223167,Round East,12,Poor,No,Rare,High,Morning
+10.524453,76.217601,Round East,12,Good,Yes,Occasional,High,Afternoon
+10.529107,76.220479,Round East,16,Poor,Yes,Occasional,Medium,Morning
+10.525571,76.223553,Round East,14,Moderate,No,Frequent,Medium,Morning
+10.525777,76.221722,Round East,14,Moderate,No,Rare,High,Morning
+10.526488,76.217733,Round East,12,Good,Yes,Rare,High,Afternoon
+10.525081,76.221335,Round East,14,Poor,Yes,Rare,High,Morning
+10.530584,76.222858,Round East,13,Moderate,No,Rare,Low,Evening
+10.529138,76.223794,Round East,14,Poor,No,Rare,Low,Morning
+10.525597,76.220915,Round East,13,Moderate,No,Rare,Medium,Evening
+10.525045,76.221544,Round East,13,Good,No,Frequent,High,Evening
+10.530924,76.217272,Round East,10,Poor,Yes,Rare,Low,Evening
+10.530995,76.224768,Round East,14,Poor,No,Rare,High,Night
+10.531154,76.220794,Round East,12,Moderate,Yes,Rare,High,Afternoon
+10.526153,76.223631,Round East,12,Poor,No,Occasional,Low,Night
+10.523896,76.22177,Round East,12,Moderate,No,Occasional,Medium,Evening
+10.524216,76.22257,Round East,12,Moderate,Yes,Rare,High,Afternoon
+10.526319,76.222798,Round East,12,Poor,No,Rare,High,Morning
+10.527916,76.223326,Round East,12,Poor,No,Frequent,High,Afternoon
+10.52615,76.222007,Round East,13,Poor,No,Rare,High,Evening
+10.525464,76.217195,Round East,14,Poor,Yes,Frequent,Low,Morning
+10.530561,76.21717,Round East,13,Moderate,No,Occasional,Low,Evening
+10.531113,76.22339,Round East,14,Good,No,Rare,Medium,Morning
+10.531583,76.219806,Round East,11,Moderate,Yes,Frequent,High,Night
+10.527439,76.22202,Round East,15,Poor,No,Occasional,Medium,Evening
+10.530589,76.224873,Round East,12,Moderate,Yes,Rare,High,Morning
+10.526971,76.222901,Round East,15,Moderate,No,Occasional,High,Evening
+10.52551,76.217884,Round East,10,Good,Yes,Rare,High,Evening
+10.52597,76.218869,Round East,11,Poor,Yes,Rare,Low,Evening
+10.523937,76.217143,Round East,12,Poor,No,Occasional,Medium,Morning
+10.526675,76.222437,Round East,13,Moderate,No,Occasional,Medium,Afternoon
+10.525346,76.2246,Round East,14,Poor,No,Rare,Medium,Afternoon
+10.531158,76.220739,Round East,12,Poor,No,Rare,Medium,Morning
+10.528507,76.218336,Round East,13,Poor,No,Occasional,High,Evening
+10.528462,76.221102,Round East,13,Poor,Yes,Rare,Low,Night
+10.525445,76.218412,Round East,11,Moderate,No,Rare,Medium,Evening
+10.529837,76.219801,Round East,11,Poor,No,Rare,High,Afternoon
+10.524063,76.224753,Round East,15,Moderate,No,Occasional,Low,Evening
+10.529168,76.218231,Round East,11,Poor,No,Rare,High,Morning
+10.530127,76.218796,Round East,13,Poor,No,Rare,Low,Afternoon
+10.528344,76.221641,Round East,10,Moderate,No,Rare,Low,Afternoon
+10.524332,76.22402,Round East,11,Poor,No,Rare,High,Afternoon
+10.53071,76.224645,Round East,12,Moderate,No,Rare,High,Evening
+10.530497,76.223476,Round East,14,Poor,Yes,Rare,Low,Evening
+10.524296,76.220268,Round East,16,Moderate,No,Occasional,High,Night
+10.526582,76.219078,Round East,12,Moderate,Yes,Occasional,High,Morning
+10.524248,76.218761,Round East,16,Moderate,No,Rare,High,Afternoon
+10.529066,76.217609,Round East,12,Poor,No,Rare,High,Night
+10.527445,76.221739,Round East,15,Poor,No,Rare,Medium,Morning
+10.530197,76.219782,Round East,14,Poor,No,Frequent,High,Afternoon
+10.525736,76.224029,Round East,16,Moderate,No,Occasional,High,Morning
+10.529979,76.222268,Round East,14,Poor,No,Rare,High,Night
+10.52918,76.222441,Round East,13,Poor,No,Frequent,High,Evening
+10.528549,76.223022,Round East,12,Moderate,Yes,Rare,High,Evening
+10.526281,76.222948,Round East,13,Good,No,Occasional,High,Afternoon
+10.524886,76.223544,Round East,12,Poor,No,Frequent,High,Night
+10.523651,76.219296,Round East,15,Poor,No,Rare,High,Evening
+10.528535,76.224849,Round East,10,Moderate,No,Occasional,Medium,Night
+10.528672,76.22132,Round East,14,Good,Yes,Frequent,High,Evening
+10.529839,76.217856,Round East,13,Poor,No,Rare,High,Night
+10.531304,76.219735,Round East,15,Poor,No,Occasional,Medium,Evening
+10.528661,76.224456,Round East,12,Moderate,Yes,Rare,High,Afternoon
+10.526008,76.222665,Round East,13,Moderate,Yes,Frequent,High,Morning
+10.524139,76.221657,Round East,15,Poor,No,Frequent,High,Afternoon
+10.523966,76.223972,Round East,10,Moderate,No,Rare,Low,Afternoon
+10.531388,76.224751,Round East,11,Moderate,Yes,Occasional,High,Morning
+10.529666,76.217197,Round East,13,Good,Yes,Frequent,Medium,Morning
+10.523777,76.219589,Round East,15,Good,No,Rare,High,Morning
+10.529066,76.220567,Round East,12,Good,Yes,Occasional,Low,Evening
+10.525789,76.224977,Round East,10,Poor,No,Rare,High,Evening
+10.524909,76.223358,Round East,8,Good,No,Rare,Low,Afternoon
+10.529149,76.218766,Round East,13,Moderate,No,Occasional,Low,Afternoon
+10.528836,76.219186,Round East,11,Moderate,No,Occasional,Medium,Evening
+10.531207,76.205008,Round West,13,Moderate,No,Rare,High,Night
+10.526958,76.208908,Round West,12,Good,No,Frequent,Low,Afternoon
+10.526781,76.205994,Round West,12,Poor,No,Frequent,Medium,Night
+10.530753,76.20564,Round West,13,Poor,No,Rare,High,Morning
+10.525305,76.204049,Round West,10,Poor,No,Rare,High,Night
+10.530515,76.207586,Round West,15,Moderate,No,Frequent,Medium,Evening
+10.531346,76.205284,Round West,13,Poor,Yes,Rare,High,Afternoon
+10.529767,76.210558,Round West,13,Poor,No,Rare,High,Evening
+10.529688,76.20881,Round West,12,Moderate,No,Occasional,High,Afternoon
+10.529972,76.207652,Round West,13,Poor,No,Frequent,Low,Night
+10.524538,76.204801,Round West,11,Moderate,Yes,Rare,High,Afternoon
+10.525204,76.207733,Round West,15,Moderate,No,Rare,High,Morning
+10.524114,76.208456,Round West,14,Moderate,No,Rare,Medium,Night
+10.526083,76.207442,Round West,11,Moderate,No,Rare,Low,Morning
+10.523693,76.20438,Round West,11,Moderate,No,Occasional,Low,Evening
+10.5284,76.206133,Round West,8,Moderate,No,Rare,High,Evening
+10.52916,76.210681,Round West,10,Poor,No,Occasional,High,Night
+10.525536,76.211693,Round West,12,Poor,No,Rare,High,Night
+10.52474,76.207791,Round West,15,Poor,No,Occasional,High,Night
+10.528077,76.203878,Round West,14,Poor,No,Rare,Low,Evening
+10.526212,76.207942,Round West,12,Good,No,Frequent,High,Afternoon
+10.523866,76.204429,Round West,11,Poor,No,Rare,Medium,Night
+10.526775,76.204862,Round West,15,Poor,No,Occasional,Low,Evening
+10.530005,76.205401,Round West,13,Moderate,No,Frequent,Medium,Night
+10.52494,76.204637,Round West,15,Poor,Yes,Occasional,High,Morning
+10.523853,76.21129,Round West,14,Poor,Yes,Rare,High,Morning
+10.524016,76.20813,Round West,13,Poor,No,Rare,High,Morning
+10.529313,76.210214,Round West,13,Moderate,No,Occasional,Medium,Evening
+10.526316,76.210319,Round West,15,Good,No,Rare,Medium,Afternoon
+10.527219,76.208949,Round West,12,Moderate,No,Rare,High,Afternoon
+10.527811,76.209653,Round West,11,Moderate,No,Rare,Low,Night
+10.530574,76.205554,Round West,11,Poor,No,Rare,Medium,Night
+10.531407,76.206495,Round West,13,Moderate,No,Occasional,High,Afternoon
+10.52887,76.207786,Round West,11,Poor,Yes,Rare,Low,Afternoon
+10.528043,76.209554,Round West,12,Good,Yes,Occasional,Medium,Night
+10.525196,76.209242,Round West,12,Poor,No,Rare,Low,Evening
+10.524178,76.204045,Round West,12,Poor,No,Rare,High,Afternoon
+10.530546,76.209617,Round West,9,Poor,Yes,Occasional,High,Morning
+10.529542,76.207204,Round West,10,Good,No,Occasional,Medium,Night
+10.531501,76.204121,Round West,10,Moderate,No,Rare,High,Afternoon
+10.530536,76.208429,Round West,15,Poor,No,Frequent,High,Evening
+10.527493,76.210787,Round West,11,Moderate,No,Rare,Medium,Night
+10.530806,76.207174,Round West,13,Moderate,Yes,Rare,Medium,Morning
+10.530899,76.205485,Round West,9,Poor,Yes,Rare,High,Night
+10.528584,76.208852,Round West,11,Poor,No,Occasional,Medium,Afternoon
+10.529327,76.211072,Round West,13,Good,No,Rare,Low,Night
+10.525037,76.2057,Round West,12,Poor,No,Rare,High,Evening
+10.525578,76.210766,Round West,14,Poor,No,Rare,High,Morning
+10.527162,76.207919,Round West,14,Moderate,No,Frequent,Medium,Morning
+10.524908,76.206929,Round West,9,Poor,No,Rare,High,Afternoon
+10.531355,76.205865,Round West,10,Moderate,Yes,Rare,Medium,Night
+10.529788,76.204847,Round West,14,Poor,Yes,Frequent,Low,Morning
+10.531359,76.20743,Round West,12,Moderate,No,Rare,Low,Night
+10.526296,76.210431,Round West,10,Poor,No,Rare,Medium,Afternoon
+10.527047,76.20579,Round West,15,Poor,No,Rare,Medium,Night
+10.524936,76.205141,Round West,14,Poor,No,Rare,High,Afternoon
+10.523893,76.209691,Round West,12,Poor,No,Occasional,Low,Morning
+10.530353,76.210245,Round West,16,Moderate,Yes,Frequent,High,Morning
+10.528283,76.210746,Round West,12,Moderate,No,Rare,High,Evening
+10.525758,76.204257,Round West,12,Poor,No,Occasional,High,Morning
+10.527849,76.211293,Round West,13,Poor,Yes,Frequent,High,Evening
+10.526129,76.207858,Round West,12,Poor,No,Rare,Medium,Morning
+10.523933,76.204987,Round West,14,Moderate,No,Rare,Low,Afternoon
+10.527238,76.207925,Round West,13,Moderate,No,Frequent,High,Afternoon
+10.527511,76.209135,Round West,14,Poor,No,Occasional,High,Evening
+10.525215,76.209187,Round West,10,Poor,No,Rare,Medium,Morning
+10.531359,76.204551,Round West,11,Poor,No,Frequent,Medium,Morning
+10.530545,76.205217,Round West,16,Poor,Yes,Frequent,High,Evening
+10.529141,76.210505,Round West,12,Moderate,No,Rare,High,Evening
+10.527577,76.208743,Round West,13,Poor,No,Occasional,High,Night
+10.530551,76.208365,Round West,14,Poor,No,Occasional,Low,Morning
+10.525325,76.209071,Round West,14,Poor,Yes,Rare,Medium,Night
+10.526751,76.20901,Round West,13,Moderate,Yes,Rare,Medium,Evening
+10.531595,76.204186,Round West,11,Poor,Yes,Occasional,High,Night
+10.531417,76.207055,Round West,13,Good,Yes,Rare,High,Evening
+10.528136,76.209708,Round West,13,Moderate,Yes,Rare,Low,Afternoon
+10.530628,76.207033,Round West,14,Poor,Yes,Rare,Medium,Evening
+10.530063,76.209898,Round West,10,Poor,Yes,Rare,Medium,Evening
+10.529983,76.207285,Round West,12,Moderate,Yes,Rare,Medium,Night
+10.527956,76.203846,Round West,12,Poor,No,Occasional,Medium,Night
+10.526197,76.206732,Round West,15,Poor,No,Occasional,High,Evening
+10.526708,76.20739,Round West,11,Poor,No,Rare,Medium,Evening
+10.5255,76.206786,Round West,15,Good,No,Occasional,High,Night
+10.528556,76.207508,Round West,14,Poor,Yes,Occasional,Medium,Afternoon
+10.526638,76.210707,Round West,8,Moderate,No,Occasional,High,Afternoon
+10.523805,76.20653,Round West,16,Good,Yes,Occasional,High,Night
+10.526642,76.206991,Round West,14,Moderate,No,Rare,High,Morning
+10.528463,76.209919,Round West,17,Poor,No,Occasional,High,Evening
+10.530104,76.209545,Round West,14,Poor,No,Occasional,High,Morning
+10.525548,76.211216,Round West,13,Moderate,No,Rare,High,Night
+10.511982,76.217875,Shakthan Nagar,11,Poor,Yes,Occasional,Medium,Morning
+10.515387,76.212454,Shakthan Nagar,12,Moderate,No,Occasional,High,Morning
+10.513779,76.212858,Shakthan Nagar,13,Good,No,Rare,Medium,Evening
+10.51399,76.215283,Shakthan Nagar,15,Poor,No,Occasional,High,Afternoon
+10.517229,76.212581,Shakthan Nagar,11,Poor,Yes,Rare,Medium,Afternoon
+10.512949,76.215849,Shakthan Nagar,12,Poor,No,Rare,Medium,Morning
+10.512952,76.214601,Shakthan Nagar,11,Moderate,No,Rare,Low,Night
+10.516038,76.212453,Shakthan Nagar,13,Poor,No,Occasional,Low,Night
+10.519203,76.214268,Shakthan Nagar,13,Moderate,No,Rare,High,Evening
+10.511847,76.215465,Shakthan Nagar,15,Poor,No,Rare,Medium,Afternoon
+10.519111,76.215213,Shakthan Nagar,12,Poor,No,Rare,High,Night
+10.513325,76.212096,Shakthan Nagar,12,Poor,No,Frequent,Medium,Night
+10.516388,76.213688,Shakthan Nagar,10,Poor,No,Rare,High,Night
+10.517744,76.212598,Shakthan Nagar,11,Moderate,No,Rare,Medium,Morning
+10.518081,76.21379,Shakthan Nagar,11,Poor,Yes,Frequent,High,Afternoon
+10.516491,76.214014,Shakthan Nagar,13,Moderate,No,Occasional,Medium,Evening
+10.516193,76.211744,Shakthan Nagar,13,Moderate,No,Occasional,Medium,Night
+10.513234,76.211166,Shakthan Nagar,13,Moderate,No,Rare,Low,Morning
+10.511689,76.215536,Shakthan Nagar,14,Moderate,No,Rare,Low,Evening
+10.513356,76.213527,Shakthan Nagar,16,Poor,No,Rare,High,Night
+10.516256,76.214374,Shakthan Nagar,11,Moderate,No,Rare,Medium,Afternoon
+10.514926,76.216141,Shakthan Nagar,15,Moderate,No,Frequent,High,Night
+10.517039,76.21833,Shakthan Nagar,13,Moderate,No,Rare,High,Afternoon
+10.513693,76.211035,Shakthan Nagar,15,Poor,No,Rare,Low,Night
+10.512185,76.217554,Shakthan Nagar,11,Moderate,Yes,Rare,Medium,Morning
+10.513313,76.21324,Shakthan Nagar,10,Poor,No,Occasional,High,Evening
+10.512055,76.214552,Shakthan Nagar,13,Moderate,Yes,Rare,High,Morning
+10.518541,76.215607,Shakthan Nagar,9,Moderate,No,Rare,Medium,Morning
+10.515764,76.212995,Shakthan Nagar,14,Poor,No,Rare,Medium,Afternoon
+10.519453,76.215695,Shakthan Nagar,10,Poor,No,Occasional,Medium,Morning
+10.515962,76.216245,Shakthan Nagar,11,Good,No,Rare,High,Evening
+10.515998,76.218061,Shakthan Nagar,12,Moderate,No,Occasional,High,Afternoon
+10.512902,76.21592,Shakthan Nagar,13,Poor,No,Rare,Medium,Afternoon
+10.512273,76.214003,Shakthan Nagar,10,Poor,No,Rare,Low,Morning
+10.517549,76.213181,Shakthan Nagar,14,Good,Yes,Frequent,Medium,Evening
+10.518917,76.212277,Shakthan Nagar,13,Moderate,No,Occasional,High,Evening
+10.514695,76.211619,Shakthan Nagar,14,Moderate,No,Rare,High,Evening
+10.515668,76.215389,Shakthan Nagar,13,Poor,No,Occasional,High,Morning
+10.512213,76.216442,Shakthan Nagar,13,Good,No,Rare,High,Night
+10.517756,76.21607,Shakthan Nagar,12,Moderate,No,Occasional,Medium,Morning
+10.511789,76.212825,Shakthan Nagar,11,Moderate,No,Frequent,High,Morning
+10.512201,76.217896,Shakthan Nagar,10,Poor,No,Rare,High,Night
+10.51593,76.212844,Shakthan Nagar,10,Moderate,No,Occasional,Low,Night
+10.516305,76.214525,Shakthan Nagar,8,Poor,No,Rare,High,Night
+10.518855,76.214376,Shakthan Nagar,12,Poor,No,Rare,High,Night
+10.514545,76.217424,Shakthan Nagar,12,Good,No,Rare,Medium,Afternoon
+10.518444,76.216847,Shakthan Nagar,11,Poor,No,Rare,Medium,Morning
+10.512147,76.213624,Shakthan Nagar,14,Moderate,No,Rare,Low,Evening
+10.512888,76.21596,Shakthan Nagar,12,Poor,No,Rare,Medium,Morning
+10.516628,76.21698,Shakthan Nagar,12,Poor,No,Occasional,High,Night
+10.51256,76.217296,Shakthan Nagar,12,Moderate,No,Rare,Low,Night
+10.51635,76.216518,Shakthan Nagar,14,Poor,No,Rare,Medium,Morning
+10.512899,76.214421,Shakthan Nagar,10,Moderate,No,Rare,High,Afternoon
+10.51444,76.210945,Shakthan Nagar,12,Poor,No,Occasional,Low,Afternoon
+10.511706,76.211481,Shakthan Nagar,12,Moderate,No,Rare,High,Night
+10.519227,76.21386,Shakthan Nagar,13,Moderate,No,Rare,High,Afternoon
+10.513995,76.214449,Shakthan Nagar,11,Moderate,Yes,Occasional,Medium,Evening
+10.516627,76.212128,Shakthan Nagar,12,Moderate,No,Frequent,High,Evening
+10.516457,76.215602,Shakthan Nagar,12,Poor,No,Rare,Medium,Evening
+10.511965,76.218359,Shakthan Nagar,15,Moderate,No,Rare,Medium,Morning
+10.511962,76.21596,Shakthan Nagar,11,Poor,No,Rare,High,Afternoon
+10.517037,76.210898,Shakthan Nagar,12,Good,Yes,Frequent,High,Evening
+10.515575,76.218374,Shakthan Nagar,13,Poor,Yes,Rare,High,Evening
+10.51395,76.215391,Shakthan Nagar,14,Poor,Yes,Rare,Low,Morning
+10.515716,76.213809,Shakthan Nagar,10,Good,No,Rare,High,Morning
+10.514442,76.213713,Shakthan Nagar,12,Poor,No,Occasional,High,Night
+10.51812,76.216269,Shakthan Nagar,11,Poor,No,Rare,Medium,Afternoon
+10.511654,76.212479,Shakthan Nagar,8,Poor,No,Occasional,High,Afternoon
+10.517582,76.211497,Shakthan Nagar,10,Poor,No,Frequent,Medium,Morning
+10.511597,76.21233,Shakthan Nagar,13,Poor,No,Rare,High,Afternoon
+10.519307,76.216812,Shakthan Nagar,12,Moderate,No,Rare,Low,Evening
+10.512378,76.214784,Shakthan Nagar,13,Moderate,Yes,Frequent,High,Afternoon
+10.515135,76.217155,Shakthan Nagar,12,Poor,Yes,Occasional,Medium,Evening
+10.5127,76.212997,Shakthan Nagar,11,Moderate,Yes,Occasional,Medium,Morning
+10.517399,76.214208,Shakthan Nagar,10,Poor,No,Occasional,High,Morning
+10.515176,76.21668,Shakthan Nagar,9,Poor,No,Rare,Low,Evening
+10.518637,76.218043,Shakthan Nagar,11,Good,No,Rare,High,Morning
+10.517005,76.213901,Shakthan Nagar,14,Poor,No,Rare,High,Morning
+10.513537,76.217127,Shakthan Nagar,16,Good,Yes,Frequent,Low,Night
+10.516775,76.217561,Shakthan Nagar,11,Poor,Yes,Frequent,Medium,Night
+10.516593,76.215311,Shakthan Nagar,12,Moderate,Yes,Occasional,Low,Morning
+10.512701,76.216299,Shakthan Nagar,11,Moderate,No,Frequent,Low,Afternoon
+10.515598,76.215842,Shakthan Nagar,12,Good,No,Rare,Low,Night
+10.51207,76.210497,Shakthan Nagar,13,Poor,Yes,Occasional,Medium,Night
+10.519152,76.2163,Shakthan Nagar,10,Poor,No,Rare,High,Afternoon
+10.514298,76.216597,Shakthan Nagar,11,Moderate,No,Occasional,Low,Afternoon
+10.516791,76.211882,Shakthan Nagar,14,Poor,No,Occasional,High,Night
+10.51362,76.210568,Shakthan Nagar,14,Good,Yes,Occasional,High,Morning
+10.512157,76.218143,Shakthan Nagar,14,Poor,No,Rare,High,Evening
+10.516497,76.213456,Shakthan Nagar,11,Good,Yes,Rare,Low,Morning
+10.507645,76.205971,Patturaickal,14,Good,No,Occasional,Medium,Afternoon
+10.511151,76.209242,Patturaickal,13,Moderate,No,Occasional,Medium,Morning
+10.506336,76.212748,Patturaickal,11,Poor,No,Rare,Medium,Morning
+10.51384,76.209815,Patturaickal,14,Good,No,Frequent,Medium,Evening
+10.510659,76.210985,Patturaickal,13,Poor,Yes,Rare,High,Night
+10.507025,76.207706,Patturaickal,14,Poor,Yes,Rare,Medium,Morning
+10.513425,76.206797,Patturaickal,10,Good,Yes,Rare,Medium,Evening
+10.509515,76.209904,Patturaickal,8,Poor,No,Rare,High,Morning
+10.513545,76.206926,Patturaickal,12,Poor,No,Rare,High,Morning
+10.513095,76.210166,Patturaickal,12,Poor,Yes,Rare,High,Evening
+10.508287,76.211528,Patturaickal,12,Poor,No,Rare,High,Afternoon
+10.51204,76.208684,Patturaickal,13,Poor,Yes,Occasional,Low,Afternoon
+10.512736,76.210828,Patturaickal,13,Good,No,Rare,High,Morning
+10.507419,76.20936,Patturaickal,14,Moderate,No,Rare,High,Evening
+10.513877,76.212499,Patturaickal,13,Poor,Yes,Frequent,Medium,Morning
+10.512542,76.206708,Patturaickal,11,Poor,No,Occasional,Low,Afternoon
+10.510047,76.211726,Patturaickal,13,Poor,No,Rare,High,Night
+10.510723,76.209067,Patturaickal,15,Poor,No,Rare,Medium,Night
+10.50838,76.20952,Patturaickal,13,Poor,No,Rare,High,Afternoon
+10.51109,76.211089,Patturaickal,13,Moderate,No,Frequent,High,Afternoon
+10.507281,76.208692,Patturaickal,12,Poor,Yes,Rare,High,Morning
+10.512401,76.206632,Patturaickal,10,Moderate,No,Occasional,High,Afternoon
+10.510441,76.210865,Patturaickal,10,Poor,No,Rare,High,Evening
+10.508843,76.21127,Patturaickal,13,Poor,Yes,Rare,Medium,Evening
+10.510434,76.205042,Patturaickal,11,Poor,No,Rare,High,Evening
+10.513665,76.207944,Patturaickal,13,Good,Yes,Occasional,Medium,Afternoon
+10.508615,76.206191,Patturaickal,13,Moderate,No,Occasional,High,Morning
+10.513971,76.207946,Patturaickal,11,Poor,No,Frequent,Low,Night
+10.509589,76.210777,Patturaickal,12,Moderate,No,Frequent,Low,Evening
+10.509132,76.208301,Patturaickal,14,Good,No,Occasional,Medium,Evening
+10.511565,76.205026,Patturaickal,9,Moderate,Yes,Rare,Low,Night
+10.512354,76.205744,Patturaickal,14,Poor,No,Rare,High,Afternoon
+10.510706,76.208848,Patturaickal,11,Poor,Yes,Occasional,High,Afternoon
+10.51064,76.209492,Patturaickal,12,Poor,No,Frequent,High,Morning
+10.510485,76.209828,Patturaickal,14,Good,No,Frequent,Medium,Evening
+10.508159,76.2116,Patturaickal,13,Poor,No,Frequent,High,Morning
+10.509986,76.205616,Patturaickal,12,Moderate,No,Occasional,Low,Night
+10.512279,76.210661,Patturaickal,11,Poor,No,Rare,Medium,Evening
+10.512309,76.209138,Patturaickal,10,Poor,No,Frequent,High,Evening
+10.508626,76.208472,Patturaickal,12,Good,No,Occasional,Medium,Night
+10.506709,76.206765,Patturaickal,15,Good,No,Rare,High,Evening
+10.513987,76.212465,Patturaickal,13,Poor,No,Rare,High,Night
+10.511141,76.20837,Patturaickal,14,Moderate,No,Frequent,High,Afternoon
+10.506947,76.208279,Patturaickal,13,Poor,Yes,Rare,Low,Evening
+10.512718,76.208071,Patturaickal,15,Moderate,No,Rare,Medium,Evening
+10.507476,76.207898,Patturaickal,15,Good,No,Rare,Medium,Night
+10.508676,76.20521,Patturaickal,12,Poor,No,Frequent,High,Night
+10.50839,76.212525,Patturaickal,9,Poor,Yes,Frequent,Medium,Afternoon
+10.508074,76.208437,Patturaickal,13,Poor,Yes,Rare,High,Evening
+10.509665,76.208864,Patturaickal,11,Moderate,No,Frequent,Low,Afternoon
+10.507068,76.205645,Patturaickal,12,Moderate,No,Occasional,High,Night
+10.509495,76.210836,Patturaickal,15,Poor,Yes,Rare,Medium,Night
+10.512124,76.206271,Patturaickal,10,Moderate,No,Rare,Medium,Evening
+10.512011,76.210256,Patturaickal,13,Poor,No,Rare,Medium,Night
+10.513653,76.205552,Patturaickal,12,Poor,Yes,Rare,Medium,Night
+10.508094,76.206976,Patturaickal,12,Poor,Yes,Occasional,High,Morning
+10.51325,76.206996,Patturaickal,14,Poor,No,Rare,High,Evening
+10.509598,76.211214,Patturaickal,11,Poor,Yes,Rare,Medium,Evening
+10.506523,76.208901,Patturaickal,8,Moderate,Yes,Occasional,Low,Evening
+10.508779,76.212199,Patturaickal,14,Moderate,No,Occasional,Medium,Evening
+10.506175,76.21031,Patturaickal,12,Good,No,Rare,High,Morning
+10.513495,76.205418,Patturaickal,13,Moderate,Yes,Rare,Medium,Night
+10.50935,76.207081,Patturaickal,13,Poor,No,Occasional,High,Morning
+10.507585,76.209523,Patturaickal,10,Poor,No,Rare,High,Afternoon
+10.509711,76.212776,Patturaickal,9,Moderate,Yes,Rare,High,Afternoon
+10.506913,76.20621,Patturaickal,14,Poor,No,Rare,High,Night
+10.507803,76.207008,Patturaickal,12,Good,No,Rare,Medium,Evening
+10.510187,76.205918,Patturaickal,14,Moderate,No,Rare,High,Night
+10.512881,76.210783,Patturaickal,12,Moderate,No,Rare,Medium,Morning
+10.510348,76.205654,Patturaickal,11,Poor,No,Occasional,High,Night
+10.509666,76.208878,Patturaickal,13,Good,No,Rare,Medium,Morning
+10.509698,76.208294,Patturaickal,14,Good,Yes,Occasional,High,Evening
+10.511208,76.209363,Patturaickal,12,Poor,Yes,Rare,High,Night
+10.512451,76.208674,Patturaickal,11,Poor,No,Rare,Medium,Night
+10.506416,76.21129,Patturaickal,11,Good,No,Rare,High,Night
+10.507318,76.207642,Patturaickal,11,Poor,No,Frequent,High,Evening
+10.512054,76.209155,Patturaickal,13,Poor,No,Rare,High,Afternoon
+10.513037,76.211965,Patturaickal,12,Moderate,No,Rare,Medium,Evening
+10.50791,76.20861,Patturaickal,14,Moderate,No,Frequent,High,Night
+10.51031,76.208983,Patturaickal,12,Poor,No,Rare,High,Afternoon
+10.533844,76.207254,Chembukkavu,11,Poor,No,Rare,Low,Morning
+10.539205,76.209716,Chembukkavu,14,Poor,No,Occasional,Medium,Morning
+10.53463,76.206187,Chembukkavu,13,Poor,No,Rare,Low,Night
+10.537621,76.207077,Chembukkavu,10,Poor,No,Frequent,Medium,Evening
+10.539383,76.205168,Chembukkavu,12,Poor,No,Rare,High,Evening
+10.534264,76.207567,Chembukkavu,13,Poor,No,Rare,High,Morning
+10.539346,76.204534,Chembukkavu,11,Good,No,Occasional,Medium,Afternoon
+10.534474,76.209152,Chembukkavu,11,Poor,No,Frequent,High,Night
+10.538234,76.203217,Chembukkavu,15,Good,No,Occasional,Low,Night
+10.533668,76.209059,Chembukkavu,10,Moderate,No,Occasional,High,Evening
+10.539429,76.206042,Chembukkavu,11,Poor,No,Rare,Medium,Evening
+10.540873,76.207343,Chembukkavu,12,Poor,No,Occasional,High,Night
+10.538077,76.203328,Chembukkavu,11,Poor,No,Frequent,Medium,Morning
+10.534298,76.202101,Chembukkavu,13,Poor,Yes,Rare,High,Evening
+10.537478,76.206219,Chembukkavu,13,Good,Yes,Occasional,High,Evening
+10.533635,76.207852,Chembukkavu,12,Poor,No,Rare,Low,Evening
+10.534499,76.208865,Chembukkavu,12,Moderate,No,Occasional,High,Night
+10.538682,76.204515,Chembukkavu,14,Poor,No,Rare,Low,Evening
+10.536769,76.208573,Chembukkavu,8,Poor,No,Occasional,High,Afternoon
+10.536954,76.208626,Chembukkavu,10,Good,No,Rare,High,Night
+10.535682,76.20339,Chembukkavu,13,Poor,No,Occasional,High,Afternoon
+10.533805,76.203919,Chembukkavu,13,Good,No,Occasional,Medium,Afternoon
+10.534136,76.204784,Chembukkavu,14,Moderate,Yes,Occasional,Medium,Afternoon
+10.538209,76.206967,Chembukkavu,11,Moderate,No,Rare,Low,Evening
+10.535819,76.208732,Chembukkavu,12,Poor,Yes,Rare,High,Morning
+10.538073,76.20301,Chembukkavu,12,Poor,No,Rare,High,Evening
+10.538409,76.204601,Chembukkavu,11,Poor,No,Frequent,Medium,Evening
+10.534399,76.208846,Chembukkavu,12,Good,Yes,Rare,Medium,Evening
+10.534817,76.208696,Chembukkavu,13,Poor,Yes,Rare,Medium,Afternoon
+10.538553,76.206101,Chembukkavu,9,Moderate,Yes,Occasional,High,Afternoon
+10.535442,76.203701,Chembukkavu,13,Moderate,No,Rare,High,Afternoon
+10.53997,76.208129,Chembukkavu,12,Poor,No,Occasional,High,Night
+10.539308,76.20732,Chembukkavu,12,Moderate,No,Rare,Low,Evening
+10.538366,76.206484,Chembukkavu,11,Poor,No,Rare,Low,Afternoon
+10.533888,76.205576,Chembukkavu,14,Poor,No,Rare,Medium,Evening
+10.537373,76.205043,Chembukkavu,11,Poor,No,Rare,High,Evening
+10.540814,76.202886,Chembukkavu,11,Poor,Yes,Frequent,High,Night
+10.538919,76.209345,Chembukkavu,11,Poor,Yes,Frequent,Medium,Night
+10.53524,76.208867,Chembukkavu,13,Moderate,Yes,Rare,High,Morning
+10.539032,76.208439,Chembukkavu,11,Poor,No,Occasional,High,Morning
+10.533144,76.209702,Chembukkavu,10,Moderate,No,Rare,High,Morning
+10.539635,76.204252,Chembukkavu,14,Poor,Yes,Rare,High,Night
+10.539982,76.202901,Chembukkavu,12,Moderate,No,Rare,High,Afternoon
+10.533772,76.203935,Chembukkavu,15,Moderate,No,Rare,High,Evening
+10.533099,76.20575,Chembukkavu,13,Poor,No,Rare,High,Morning
+10.535378,76.204399,Chembukkavu,9,Good,No,Rare,Medium,Evening
+10.538946,76.202385,Chembukkavu,13,Poor,No,Rare,High,Afternoon
+10.540138,76.203483,Chembukkavu,15,Poor,Yes,Rare,Low,Evening
+10.533632,76.203916,Chembukkavu,12,Poor,Yes,Rare,High,Night
+10.533509,76.208651,Chembukkavu,14,Good,No,Rare,High,Morning
+10.537792,76.202919,Chembukkavu,13,Poor,Yes,Rare,Low,Evening
+10.540032,76.206574,Chembukkavu,12,Poor,No,Rare,Low,Evening
+10.53714,76.205443,Chembukkavu,10,Poor,Yes,Occasional,Medium,Morning
+10.539191,76.206815,Chembukkavu,8,Good,Yes,Occasional,Medium,Night
+10.54014,76.205547,Chembukkavu,14,Poor,No,Frequent,Medium,Evening
+10.537734,76.207621,Chembukkavu,14,Moderate,No,Rare,High,Night
+10.534899,76.206099,Chembukkavu,11,Poor,No,Rare,High,Afternoon
+10.536901,76.207218,Chembukkavu,10,Poor,No,Rare,High,Afternoon
+10.540604,76.206805,Chembukkavu,12,Poor,No,Rare,Low,Night
+10.538073,76.202567,Chembukkavu,15,Poor,No,Frequent,Medium,Afternoon
+10.535035,76.204895,Chembukkavu,10,Poor,Yes,Occasional,High,Morning
+10.53412,76.204215,Chembukkavu,12,Good,No,Rare,High,Afternoon
+10.540772,76.204651,Chembukkavu,9,Poor,No,Rare,High,Morning
+10.537886,76.204245,Chembukkavu,11,Poor,No,Frequent,High,Night
+10.534656,76.206133,Chembukkavu,11,Moderate,Yes,Frequent,High,Morning
+10.539421,76.206576,Chembukkavu,10,Poor,No,Rare,High,Afternoon
+10.537101,76.204348,Chembukkavu,11,Poor,No,Rare,High,Morning
+10.533697,76.206937,Chembukkavu,13,Poor,No,Rare,High,Morning
+10.533911,76.204762,Chembukkavu,14,Poor,No,Occasional,Low,Night
+10.536948,76.207618,Chembukkavu,12,Poor,No,Rare,Low,Night
+10.540943,76.203052,Chembukkavu,10,Good,No,Occasional,Medium,Evening
+10.536375,76.205288,Chembukkavu,9,Poor,Yes,Rare,Medium,Evening
+10.540261,76.207712,Chembukkavu,9,Moderate,No,Rare,Low,Night
+10.53959,76.20964,Chembukkavu,13,Poor,No,Occasional,High,Afternoon
+10.53957,76.202013,Chembukkavu,11,Moderate,Yes,Rare,Low,Evening
+10.535061,76.202476,Chembukkavu,12,Poor,No,Rare,High,Night
+10.53783,76.207493,Chembukkavu,11,Poor,No,Rare,Medium,Night
+10.53665,76.204952,Chembukkavu,10,Poor,No,Occasional,Low,Night
+10.533968,76.205352,Chembukkavu,11,Poor,No,Rare,High,Night
+10.533641,76.204838,Chembukkavu,12,Moderate,Yes,Frequent,High,Morning
+10.536734,76.222349,Poonkunnam,10,Good,No,Frequent,High,Night
+10.533949,76.217081,Poonkunnam,14,Moderate,Yes,Rare,High,Afternoon
+10.534289,76.224306,Poonkunnam,14,Poor,No,Frequent,High,Evening
+10.534992,76.217964,Poonkunnam,12,Poor,No,Frequent,Medium,Afternoon
+10.53642,76.217532,Poonkunnam,10,Poor,No,Frequent,High,Afternoon
+10.529294,76.220376,Poonkunnam,12,Moderate,No,Occasional,Medium,Evening
+10.53156,76.220888,Poonkunnam,11,Moderate,No,Rare,High,Evening
+10.530184,76.221469,Poonkunnam,12,Poor,No,Rare,Low,Afternoon
+10.531945,76.222833,Poonkunnam,14,Moderate,No,Frequent,High,Evening
+10.53474,76.220439,Poonkunnam,13,Good,No,Rare,Low,Evening
+10.534584,76.219203,Poonkunnam,14,Poor,No,Rare,High,Night
+10.532771,76.223387,Poonkunnam,11,Good,No,Rare,Low,Afternoon
+10.535779,76.22386,Poonkunnam,12,Poor,No,Rare,Medium,Evening
+10.531751,76.221658,Poonkunnam,13,Moderate,No,Rare,High,Afternoon
+10.532169,76.221809,Poonkunnam,14,Moderate,Yes,Rare,Medium,Evening
+10.532196,76.218335,Poonkunnam,14,Good,Yes,Occasional,Medium,Evening
+10.532644,76.218141,Poonkunnam,11,Good,No,Occasional,High,Night
+10.530436,76.217204,Poonkunnam,13,Moderate,No,Rare,Low,Afternoon
+10.534367,76.222095,Poonkunnam,11,Poor,Yes,Rare,Medium,Morning
+10.532477,76.21949,Poonkunnam,11,Poor,Yes,Rare,High,Night
+10.534617,76.221846,Poonkunnam,10,Poor,No,Rare,Low,Morning
+10.537104,76.220632,Poonkunnam,11,Moderate,No,Occasional,High,Evening
+10.534706,76.218124,Poonkunnam,11,Poor,No,Rare,High,Evening
+10.533244,76.224712,Poonkunnam,12,Poor,No,Rare,High,Evening
+10.532274,76.217312,Poonkunnam,12,Poor,No,Rare,Medium,Afternoon
+10.53048,76.217187,Poonkunnam,11,Moderate,No,Rare,High,Afternoon
+10.53525,76.220668,Poonkunnam,13,Good,No,Frequent,Low,Night
+10.530129,76.224647,Poonkunnam,11,Poor,No,Occasional,High,Evening
+10.531712,76.224107,Poonkunnam,14,Moderate,No,Frequent,High,Morning
+10.537072,76.219307,Poonkunnam,13,Poor,No,Rare,High,Night
+10.536889,76.220116,Poonkunnam,9,Poor,No,Rare,Medium,Evening
+10.533531,76.218233,Poonkunnam,10,Poor,Yes,Rare,High,Afternoon
+10.53363,76.221334,Poonkunnam,13,Moderate,Yes,Occasional,Medium,Morning
+10.532724,76.219419,Poonkunnam,13,Good,Yes,Frequent,High,Night
+10.531275,76.218557,Poonkunnam,12,Moderate,No,Occasional,Low,Night
+10.531362,76.224731,Poonkunnam,11,Moderate,Yes,Rare,Low,Night
+10.533662,76.219778,Poonkunnam,10,Moderate,No,Rare,Medium,Evening
+10.532752,76.22201,Poonkunnam,12,Poor,No,Rare,Medium,Night
+10.533111,76.220214,Poonkunnam,14,Moderate,No,Occasional,High,Morning
+10.534165,76.21861,Poonkunnam,15,Moderate,Yes,Frequent,Low,Morning
+10.532361,76.217316,Poonkunnam,17,Moderate,Yes,Frequent,Medium,Evening
+10.531022,76.224712,Poonkunnam,9,Poor,No,Rare,Medium,Morning
+10.536476,76.222777,Poonkunnam,14,Good,Yes,Occasional,High,Evening
+10.530245,76.223324,Poonkunnam,12,Good,Yes,Frequent,Low,Evening
+10.530199,76.223354,Poonkunnam,13,Poor,No,Occasional,High,Morning
+10.536752,76.21819,Poonkunnam,11,Poor,No,Occasional,Medium,Evening
+10.532901,76.224848,Poonkunnam,14,Poor,Yes,Frequent,Medium,Afternoon
+10.53391,76.220003,Poonkunnam,12,Moderate,No,Rare,High,Afternoon
+10.531486,76.218626,Poonkunnam,11,Moderate,Yes,Occasional,Medium,Night
+10.53329,76.220939,Poonkunnam,14,Moderate,No,Rare,Low,Afternoon
+10.533818,76.223925,Poonkunnam,12,Poor,No,Frequent,Medium,Afternoon
+10.53582,76.223116,Poonkunnam,12,Poor,No,Occasional,Low,Night
+10.533788,76.224648,Poonkunnam,12,Moderate,No,Rare,Medium,Evening
+10.536032,76.220513,Poonkunnam,12,Moderate,No,Rare,Medium,Afternoon
+10.535976,76.224145,Poonkunnam,13,Good,No,Rare,Medium,Evening
+10.534213,76.224411,Poonkunnam,7,Poor,No,Frequent,High,Morning
+10.529353,76.220815,Poonkunnam,14,Good,Yes,Occasional,High,Afternoon
+10.53474,76.218075,Poonkunnam,14,Good,No,Occasional,High,Morning
+10.531595,76.21987,Poonkunnam,11,Moderate,Yes,Rare,Medium,Night
+10.530886,76.22466,Poonkunnam,13,Moderate,Yes,Rare,High,Night
+10.529271,76.224983,Poonkunnam,14,Poor,No,Rare,Medium,Evening
+10.531557,76.217115,Poonkunnam,13,Moderate,No,Occasional,High,Morning
+10.535103,76.223673,Poonkunnam,11,Moderate,Yes,Rare,High,Afternoon
+10.535227,76.223151,Poonkunnam,13,Moderate,No,Rare,Medium,Afternoon
+10.534468,76.223129,Poonkunnam,12,Poor,Yes,Rare,High,Night
+10.529909,76.220901,Poonkunnam,14,Poor,No,Frequent,Low,Evening
+10.529821,76.22026,Poonkunnam,11,Poor,No,Occasional,Medium,Evening
+10.531991,76.217888,Poonkunnam,12,Moderate,No,Rare,Medium,Evening
+10.535666,76.224582,Poonkunnam,8,Poor,No,Frequent,High,Morning
+10.529815,76.221005,Poonkunnam,12,Good,No,Occasional,High,Evening
+10.535556,76.222657,Poonkunnam,9,Poor,Yes,Rare,Low,Morning
+10.531059,76.219248,Poonkunnam,10,Poor,Yes,Rare,High,Evening
+10.535628,76.224434,Poonkunnam,13,Moderate,No,Rare,Low,Morning
+10.531772,76.220811,Poonkunnam,12,Poor,No,Occasional,Medium,Night
+10.531008,76.222124,Poonkunnam,12,Poor,No,Rare,High,Afternoon
+10.532063,76.222183,Poonkunnam,12,Good,Yes,Rare,High,Morning
+10.530183,76.224109,Poonkunnam,6,Moderate,No,Rare,High,Night
+10.533887,76.221998,Poonkunnam,12,Good,Yes,Occasional,Medium,Evening
+10.529774,76.222461,Poonkunnam,13,Poor,No,Occasional,High,Night
+10.53578,76.223432,Poonkunnam,10,Moderate,No,Rare,High,Afternoon
+10.52142,76.220161,MG Road,13,Moderate,Yes,Rare,Low,Night
+10.519171,76.219974,MG Road,11,Poor,No,Rare,Medium,Morning
+10.519274,76.217071,MG Road,11,Moderate,Yes,Frequent,High,Afternoon
+10.522989,76.218541,MG Road,12,Poor,No,Frequent,High,Morning
+10.517001,76.220089,MG Road,12,Good,No,Occasional,High,Morning
+10.523715,76.216031,MG Road,12,Good,No,Rare,High,Evening
+10.518975,76.221927,MG Road,11,Moderate,No,Occasional,High,Night
+10.519882,76.218163,MG Road,12,Poor,Yes,Occasional,High,Morning
+10.523742,76.218507,MG Road,13,Poor,No,Rare,Medium,Morning
+10.520471,76.22328,MG Road,12,Moderate,Yes,Rare,High,Morning
+10.520019,76.223713,MG Road,13,Poor,Yes,Rare,High,Evening
+10.520951,76.219101,MG Road,11,Good,No,Rare,Medium,Evening
+10.522062,76.221631,MG Road,14,Moderate,No,Occasional,High,Night
+10.524728,76.222088,MG Road,14,Moderate,No,Frequent,High,Evening
+10.524606,76.22162,MG Road,11,Moderate,No,Occasional,High,Night
+10.523255,76.221153,MG Road,12,Moderate,No,Rare,High,Night
+10.517385,76.21888,MG Road,12,Moderate,No,Occasional,Low,Evening
+10.520462,76.219662,MG Road,13,Good,Yes,Rare,Low,Night
+10.518671,76.21895,MG Road,11,Poor,Yes,Rare,High,Night
+10.523141,76.219332,MG Road,12,Good,No,Occasional,Medium,Night
+10.523577,76.222803,MG Road,13,Good,No,Occasional,Medium,Morning
+10.520778,76.223041,MG Road,10,Good,No,Rare,Medium,Afternoon
+10.518726,76.221423,MG Road,9,Moderate,No,Rare,High,Afternoon
+10.518093,76.221213,MG Road,14,Poor,Yes,Rare,High,Afternoon
+10.522909,76.218525,MG Road,10,Moderate,No,Occasional,Low,Night
+10.522706,76.217594,MG Road,15,Moderate,No,Occasional,High,Morning
+10.524122,76.218299,MG Road,11,Good,Yes,Occasional,Medium,Evening
+10.517892,76.220127,MG Road,12,Moderate,Yes,Rare,Low,Night
+10.519141,76.222684,MG Road,12,Poor,No,Rare,High,Morning
+10.520943,76.219234,MG Road,10,Good,No,Occasional,High,Evening
+10.521248,76.220761,MG Road,12,Moderate,No,Occasional,High,Night
+10.524708,76.220152,MG Road,12,Moderate,No,Frequent,High,Night
+10.52242,76.218495,MG Road,13,Poor,No,Frequent,High,Evening
+10.52117,76.223808,MG Road,13,Moderate,No,Rare,High,Afternoon
+10.518004,76.216136,MG Road,13,Poor,Yes,Occasional,High,Evening
+10.517962,76.218125,MG Road,13,Moderate,Yes,Rare,Medium,Morning
+10.51714,76.218346,MG Road,12,Poor,No,Frequent,Medium,Evening
+10.519785,76.218974,MG Road,15,Poor,Yes,Rare,Medium,Afternoon
+10.517011,76.218398,MG Road,12,Good,No,Occasional,Low,Afternoon
+10.523776,76.216189,MG Road,12,Moderate,No,Occasional,High,Morning
+10.524188,76.222266,MG Road,12,Good,No,Rare,High,Morning
+10.520184,76.218423,MG Road,15,Poor,No,Frequent,Medium,Evening
+10.517526,76.217826,MG Road,12,Moderate,Yes,Rare,Medium,Afternoon
+10.52298,76.21979,MG Road,9,Poor,No,Occasional,Medium,Morning
+10.517463,76.223662,MG Road,12,Moderate,No,Occasional,Low,Morning
+10.524702,76.216605,MG Road,13,Poor,Yes,Rare,High,Afternoon
+10.519925,76.217803,MG Road,11,Moderate,Yes,Rare,High,Afternoon
+10.521979,76.222251,MG Road,12,Poor,No,Rare,High,Evening
+10.521626,76.217176,MG Road,13,Good,Yes,Rare,Low,Evening
+10.520105,76.221393,MG Road,14,Moderate,No,Occasional,High,Afternoon
+10.519079,76.218762,MG Road,12,Poor,No,Occasional,High,Night
+10.52076,76.223121,MG Road,13,Poor,No,Frequent,High,Morning
+10.522662,76.216498,MG Road,11,Moderate,No,Occasional,High,Evening
+10.518074,76.223663,MG Road,16,Poor,Yes,Rare,Medium,Night
+10.521237,76.217935,MG Road,16,Poor,No,Rare,High,Morning
+10.51761,76.218198,MG Road,12,Poor,No,Rare,High,Evening
+10.523456,76.219677,MG Road,8,Moderate,No,Rare,High,Afternoon
+10.517351,76.217326,MG Road,15,Poor,No,Rare,High,Evening
+10.520564,76.217673,MG Road,11,Poor,No,Occasional,Low,Morning
+10.524685,76.217575,MG Road,13,Moderate,No,Rare,High,Afternoon
+10.524611,76.223959,MG Road,9,Good,Yes,Rare,Medium,Night
+10.520496,76.220748,MG Road,13,Moderate,No,Occasional,Medium,Evening
+10.517585,76.220979,MG Road,13,Moderate,No,Occasional,High,Night
+10.523058,76.217293,MG Road,12,Poor,Yes,Rare,High,Night
+10.520815,76.221747,MG Road,13,Good,No,Rare,Low,Evening
+10.522333,76.217302,MG Road,10,Poor,No,Rare,Low,Morning
+10.521521,76.222173,MG Road,12,Poor,No,Rare,High,Night
+10.517072,76.218856,MG Road,12,Moderate,No,Rare,Medium,Morning
+10.52441,76.217829,MG Road,10,Poor,Yes,Rare,Low,Evening
+10.519573,76.222784,MG Road,13,Moderate,No,Rare,High,Morning
+10.522831,76.216763,MG Road,11,Moderate,Yes,Frequent,High,Evening
+10.520847,76.221299,MG Road,12,Moderate,No,Occasional,High,Night
+10.517948,76.218311,MG Road,13,Good,No,Rare,Low,Evening
+10.524946,76.216359,MG Road,12,Poor,Yes,Rare,Low,Evening
+10.523088,76.218974,MG Road,15,Poor,No,Rare,High,Afternoon
+10.524347,76.223607,MG Road,11,Poor,No,Occasional,High,Night
+10.521617,76.218857,MG Road,11,Moderate,Yes,Frequent,Medium,Morning
+10.521513,76.218869,MG Road,14,Poor,No,Rare,Medium,Afternoon
+10.522253,76.217923,MG Road,12,Poor,No,Rare,High,Evening
+10.518767,76.216311,MG Road,10,Poor,No,Occasional,Medium,Evening
+10.526288,76.214402,TB Road,11,Poor,Yes,Occasional,High,Morning
+10.533604,76.217653,TB Road,13,Moderate,No,Rare,Low,Evening
+10.529493,76.217641,TB Road,15,Poor,Yes,Rare,High,Morning
+10.52826,76.215824,TB Road,12,Poor,Yes,Rare,Medium,Morning
+10.533153,76.220572,TB Road,12,Moderate,No,Rare,High,Evening
+10.532243,76.216811,TB Road,14,Poor,No,Frequent,Low,Morning
+10.52998,76.214637,TB Road,10,Poor,No,Rare,High,Night
+10.528653,76.21984,TB Road,13,Good,Yes,Occasional,Medium,Night
+10.527657,76.213569,TB Road,7,Poor,No,Rare,High,Night
+10.532487,76.219687,TB Road,12,Poor,No,Rare,High,Morning
+10.528658,76.218549,TB Road,13,Good,Yes,Occasional,High,Evening
+10.527213,76.220007,TB Road,14,Poor,No,Rare,High,Morning
+10.530313,76.21526,TB Road,11,Good,Yes,Rare,Low,Afternoon
+10.527023,76.219124,TB Road,12,Moderate,No,Rare,High,Evening
+10.526,76.216333,TB Road,11,Moderate,Yes,Occasional,Medium,Night
+10.533785,76.214809,TB Road,12,Poor,No,Frequent,High,Night
+10.528434,76.215432,TB Road,13,Poor,No,Occasional,High,Morning
+10.531935,76.219787,TB Road,10,Poor,No,Occasional,High,Afternoon
+10.529381,76.215423,TB Road,14,Moderate,No,Rare,High,Evening
+10.532534,76.214453,TB Road,10,Moderate,Yes,Rare,High,Evening
+10.528968,76.220216,TB Road,11,Moderate,No,Occasional,High,Evening
+10.530725,76.218288,TB Road,14,Moderate,Yes,Frequent,High,Evening
+10.526628,76.217356,TB Road,10,Poor,Yes,Rare,Medium,Afternoon
+10.532245,76.21767,TB Road,13,Poor,No,Rare,High,Evening
+10.533618,76.213339,TB Road,13,Moderate,No,Occasional,Medium,Morning
+10.528372,76.218715,TB Road,9,Moderate,No,Rare,High,Morning
+10.532072,76.21382,TB Road,15,Moderate,Yes,Rare,Medium,Night
+10.528954,76.220463,TB Road,17,Poor,No,Rare,High,Evening
+10.53262,76.218578,TB Road,11,Poor,Yes,Rare,Medium,Afternoon
+10.533368,76.218557,TB Road,15,Moderate,No,Occasional,High,Morning
+10.531832,76.219894,TB Road,13,Poor,Yes,Occasional,Low,Evening
+10.527562,76.215763,TB Road,11,Moderate,No,Frequent,Medium,Afternoon
+10.528685,76.220828,TB Road,13,Poor,No,Frequent,High,Morning
+10.531816,76.217497,TB Road,13,Good,Yes,Rare,Low,Morning
+10.533577,76.21697,TB Road,10,Poor,Yes,Rare,Low,Evening
+10.53229,76.218876,TB Road,11,Moderate,Yes,Rare,Medium,Afternoon
+10.529075,76.213202,TB Road,9,Moderate,No,Occasional,High,Afternoon
+10.531639,76.219537,TB Road,11,Moderate,No,Rare,Low,Evening
+10.530371,76.220736,TB Road,12,Moderate,No,Occasional,High,Afternoon
+10.531748,76.219901,TB Road,11,Good,No,Occasional,High,Night
+10.527434,76.2194,TB Road,8,Poor,No,Frequent,Medium,Evening
+10.527054,76.219922,TB Road,14,Moderate,Yes,Occasional,High,Afternoon
+10.527258,76.215478,TB Road,13,Poor,No,Frequent,Low,Evening
+10.531382,76.219373,TB Road,11,Good,No,Rare,High,Morning
+10.528004,76.217999,TB Road,14,Poor,No,Rare,Medium,Evening
+10.533249,76.213097,TB Road,12,Good,No,Occasional,High,Evening
+10.531392,76.213415,TB Road,9,Poor,No,Rare,Medium,Morning
+10.528454,76.215824,TB Road,13,Poor,No,Rare,Medium,Afternoon
+10.53097,76.215672,TB Road,11,Moderate,No,Occasional,Low,Afternoon
+10.526547,76.21927,TB Road,15,Moderate,No,Occasional,High,Morning
+10.528286,76.216462,TB Road,10,Moderate,No,Rare,High,Morning
+10.526453,76.215991,TB Road,14,Poor,No,Frequent,Medium,Night
+10.533556,76.218134,TB Road,14,Moderate,No,Rare,High,Morning
+10.527592,76.216347,TB Road,14,Moderate,Yes,Rare,Medium,Evening
+10.532008,76.213811,TB Road,10,Moderate,No,Frequent,High,Morning
+10.529456,76.220843,TB Road,10,Poor,Yes,Rare,Low,Morning
+10.52654,76.21715,TB Road,11,Poor,No,Occasional,Medium,Morning
+10.531903,76.218636,TB Road,10,Poor,No,Rare,Low,Night
+10.529382,76.215772,TB Road,9,Poor,No,Rare,High,Afternoon
+10.527643,76.216864,TB Road,11,Poor,Yes,Rare,High,Afternoon
+10.528148,76.2153,TB Road,12,Poor,No,Rare,Medium,Morning
+10.530829,76.213616,TB Road,12,Moderate,Yes,Rare,High,Evening
+10.526605,76.220611,TB Road,11,Moderate,No,Frequent,Medium,Night
+10.530792,76.217989,TB Road,11,Poor,No,Rare,High,Evening
+10.531188,76.215139,TB Road,13,Good,No,Frequent,High,Afternoon
+10.531653,76.21788,TB Road,10,Poor,No,Rare,Medium,Morning
+10.528503,76.215169,TB Road,14,Poor,No,Rare,High,Evening
+10.533574,76.213847,TB Road,12,Moderate,No,Frequent,High,Evening
+10.527239,76.220558,TB Road,13,Poor,No,Rare,Medium,Morning
+10.527621,76.217701,TB Road,12,Poor,No,Occasional,Low,Morning
+10.531609,76.218441,TB Road,11,Poor,No,Occasional,High,Morning
+10.530663,76.215025,TB Road,12,Good,Yes,Frequent,High,Evening
+10.529602,76.220661,TB Road,14,Good,No,Occasional,High,Afternoon
+10.527508,76.21838,TB Road,11,Good,No,Rare,High,Night
+10.533816,76.213815,TB Road,12,Moderate,No,Rare,High,Night
+10.526741,76.218987,TB Road,12,Poor,No,Rare,Medium,Evening
+10.533316,76.216472,TB Road,11,Poor,No,Frequent,High,Evening
+10.531788,76.213072,TB Road,9,Moderate,No,Frequent,High,Evening
+10.530716,76.217906,TB Road,10,Good,No,Rare,Medium,Morning
+10.531712,76.213731,TB Road,13,Moderate,Yes,Rare,High,Night
+10.539594,76.20902,Kuriachira,9,Poor,No,Rare,Medium,Afternoon
+10.540166,76.20398,Kuriachira,9,Poor,Yes,Occasional,High,Evening
+10.5385,76.205672,Kuriachira,12,Good,Yes,Occasional,Medium,Afternoon
+10.543383,76.202649,Kuriachira,13,Poor,No,Frequent,High,Afternoon
+10.545612,76.208708,Kuriachira,11,Poor,No,Frequent,Low,Afternoon
+10.545462,76.206354,Kuriachira,11,Good,Yes,Rare,Medium,Evening
+10.539602,76.206934,Kuriachira,12,Good,Yes,Occasional,High,Night
+10.542172,76.202548,Kuriachira,12,Poor,Yes,Rare,Low,Evening
+10.540969,76.209366,Kuriachira,13,Moderate,No,Occasional,Low,Evening
+10.540151,76.204948,Kuriachira,15,Poor,No,Occasional,Medium,Morning
+10.545163,76.207332,Kuriachira,10,Moderate,Yes,Frequent,Medium,Night
+10.543042,76.203987,Kuriachira,13,Poor,Yes,Rare,High,Afternoon
+10.543644,76.205421,Kuriachira,14,Good,Yes,Occasional,Low,Evening
+10.54549,76.202512,Kuriachira,9,Poor,No,Frequent,High,Afternoon
+10.544598,76.204339,Kuriachira,10,Moderate,No,Frequent,Medium,Night
+10.540408,76.206021,Kuriachira,11,Moderate,No,Occasional,Medium,Morning
+10.538449,76.205929,Kuriachira,10,Moderate,No,Frequent,Low,Morning
+10.543241,76.204082,Kuriachira,13,Moderate,No,Occasional,High,Afternoon
+10.539276,76.203284,Kuriachira,12,Poor,No,Frequent,High,Morning
+10.544513,76.207481,Kuriachira,11,Poor,No,Occasional,Low,Evening
+10.538883,76.204313,Kuriachira,9,Poor,No,Rare,Medium,Afternoon
+10.54212,76.206284,Kuriachira,9,Good,No,Occasional,Low,Afternoon
+10.540855,76.20483,Kuriachira,11,Poor,Yes,Rare,High,Night
+10.540462,76.20931,Kuriachira,12,Good,Yes,Rare,High,Afternoon
+10.545623,76.204614,Kuriachira,11,Moderate,Yes,Rare,Medium,Afternoon
+10.545529,76.209011,Kuriachira,7,Poor,No,Occasional,High,Evening
+10.538821,76.205142,Kuriachira,11,Poor,No,Frequent,High,Afternoon
+10.539551,76.208871,Kuriachira,16,Poor,Yes,Frequent,Low,Afternoon
+10.543416,76.208703,Kuriachira,11,Poor,No,Rare,High,Evening
+10.541514,76.206884,Kuriachira,12,Good,No,Rare,High,Morning
+10.539283,76.207389,Kuriachira,12,Poor,No,Occasional,Low,Morning
+10.539837,76.20294,Kuriachira,9,Poor,No,Occasional,Medium,Night
+10.539322,76.202016,Kuriachira,12,Moderate,Yes,Frequent,Medium,Morning
+10.542119,76.203291,Kuriachira,12,Poor,Yes,Occasional,Low,Afternoon
+10.538668,76.202153,Kuriachira,9,Moderate,No,Rare,High,Morning
+10.538843,76.203779,Kuriachira,8,Poor,No,Rare,Medium,Morning
+10.542154,76.206862,Kuriachira,8,Good,No,Rare,Low,Afternoon
+10.539756,76.209679,Kuriachira,10,Poor,No,Frequent,High,Evening
+10.54293,76.206455,Kuriachira,8,Poor,Yes,Occasional,Medium,Morning
+10.542327,76.207571,Kuriachira,7,Moderate,No,Occasional,Low,Night
+10.543617,76.203374,Kuriachira,6,Moderate,No,Frequent,High,Morning
+10.544964,76.207051,Kuriachira,11,Poor,No,Rare,High,Evening
+10.54226,76.202923,Kuriachira,9,Good,No,Occasional,High,Evening
+10.540698,76.203143,Kuriachira,11,Moderate,Yes,Occasional,High,Night
+10.543537,76.20365,Kuriachira,12,Poor,Yes,Occasional,Low,Afternoon
+10.539635,76.206062,Kuriachira,10,Good,No,Rare,Medium,Afternoon
+10.541354,76.202145,Kuriachira,15,Poor,Yes,Rare,High,Afternoon
+10.543027,76.207509,Kuriachira,9,Poor,No,Frequent,Low,Evening
+10.540026,76.20208,Kuriachira,11,Poor,No,Occasional,Low,Evening
+10.544689,76.208571,Kuriachira,14,Poor,No,Frequent,Medium,Afternoon
+10.544747,76.205881,Kuriachira,13,Good,No,Occasional,High,Night
+10.54161,76.203468,Kuriachira,9,Poor,No,Frequent,Low,Evening
+10.54484,76.20906,Kuriachira,9,Moderate,No,Occasional,Low,Evening
+10.541103,76.208428,Kuriachira,10,Good,No,Rare,High,Evening
+10.545214,76.203628,Kuriachira,12,Good,Yes,Rare,Medium,Evening
+10.545745,76.202533,Kuriachira,7,Moderate,No,Occasional,High,Afternoon
+10.543187,76.202593,Kuriachira,13,Moderate,Yes,Rare,Medium,Evening
+10.541468,76.209977,Kuriachira,10,Good,Yes,Frequent,Medium,Night
+10.542472,76.204569,Kuriachira,9,Poor,Yes,Rare,Low,Evening
+10.54098,76.20255,Kuriachira,8,Poor,Yes,Occasional,Medium,Morning
+10.540957,76.205714,Kuriachira,12,Poor,No,Frequent,Medium,Afternoon
+10.54367,76.202067,Kuriachira,13,Poor,No,Frequent,High,Evening
+10.539741,76.207293,Kuriachira,10,Poor,Yes,Rare,High,Afternoon
+10.544436,76.208182,Kuriachira,11,Poor,No,Occasional,High,Morning
+10.542387,76.202532,Kuriachira,11,Poor,No,Rare,High,Morning
+10.544256,76.208014,Kuriachira,13,Poor,No,Occasional,Low,Evening
+10.544424,76.206144,Kuriachira,11,Poor,Yes,Rare,Medium,Afternoon
+10.542964,76.207938,Kuriachira,9,Poor,Yes,Rare,High,Morning
+10.539359,76.20356,Kuriachira,11,Poor,Yes,Rare,Low,Morning
+10.545266,76.20807,Kuriachira,11,Moderate,Yes,Rare,High,Evening
+10.545777,76.218233,Punkunnam,11,Poor,Yes,Frequent,Low,Night
+10.546059,76.214252,Punkunnam,13,Poor,No,Rare,High,Night
+10.544791,76.218731,Punkunnam,9,Moderate,Yes,Frequent,High,Night
+10.543511,76.214932,Punkunnam,10,Good,No,Rare,Low,Morning
+10.542719,76.216399,Punkunnam,11,Poor,Yes,Occasional,High,Night
+10.542503,76.213616,Punkunnam,13,Poor,Yes,Frequent,High,Night
+10.546569,76.216062,Punkunnam,12,Poor,No,Occasional,High,Evening
+10.54737,76.215176,Punkunnam,13,Poor,Yes,Rare,Medium,Evening
+10.546539,76.215112,Punkunnam,11,Good,Yes,Rare,High,Night
+10.543596,76.215156,Punkunnam,12,Poor,No,Rare,High,Morning
+10.542527,76.218557,Punkunnam,12,Good,No,Rare,Medium,Morning
+10.543117,76.218296,Punkunnam,8,Moderate,No,Rare,Medium,Afternoon
+10.54752,76.219224,Punkunnam,10,Good,No,Frequent,High,Night
+10.541707,76.218592,Punkunnam,12,Poor,No,Occasional,High,Afternoon
+10.543947,76.216459,Punkunnam,12,Poor,No,Rare,Low,Night
+10.541312,76.218335,Punkunnam,8,Poor,No,Rare,Low,Night
+10.543584,76.220183,Punkunnam,10,Poor,No,Rare,Low,Night
+10.548208,76.220969,Punkunnam,12,Good,No,Occasional,Low,Afternoon
+10.547603,76.219759,Punkunnam,12,Moderate,No,Rare,High,Afternoon
+10.541538,76.213759,Punkunnam,8,Poor,No,Rare,High,Night
+10.548991,76.215613,Punkunnam,12,Good,No,Occasional,High,Evening
+10.547864,76.220981,Punkunnam,12,Moderate,No,Occasional,High,Morning
+10.542932,76.213323,Punkunnam,9,Poor,No,Frequent,Low,Evening
+10.541179,76.215883,Punkunnam,10,Poor,Yes,Rare,Medium,Evening
+10.54727,76.217529,Punkunnam,13,Moderate,No,Rare,Medium,Night
+10.542856,76.213115,Punkunnam,9,Moderate,No,Rare,Medium,Afternoon
+10.547115,76.21799,Punkunnam,12,Good,Yes,Frequent,High,Evening
+10.545507,76.217997,Punkunnam,13,Poor,No,Rare,High,Afternoon
+10.547915,76.217695,Punkunnam,11,Good,Yes,Rare,High,Night
+10.547054,76.216538,Punkunnam,11,Good,No,Frequent,High,Night
+10.546659,76.216114,Punkunnam,12,Moderate,No,Rare,Medium,Night
+10.548425,76.220433,Punkunnam,8,Poor,Yes,Occasional,High,Afternoon
+10.543735,76.217221,Punkunnam,12,Poor,No,Rare,High,Evening
+10.545745,76.213427,Punkunnam,12,Moderate,Yes,Occasional,High,Night
+10.544638,76.218398,Punkunnam,9,Moderate,No,Frequent,High,Afternoon
+10.548534,76.214339,Punkunnam,14,Poor,Yes,Frequent,Low,Evening
+10.545003,76.218527,Punkunnam,13,Moderate,No,Occasional,High,Night
+10.543202,76.21425,Punkunnam,13,Moderate,No,Occasional,Low,Evening
+10.546088,76.217794,Punkunnam,12,Moderate,No,Occasional,Medium,Night
+10.544641,76.218342,Punkunnam,9,Poor,Yes,Frequent,High,Evening
+10.547699,76.214358,Punkunnam,14,Poor,No,Rare,Low,Evening
+10.547705,76.219422,Punkunnam,12,Good,No,Rare,Low,Evening
+10.548687,76.217287,Punkunnam,6,Good,Yes,Rare,Medium,Morning
+10.54223,76.217581,Punkunnam,10,Poor,Yes,Rare,High,Evening
+10.543216,76.22037,Punkunnam,14,Moderate,No,Rare,High,Afternoon
+10.543839,76.213416,Punkunnam,14,Moderate,No,Frequent,Medium,Afternoon
+10.541254,76.216387,Punkunnam,11,Good,No,Frequent,High,Morning
+10.548048,76.220063,Punkunnam,10,Good,Yes,Rare,High,Night
+10.546272,76.21469,Punkunnam,12,Moderate,No,Rare,Medium,Afternoon
+10.543292,76.219421,Punkunnam,9,Poor,No,Rare,Medium,Morning
+10.548978,76.21324,Punkunnam,11,Poor,No,Rare,Low,Afternoon
+10.548787,76.21672,Punkunnam,12,Poor,No,Rare,High,Night
+10.547779,76.213499,Punkunnam,10,Poor,No,Rare,High,Morning
+10.548803,76.219536,Punkunnam,11,Poor,Yes,Rare,High,Evening
+10.54782,76.220504,Punkunnam,11,Poor,No,Rare,High,Night
+10.541568,76.214686,Punkunnam,10,Moderate,No,Frequent,Medium,Afternoon
+10.542835,76.216753,Punkunnam,10,Moderate,No,Rare,Low,Morning
+10.54234,76.214178,Punkunnam,10,Moderate,Yes,Occasional,Medium,Morning
+10.548785,76.219074,Punkunnam,11,Poor,Yes,Frequent,High,Morning
+10.543227,76.219386,Punkunnam,12,Good,No,Occasional,Low,Afternoon
+10.54361,76.215395,Punkunnam,10,Poor,No,Occasional,High,Afternoon
+10.543052,76.215843,Punkunnam,10,Good,No,Rare,Medium,Afternoon
+10.546392,76.213501,Punkunnam,12,Moderate,No,Rare,Medium,Morning
+10.542175,76.215741,Punkunnam,10,Poor,No,Rare,Low,Evening
+10.547917,76.214239,Punkunnam,11,Poor,Yes,Frequent,Medium,Night
+10.543419,76.217507,Punkunnam,9,Poor,No,Rare,Medium,Night
+10.54743,76.214097,Punkunnam,11,Poor,No,Rare,High,Night
+10.542153,76.217992,Punkunnam,16,Good,No,Rare,Low,Morning
+10.543189,76.216903,Punkunnam,11,Good,Yes,Occasional,High,Evening
+10.543452,76.219579,Punkunnam,9,Good,No,Rare,High,Morning
+10.546456,76.227349,Ayyanthole,13,Moderate,No,Frequent,Medium,Night
+10.550594,76.229338,Ayyanthole,9,Poor,No,Frequent,Low,Night
+10.552216,76.230898,Ayyanthole,11,Poor,No,Frequent,Medium,Afternoon
+10.552721,76.231916,Ayyanthole,6,Poor,Yes,Rare,High,Evening
+10.553116,76.226972,Ayyanthole,10,Poor,No,Rare,High,Morning
+10.551933,76.227941,Ayyanthole,7,Moderate,Yes,Rare,Medium,Evening
+10.549865,76.230706,Ayyanthole,12,Poor,Yes,Rare,High,Afternoon
+10.549254,76.226626,Ayyanthole,9,Poor,No,Frequent,Low,Night
+10.549632,76.2301,Ayyanthole,9,Poor,No,Rare,Medium,Afternoon
+10.553612,76.225404,Ayyanthole,9,Moderate,No,Frequent,High,Evening
+10.550542,76.228635,Ayyanthole,14,Poor,Yes,Frequent,Low,Morning
+10.547839,76.228421,Ayyanthole,10,Poor,No,Occasional,High,Morning
+10.548977,76.229293,Ayyanthole,10,Good,Yes,Rare,High,Afternoon
+10.547482,76.226229,Ayyanthole,8,Moderate,No,Frequent,Low,Night
+10.54775,76.225463,Ayyanthole,9,Poor,No,Frequent,High,Afternoon
+10.553417,76.231759,Ayyanthole,11,Moderate,Yes,Occasional,High,Morning
+10.55057,76.225144,Ayyanthole,12,Poor,No,Occasional,Low,Morning
+10.548939,76.224696,Ayyanthole,9,Poor,No,Frequent,High,Afternoon
+10.550454,76.230761,Ayyanthole,9,Poor,No,Occasional,Medium,Evening
+10.551382,76.225764,Ayyanthole,11,Good,No,Rare,Low,Afternoon
+10.547746,76.230993,Ayyanthole,8,Good,Yes,Rare,Low,Afternoon
+10.546005,76.230965,Ayyanthole,8,Good,Yes,Rare,High,Afternoon
+10.552341,76.229019,Ayyanthole,9,Good,Yes,Occasional,Low,Night
+10.549667,76.22681,Ayyanthole,11,Good,No,Occasional,Low,Afternoon
+10.54675,76.227889,Ayyanthole,8,Moderate,Yes,Occasional,Medium,Night
+10.547905,76.231267,Ayyanthole,9,Poor,Yes,Occasional,High,Night
+10.549745,76.22773,Ayyanthole,9,Moderate,Yes,Frequent,Medium,Night
+10.549898,76.22744,Ayyanthole,11,Poor,Yes,Rare,Medium,Night
+10.550775,76.231996,Ayyanthole,9,Moderate,No,Frequent,Medium,Morning
+10.55262,76.225366,Ayyanthole,12,Good,No,Rare,Low,Night
+10.546244,76.225636,Ayyanthole,10,Moderate,No,Occasional,Low,Afternoon
+10.550921,76.231285,Ayyanthole,6,Poor,Yes,Rare,Low,Morning
+10.550079,76.22801,Ayyanthole,6,Poor,No,Frequent,Low,Night
+10.552713,76.225285,Ayyanthole,13,Moderate,Yes,Frequent,High,Morning
+10.5462,76.227592,Ayyanthole,9,Poor,No,Frequent,Low,Evening
+10.550867,76.226248,Ayyanthole,10,Poor,Yes,Frequent,High,Morning
+10.547388,76.227038,Ayyanthole,9,Good,Yes,Occasional,Low,Night
+10.552006,76.225004,Ayyanthole,12,Poor,No,Occasional,Medium,Night
+10.552182,76.225895,Ayyanthole,11,Moderate,Yes,Rare,Low,Afternoon
+10.553433,76.227099,Ayyanthole,13,Poor,No,Rare,Low,Evening
+10.546529,76.224153,Ayyanthole,10,Moderate,Yes,Rare,High,Night
+10.552202,76.225875,Ayyanthole,12,Good,No,Occasional,Low,Afternoon
+10.548761,76.224241,Ayyanthole,10,Poor,No,Occasional,High,Afternoon
+10.553466,76.226124,Ayyanthole,10,Good,Yes,Frequent,High,Night
+10.550892,76.229428,Ayyanthole,11,Poor,No,Rare,High,Afternoon
+10.553577,76.231079,Ayyanthole,9,Good,No,Rare,Low,Afternoon
+10.551913,76.22622,Ayyanthole,11,Good,No,Rare,Medium,Night
+10.553921,76.226495,Ayyanthole,13,Moderate,Yes,Occasional,Low,Morning
+10.54872,76.224632,Ayyanthole,7,Good,Yes,Rare,High,Night
+10.548747,76.230677,Ayyanthole,9,Poor,No,Rare,Medium,Morning
+10.553484,76.225486,Ayyanthole,11,Good,No,Rare,High,Morning
+10.546494,76.224739,Ayyanthole,10,Good,Yes,Occasional,High,Afternoon
+10.547302,76.228762,Ayyanthole,10,Poor,No,Occasional,Medium,Morning
+10.547973,76.227768,Ayyanthole,5,Moderate,No,Occasional,Low,Evening
+10.551295,76.230009,Ayyanthole,11,Moderate,Yes,Frequent,Medium,Morning
+10.553235,76.230539,Ayyanthole,13,Good,Yes,Rare,High,Evening
+10.552056,76.224445,Ayyanthole,8,Poor,No,Occasional,Medium,Evening
+10.549219,76.231077,Ayyanthole,13,Poor,Yes,Occasional,High,Afternoon
+10.553165,76.231273,Ayyanthole,12,Good,No,Rare,High,Afternoon
+10.548173,76.225525,Ayyanthole,8,Poor,Yes,Rare,Medium,Night
+10.547477,76.226737,Ayyanthole,12,Moderate,No,Frequent,High,Morning
+10.546959,76.229879,Ayyanthole,9,Moderate,No,Frequent,High,Night
+10.550252,76.226304,Ayyanthole,6,Poor,No,Rare,Medium,Morning
+10.550769,76.227471,Ayyanthole,10,Poor,No,Rare,Low,Afternoon
+10.547315,76.224933,Ayyanthole,12,Moderate,No,Occasional,High,Afternoon
+10.548752,76.229864,Ayyanthole,10,Poor,No,Frequent,Medium,Evening
+10.551269,76.231452,Ayyanthole,10,Moderate,No,Rare,Low,Night
+10.551256,76.231187,Ayyanthole,12,Good,No,Rare,High,Afternoon
+10.549196,76.226614,Ayyanthole,10,Moderate,No,Occasional,Medium,Evening
+10.550615,76.227712,Ayyanthole,10,Poor,Yes,Frequent,Low,Night
+10.49695,76.220845,Peringavu,14,Poor,No,Rare,High,Evening
+10.49626,76.21827,Peringavu,12,Poor,No,Rare,High,Afternoon
+10.500258,76.213826,Peringavu,12,Poor,Yes,Occasional,High,Evening
+10.498371,76.220507,Peringavu,9,Poor,Yes,Frequent,High,Afternoon
+10.50255,76.220869,Peringavu,8,Poor,Yes,Occasional,Low,Night
+10.496403,76.213422,Peringavu,10,Good,Yes,Rare,High,Evening
+10.501536,76.216663,Peringavu,12,Poor,Yes,Frequent,High,Evening
+10.498023,76.217621,Peringavu,9,Good,Yes,Frequent,High,Night
+10.498874,76.219588,Peringavu,11,Moderate,Yes,Frequent,High,Evening
+10.498807,76.2159,Peringavu,14,Good,No,Frequent,Medium,Afternoon
+10.502446,76.215625,Peringavu,9,Moderate,No,Rare,High,Morning
+10.502727,76.21477,Peringavu,6,Poor,No,Rare,Medium,Evening
+10.499048,76.219467,Peringavu,11,Poor,No,Occasional,Medium,Evening
+10.499673,76.215426,Peringavu,13,Poor,Yes,Frequent,High,Evening
+10.50346,76.213949,Peringavu,12,Good,No,Rare,High,Morning
+10.500253,76.213261,Peringavu,12,Good,No,Rare,High,Morning
+10.499805,76.216262,Peringavu,12,Poor,Yes,Rare,Medium,Evening
+10.503769,76.217498,Peringavu,10,Good,Yes,Occasional,Medium,Night
+10.501718,76.213548,Peringavu,10,Good,Yes,Frequent,High,Night
+10.500902,76.220508,Peringavu,11,Moderate,No,Frequent,High,Night
+10.501294,76.213614,Peringavu,13,Poor,No,Frequent,High,Afternoon
+10.499226,76.219669,Peringavu,8,Good,No,Rare,Low,Morning
+10.502517,76.217895,Peringavu,9,Poor,No,Occasional,High,Evening
+10.496847,76.215839,Peringavu,10,Poor,No,Rare,Medium,Afternoon
+10.499305,76.218407,Peringavu,10,Good,Yes,Occasional,Medium,Evening
+10.499162,76.214454,Peringavu,12,Good,Yes,Rare,High,Morning
+10.497255,76.219618,Peringavu,11,Poor,No,Rare,Low,Night
+10.497346,76.220035,Peringavu,10,Poor,No,Rare,High,Afternoon
+10.500456,76.214851,Peringavu,14,Moderate,No,Frequent,High,Evening
+10.503665,76.214764,Peringavu,11,Good,No,Rare,High,Night
+10.503089,76.220474,Peringavu,12,Good,Yes,Rare,Medium,Morning
+10.501039,76.216226,Peringavu,13,Poor,Yes,Rare,High,Afternoon
+10.502019,76.21725,Peringavu,10,Poor,Yes,Occasional,Low,Evening
+10.501852,76.219596,Peringavu,15,Moderate,Yes,Rare,High,Afternoon
+10.497171,76.219663,Peringavu,13,Good,No,Occasional,Medium,Evening
+10.49945,76.216032,Peringavu,12,Poor,No,Frequent,Low,Evening
+10.50332,76.215009,Peringavu,11,Poor,No,Rare,High,Evening
+10.500113,76.215468,Peringavu,13,Poor,No,Frequent,High,Morning
+10.500584,76.215602,Peringavu,11,Poor,No,Rare,Low,Morning
+10.501827,76.215766,Peringavu,12,Poor,Yes,Rare,High,Morning
+10.501369,76.219443,Peringavu,11,Poor,Yes,Occasional,Low,Evening
+10.502266,76.215127,Peringavu,12,Good,Yes,Rare,Low,Afternoon
+10.503923,76.213206,Peringavu,14,Good,No,Occasional,Low,Afternoon
+10.501504,76.213963,Peringavu,13,Moderate,No,Rare,Low,Morning
+10.503508,76.214449,Peringavu,9,Poor,No,Rare,Medium,Morning
+10.498458,76.217372,Peringavu,12,Moderate,No,Frequent,Low,Morning
+10.499338,76.214282,Peringavu,11,Poor,No,Rare,High,Afternoon
+10.502058,76.220184,Peringavu,9,Good,No,Rare,High,Evening
+10.496673,76.216145,Peringavu,13,Moderate,Yes,Frequent,High,Afternoon
+10.497304,76.214871,Peringavu,14,Moderate,No,Rare,High,Afternoon
+10.49619,76.21968,Peringavu,12,Good,Yes,Rare,High,Morning
+10.503412,76.216357,Peringavu,11,Poor,No,Rare,High,Night
+10.496405,76.213315,Peringavu,8,Good,No,Rare,High,Afternoon
+10.496229,76.217666,Peringavu,14,Poor,No,Rare,Low,Night
+10.49609,76.219299,Peringavu,11,Poor,No,Rare,High,Afternoon
+10.500707,76.216181,Peringavu,11,Poor,Yes,Rare,High,Morning
+10.50379,76.217354,Peringavu,13,Moderate,No,Rare,Medium,Evening
+10.498172,76.220234,Peringavu,9,Poor,Yes,Frequent,Medium,Night
+10.498998,76.217399,Peringavu,11,Poor,No,Rare,Low,Evening
+10.502659,76.219445,Peringavu,10,Moderate,No,Rare,Medium,Night
+10.497795,76.214809,Peringavu,11,Moderate,No,Rare,Medium,Morning
+10.4987,76.219966,Peringavu,10,Poor,No,Frequent,Low,Afternoon
+10.496668,76.214689,Peringavu,6,Moderate,Yes,Occasional,High,Night
+10.498675,76.216157,Peringavu,11,Moderate,No,Frequent,Medium,Evening
+10.50024,76.214291,Peringavu,14,Good,No,Rare,Medium,Night
+10.502081,76.214231,Peringavu,12,Poor,No,Occasional,Low,Morning
+10.497194,76.215145,Peringavu,9,Moderate,No,Rare,Low,Morning
+10.501438,76.213453,Peringavu,8,Poor,No,Rare,High,Afternoon
+10.496277,76.216135,Peringavu,10,Moderate,No,Occasional,Medium,Morning
+10.501132,76.215079,Peringavu,12,Poor,No,Rare,Medium,Night
+10.508089,76.227166,Pallikulam,9,Good,No,Rare,High,Evening
+10.50429,76.221924,Pallikulam,10,Good,Yes,Rare,High,Night
+10.506379,76.226609,Pallikulam,13,Poor,Yes,Occasional,High,Night
+10.504176,76.221251,Pallikulam,12,Good,Yes,Rare,Medium,Evening
+10.506904,76.222884,Pallikulam,9,Moderate,Yes,Occasional,High,Night
+10.50165,76.227941,Pallikulam,13,Poor,No,Occasional,Medium,Night
+10.50225,76.227907,Pallikulam,13,Moderate,No,Occasional,High,Night
+10.507929,76.222316,Pallikulam,14,Poor,Yes,Rare,High,Evening
+10.504741,76.224955,Pallikulam,8,Good,No,Occasional,High,Evening
+10.503642,76.224514,Pallikulam,8,Poor,Yes,Rare,Medium,Night
+10.507805,76.221612,Pallikulam,11,Poor,No,Occasional,High,Afternoon
+10.507586,76.22445,Pallikulam,12,Good,Yes,Rare,High,Morning
+10.507236,76.22013,Pallikulam,9,Poor,No,Occasional,High,Morning
+10.507123,76.222024,Pallikulam,10,Poor,No,Rare,Medium,Evening
+10.507924,76.220823,Pallikulam,13,Poor,Yes,Occasional,High,Night
+10.503595,76.225412,Pallikulam,12,Poor,No,Occasional,Medium,Afternoon
+10.505754,76.224825,Pallikulam,12,Poor,No,Occasional,High,Evening
+10.504432,76.222207,Pallikulam,14,Good,No,Rare,Low,Morning
+10.507149,76.22181,Pallikulam,9,Good,No,Frequent,High,Night
+10.506003,76.225977,Pallikulam,12,Moderate,Yes,Occasional,High,Morning
+10.50275,76.22048,Pallikulam,12,Poor,No,Occasional,Medium,Night
+10.507796,76.22036,Pallikulam,9,Poor,No,Rare,Medium,Evening
+10.506873,76.222731,Pallikulam,12,Moderate,No,Frequent,High,Night
+10.503656,76.223723,Pallikulam,11,Moderate,Yes,Frequent,High,Afternoon
+10.501109,76.220653,Pallikulam,9,Poor,No,Frequent,High,Night
+10.505385,76.221397,Pallikulam,14,Good,No,Rare,Low,Night
+10.503367,76.225311,Pallikulam,11,Poor,Yes,Occasional,Medium,Night
+10.505511,76.224002,Pallikulam,13,Poor,No,Frequent,High,Night
+10.501555,76.220719,Pallikulam,8,Poor,Yes,Rare,High,Night
+10.508338,76.223253,Pallikulam,13,Poor,Yes,Rare,Medium,Afternoon
+10.502146,76.225718,Pallikulam,11,Poor,No,Rare,High,Evening
+10.506583,76.227202,Pallikulam,8,Poor,Yes,Rare,High,Morning
+10.507338,76.225411,Pallikulam,12,Moderate,Yes,Frequent,High,Evening
+10.503367,76.220009,Pallikulam,11,Good,Yes,Frequent,Medium,Night
+10.503176,76.221743,Pallikulam,13,Good,No,Rare,Medium,Evening
+10.505748,76.22013,Pallikulam,14,Poor,No,Frequent,Medium,Morning
+10.50683,76.222588,Pallikulam,12,Moderate,No,Frequent,High,Morning
+10.503742,76.221077,Pallikulam,15,Moderate,Yes,Occasional,High,Evening
+10.501755,76.226652,Pallikulam,11,Poor,No,Rare,High,Evening
+10.501827,76.223216,Pallikulam,12,Good,Yes,Rare,Low,Afternoon
+10.506832,76.226239,Pallikulam,9,Poor,Yes,Occasional,Medium,Evening
+10.503036,76.220103,Pallikulam,13,Moderate,Yes,Occasional,Medium,Evening
+10.505322,76.226809,Pallikulam,11,Good,No,Frequent,Medium,Afternoon
+10.505116,76.22068,Pallikulam,12,Good,Yes,Frequent,High,Evening
+10.505391,76.22304,Pallikulam,8,Moderate,No,Rare,High,Morning
+10.502922,76.22076,Pallikulam,14,Moderate,No,Frequent,High,Evening
+10.503519,76.220773,Pallikulam,14,Good,No,Frequent,Medium,Afternoon
+10.507989,76.227965,Pallikulam,7,Poor,No,Occasional,Medium,Evening
+10.505662,76.2265,Pallikulam,9,Good,No,Frequent,High,Afternoon
+10.504222,76.22538,Pallikulam,9,Good,Yes,Rare,High,Night
+10.506458,76.222522,Pallikulam,12,Poor,No,Frequent,High,Night
+10.502027,76.224628,Pallikulam,9,Good,No,Occasional,Medium,Morning
+10.506547,76.225605,Pallikulam,12,Poor,Yes,Rare,High,Evening
+10.505,76.225842,Pallikulam,12,Good,Yes,Rare,High,Night
+10.505953,76.221493,Pallikulam,15,Moderate,Yes,Rare,High,Evening
+10.5078,76.22157,Pallikulam,9,Good,No,Frequent,Medium,Afternoon
+10.502004,76.227708,Pallikulam,11,Good,Yes,Rare,High,Night
+10.505685,76.224331,Pallikulam,9,Good,Yes,Rare,Low,Evening
+10.501688,76.220456,Pallikulam,11,Good,No,Rare,High,Night
+10.505355,76.22187,Pallikulam,9,Good,No,Rare,High,Afternoon
+10.506102,76.226561,Pallikulam,11,Poor,No,Occasional,Low,Afternoon
+10.506514,76.222018,Pallikulam,10,Poor,No,Rare,High,Evening
+10.503462,76.224909,Pallikulam,14,Good,No,Rare,Low,Night
+10.503919,76.225128,Pallikulam,12,Poor,No,Rare,High,Evening
+10.504729,76.221519,Pallikulam,12,Good,Yes,Occasional,Medium,Afternoon
+10.503869,76.227291,Pallikulam,14,Good,Yes,Frequent,Medium,Night
+10.501167,76.222526,Pallikulam,9,Good,No,Occasional,Medium,Night
+10.506405,76.223167,Pallikulam,13,Poor,No,Frequent,Medium,Morning
+10.50705,76.223633,Pallikulam,12,Moderate,No,Occasional,Medium,Afternoon
+10.503007,76.220964,Pallikulam,11,Moderate,Yes,Frequent,Medium,Morning
+10.525676,76.234755,Thrissur East,10,Good,No,Frequent,High,Evening
+10.523714,76.231047,Thrissur East,10,Poor,No,Rare,High,Morning
+10.522295,76.232265,Thrissur East,9,Poor,No,Rare,Low,Evening
+10.521921,76.234066,Thrissur East,8,Moderate,No,Frequent,Low,Afternoon
+10.524319,76.230098,Thrissur East,9,Moderate,No,Rare,Medium,Evening
+10.526186,76.227492,Thrissur East,14,Moderate,No,Rare,Medium,Afternoon
+10.52751,76.234524,Thrissur East,11,Poor,No,Occasional,High,Night
+10.522211,76.230819,Thrissur East,11,Moderate,No,Rare,High,Evening
+10.525814,76.231654,Thrissur East,8,Good,Yes,Frequent,High,Night
+10.522015,76.230134,Thrissur East,9,Poor,Yes,Rare,Low,Night
+10.522301,76.232875,Thrissur East,15,Poor,No,Rare,High,Evening
+10.527975,76.231616,Thrissur East,13,Poor,Yes,Occasional,Medium,Night
+10.523764,76.233424,Thrissur East,9,Poor,No,Rare,Medium,Night
+10.525527,76.234264,Thrissur East,11,Good,Yes,Rare,Medium,Afternoon
+10.524171,76.229371,Thrissur East,11,Moderate,No,Rare,High,Evening
+10.524462,76.231765,Thrissur East,11,Moderate,No,Rare,Low,Morning
+10.521645,76.234517,Thrissur East,12,Moderate,No,Rare,High,Night
+10.527628,76.227641,Thrissur East,13,Poor,No,Frequent,High,Morning
+10.524815,76.232041,Thrissur East,12,Poor,No,Occasional,Medium,Afternoon
+10.523217,76.234527,Thrissur East,12,Moderate,Yes,Frequent,High,Evening
+10.521995,76.234001,Thrissur East,12,Poor,No,Occasional,High,Night
+10.525645,76.234487,Thrissur East,6,Poor,Yes,Occasional,Medium,Afternoon
+10.526378,76.23085,Thrissur East,10,Moderate,No,Occasional,Low,Morning
+10.524519,76.232152,Thrissur East,10,Poor,No,Frequent,Low,Evening
+10.524048,76.227437,Thrissur East,12,Poor,No,Rare,High,Afternoon
+10.524066,76.228731,Thrissur East,11,Poor,No,Rare,High,Afternoon
+10.524541,76.227387,Thrissur East,12,Good,No,Rare,Low,Evening
+10.525704,76.229825,Thrissur East,11,Moderate,No,Frequent,Medium,Evening
+10.527398,76.231437,Thrissur East,12,Poor,No,Rare,Low,Night
+10.527275,76.231789,Thrissur East,13,Poor,No,Frequent,High,Night
+10.524313,76.234664,Thrissur East,15,Good,No,Occasional,Low,Afternoon
+10.522764,76.232005,Thrissur East,12,Poor,No,Occasional,Low,Night
+10.525573,76.228479,Thrissur East,11,Moderate,Yes,Rare,Medium,Afternoon
+10.52711,76.231187,Thrissur East,10,Moderate,No,Occasional,Medium,Morning
+10.522814,76.232332,Thrissur East,11,Poor,No,Occasional,Medium,Night
+10.522307,76.228476,Thrissur East,9,Moderate,No,Rare,High,Evening
+10.522618,76.230094,Thrissur East,11,Poor,Yes,Rare,Low,Night
+10.525094,76.230866,Thrissur East,10,Poor,No,Frequent,Medium,Evening
+10.524062,76.233713,Thrissur East,11,Poor,No,Frequent,Low,Evening
+10.521496,76.227569,Thrissur East,9,Moderate,No,Frequent,Low,Morning
+10.525591,76.231528,Thrissur East,11,Poor,Yes,Rare,Medium,Morning
+10.528678,76.22739,Thrissur East,13,Good,No,Occasional,Medium,Night
+10.521784,76.227353,Thrissur East,11,Moderate,No,Occasional,High,Evening
+10.526165,76.227365,Thrissur East,8,Poor,Yes,Rare,Low,Morning
+10.528568,76.233737,Thrissur East,10,Good,Yes,Occasional,High,Afternoon
+10.522359,76.228016,Thrissur East,10,Good,No,Occasional,Low,Night
+10.521986,76.231148,Thrissur East,9,Poor,No,Rare,High,Night
+10.528916,76.232475,Thrissur East,8,Good,No,Frequent,High,Night
+10.528592,76.22814,Thrissur East,13,Poor,No,Rare,Medium,Afternoon
+10.521614,76.227033,Thrissur East,7,Moderate,No,Frequent,High,Morning
+10.526363,76.232135,Thrissur East,10,Poor,No,Occasional,High,Evening
+10.524324,76.227192,Thrissur East,6,Poor,Yes,Rare,High,Night
+10.523683,76.228417,Thrissur East,13,Poor,No,Frequent,Low,Morning
+10.523523,76.230145,Thrissur East,12,Poor,No,Rare,High,Evening
+10.522895,76.227776,Thrissur East,12,Poor,Yes,Rare,High,Night
+10.52642,76.231375,Thrissur East,10,Good,No,Occasional,Medium,Evening
+10.524801,76.234379,Thrissur East,10,Moderate,No,Rare,High,Evening
+10.5238,76.233259,Thrissur East,10,Good,No,Frequent,High,Evening
+10.52894,76.228925,Thrissur East,11,Moderate,Yes,Occasional,Low,Evening
+10.522797,76.230195,Thrissur East,11,Moderate,Yes,Rare,High,Afternoon
+10.524277,76.234826,Thrissur East,12,Poor,No,Frequent,Medium,Evening
+10.523674,76.232847,Thrissur East,10,Poor,Yes,Frequent,High,Evening
+10.52436,76.231627,Thrissur East,12,Good,Yes,Rare,Low,Morning
+10.527931,76.227477,Thrissur East,12,Moderate,No,Frequent,High,Afternoon
+10.526536,76.22812,Thrissur East,13,Good,No,Frequent,High,Evening
+10.524222,76.231157,Thrissur East,7,Moderate,No,Rare,Medium,Morning
+10.528972,76.228082,Thrissur East,9,Good,No,Occasional,High,Morning
+10.522064,76.22827,Thrissur East,14,Good,Yes,Rare,High,Morning
+10.528594,76.234037,Thrissur East,10,Good,Yes,Rare,Medium,Afternoon
+10.526354,76.23087,Thrissur East,9,Moderate,Yes,Occasional,Medium,Night
+10.524347,76.196862,Thrissur West,13,Poor,Yes,Frequent,High,Afternoon
+10.522292,76.197774,Thrissur West,14,Poor,No,Rare,Medium,Morning
+10.525428,76.198562,Thrissur West,12,Poor,No,Rare,High,Morning
+10.521202,76.196839,Thrissur West,9,Poor,No,Rare,Low,Afternoon
+10.527242,76.198511,Thrissur West,12,Poor,No,Occasional,High,Night
+10.525539,76.20037,Thrissur West,9,Good,No,Frequent,High,Evening
+10.52688,76.198881,Thrissur West,8,Poor,Yes,Frequent,Low,Morning
+10.523091,76.197353,Thrissur West,10,Poor,Yes,Frequent,Low,Morning
+10.525794,76.19811,Thrissur West,7,Good,No,Frequent,High,Morning
+10.526877,76.194192,Thrissur West,10,Poor,No,Occasional,High,Evening
+10.525679,76.201532,Thrissur West,10,Good,Yes,Rare,Medium,Evening
+10.521731,76.199005,Thrissur West,8,Moderate,No,Rare,High,Afternoon
+10.525404,76.197259,Thrissur West,12,Moderate,No,Frequent,Medium,Night
+10.52257,76.194181,Thrissur West,11,Good,Yes,Occasional,Medium,Afternoon
+10.527893,76.198617,Thrissur West,11,Moderate,No,Rare,Medium,Afternoon
+10.527481,76.197437,Thrissur West,12,Moderate,No,Rare,Low,Evening
+10.526999,76.201304,Thrissur West,8,Poor,No,Occasional,High,Evening
+10.52315,76.195589,Thrissur West,11,Moderate,No,Rare,Medium,Morning
+10.522975,76.196451,Thrissur West,14,Poor,No,Rare,Medium,Morning
+10.524412,76.198923,Thrissur West,13,Poor,No,Frequent,High,Morning
+10.521653,76.194702,Thrissur West,11,Poor,Yes,Frequent,High,Afternoon
+10.522712,76.196266,Thrissur West,8,Moderate,No,Rare,Medium,Afternoon
+10.524203,76.200495,Thrissur West,12,Good,Yes,Rare,High,Afternoon
+10.528462,76.194161,Thrissur West,12,Poor,Yes,Frequent,Medium,Night
+10.52223,76.201089,Thrissur West,15,Poor,No,Rare,High,Night
+10.526304,76.199433,Thrissur West,8,Good,No,Occasional,High,Night
+10.528454,76.201976,Thrissur West,9,Moderate,No,Rare,Medium,Night
+10.528038,76.194394,Thrissur West,12,Moderate,Yes,Occasional,High,Night
+10.522849,76.201179,Thrissur West,9,Moderate,No,Rare,Low,Morning
+10.522105,76.200873,Thrissur West,9,Good,Yes,Frequent,Low,Evening
+10.525,76.199399,Thrissur West,12,Moderate,Yes,Rare,Medium,Evening
+10.52708,76.196501,Thrissur West,9,Poor,No,Frequent,Low,Evening
+10.524285,76.195678,Thrissur West,11,Poor,No,Frequent,Low,Night
+10.528476,76.196427,Thrissur West,11,Poor,No,Rare,Low,Night
+10.527255,76.200127,Thrissur West,9,Moderate,No,Frequent,High,Night
+10.526374,76.199834,Thrissur West,10,Good,No,Rare,Low,Night
+10.5256,76.195655,Thrissur West,7,Good,No,Rare,High,Night
+10.52442,76.199162,Thrissur West,11,Good,No,Rare,Low,Morning
+10.526962,76.195858,Thrissur West,8,Poor,Yes,Occasional,Medium,Night
+10.522589,76.200267,Thrissur West,9,Moderate,No,Occasional,High,Evening
+10.528274,76.196962,Thrissur West,11,Moderate,Yes,Occasional,Low,Evening
+10.527769,76.195463,Thrissur West,11,Good,No,Frequent,Medium,Morning
+10.52865,76.197013,Thrissur West,10,Poor,No,Rare,Low,Morning
+10.524889,76.194872,Thrissur West,10,Poor,No,Frequent,Medium,Afternoon
+10.522988,76.196536,Thrissur West,11,Poor,Yes,Frequent,Low,Evening
+10.52342,76.20087,Thrissur West,11,Poor,Yes,Occasional,Medium,Night
+10.527858,76.200117,Thrissur West,11,Poor,Yes,Rare,Low,Morning
+10.52856,76.19946,Thrissur West,9,Good,Yes,Frequent,High,Evening
+10.523653,76.198005,Thrissur West,11,Moderate,Yes,Rare,Low,Morning
+10.52196,76.196497,Thrissur West,14,Poor,Yes,Frequent,Medium,Night
+10.527419,76.200891,Thrissur West,13,Poor,Yes,Occasional,Low,Morning
+10.527015,76.200496,Thrissur West,8,Good,Yes,Rare,High,Night
+10.528566,76.196503,Thrissur West,12,Moderate,No,Rare,High,Morning
+10.526422,76.196019,Thrissur West,12,Moderate,No,Rare,High,Evening
+10.527984,76.195351,Thrissur West,11,Poor,No,Rare,High,Afternoon
+10.524804,76.200793,Thrissur West,10,Good,Yes,Occasional,Low,Afternoon
+10.524067,76.195346,Thrissur West,11,Moderate,No,Frequent,Medium,Afternoon
+10.522514,76.199763,Thrissur West,13,Good,No,Occasional,High,Morning
+10.525089,76.198835,Thrissur West,13,Poor,No,Occasional,High,Afternoon
+10.527637,76.199675,Thrissur West,10,Good,No,Rare,High,Night
+10.521843,76.200711,Thrissur West,13,Poor,No,Occasional,Medium,Evening
+10.523904,76.201034,Thrissur West,12,Moderate,No,Occasional,High,Night
+10.526803,76.194901,Thrissur West,12,Poor,No,Frequent,High,Night
+10.521378,76.201691,Thrissur West,10,Moderate,No,Occasional,Medium,Evening
+10.526433,76.199051,Thrissur West,9,Poor,No,Occasional,Low,Evening
+10.528536,76.196386,Thrissur West,9,Moderate,Yes,Occasional,High,Afternoon
+10.527204,76.197145,Thrissur West,11,Poor,No,Occasional,High,Afternoon
+10.523953,76.196858,Thrissur West,11,Good,No,Rare,Low,Morning
+10.523753,76.198164,Thrissur West,12,Moderate,Yes,Frequent,High,Night
+10.525044,76.198062,Thrissur West,10,Poor,No,Frequent,High,Evening
+10.549107,76.220862,Puthur,9,Moderate,No,Occasional,Low,Morning
+10.553305,76.217763,Puthur,9,Good,No,Frequent,Low,Morning
+10.551321,76.216378,Puthur,9,Good,Yes,Frequent,High,Evening
+10.554562,76.21819,Puthur,11,Poor,No,Frequent,Low,Morning
+10.551352,76.216664,Puthur,11,Good,No,Rare,Low,Afternoon
+10.552103,76.215567,Puthur,8,Poor,Yes,Frequent,High,Night
+10.552768,76.220966,Puthur,11,Poor,Yes,Rare,Low,Afternoon
+10.55076,76.213438,Puthur,9,Good,No,Rare,High,Afternoon
+10.549634,76.21635,Puthur,8,Good,No,Occasional,Low,Morning
+10.548963,76.213541,Puthur,11,Poor,Yes,Occasional,High,Night
+10.553792,76.22043,Puthur,8,Moderate,No,Rare,High,Evening
+10.552099,76.215791,Puthur,9,Moderate,No,Rare,High,Night
+10.550999,76.217971,Puthur,9,Poor,Yes,Occasional,Low,Morning
+10.548285,76.220955,Puthur,10,Poor,No,Frequent,High,Afternoon
+10.549862,76.213431,Puthur,12,Good,Yes,Rare,Low,Afternoon
+10.55073,76.216553,Puthur,9,Poor,Yes,Occasional,Low,Afternoon
+10.553405,76.217071,Puthur,10,Good,No,Occasional,Medium,Night
+10.551866,76.220895,Puthur,10,Poor,No,Frequent,High,Evening
+10.554037,76.214989,Puthur,10,Moderate,Yes,Rare,High,Evening
+10.55486,76.213779,Puthur,10,Good,No,Occasional,Low,Night
+10.553651,76.215765,Puthur,11,Good,Yes,Frequent,High,Morning
+10.550699,76.21962,Puthur,9,Poor,No,Rare,High,Afternoon
+10.548005,76.215463,Puthur,8,Poor,No,Occasional,Low,Night
+10.548545,76.214497,Puthur,8,Poor,No,Rare,High,Night
+10.552444,76.215331,Puthur,6,Moderate,No,Occasional,High,Morning
+10.555007,76.220242,Puthur,7,Poor,No,Frequent,Medium,Morning
+10.551944,76.215641,Puthur,9,Moderate,Yes,Rare,High,Evening
+10.550385,76.215563,Puthur,9,Good,Yes,Occasional,Medium,Afternoon
+10.549314,76.219265,Puthur,10,Good,No,Rare,High,Night
+10.548991,76.213564,Puthur,8,Poor,No,Occasional,High,Morning
+10.555275,76.214521,Puthur,10,Poor,No,Frequent,Low,Evening
+10.548623,76.220644,Puthur,12,Moderate,Yes,Frequent,Medium,Evening
+10.549976,76.219877,Puthur,10,Poor,No,Frequent,High,Afternoon
+10.548106,76.217094,Puthur,9,Poor,No,Occasional,Low,Night
+10.554156,76.220478,Puthur,9,Poor,No,Occasional,High,Morning
+10.550273,76.215312,Puthur,10,Good,No,Rare,Low,Evening
+10.551016,76.216147,Puthur,7,Poor,No,Frequent,Low,Evening
+10.55353,76.214341,Puthur,10,Good,No,Occasional,Medium,Afternoon
+10.550482,76.217027,Puthur,11,Poor,No,Frequent,Medium,Afternoon
+10.553164,76.214246,Puthur,11,Poor,Yes,Frequent,Medium,Night
+10.552376,76.2137,Puthur,7,Poor,No,Rare,Medium,Morning
+10.548318,76.215192,Puthur,6,Poor,Yes,Rare,Low,Evening
+10.555645,76.220629,Puthur,9,Good,Yes,Occasional,Low,Evening
+10.549433,76.216138,Puthur,9,Poor,Yes,Rare,High,Morning
+10.555582,76.21413,Puthur,9,Poor,No,Rare,High,Afternoon
+10.55585,76.216053,Puthur,10,Moderate,Yes,Rare,Low,Evening
+10.554202,76.215741,Puthur,8,Good,Yes,Rare,High,Night
+10.549168,76.220505,Puthur,10,Poor,Yes,Rare,High,Afternoon
+10.555341,76.2201,Puthur,12,Good,No,Occasional,High,Afternoon
+10.548552,76.215678,Puthur,10,Good,Yes,Rare,High,Evening
+10.55051,76.218085,Puthur,8,Good,No,Frequent,Low,Afternoon
+10.552772,76.219515,Puthur,9,Good,No,Occasional,Low,Morning
+10.551057,76.214058,Puthur,9,Good,No,Occasional,Medium,Night
+10.550399,76.218142,Puthur,8,Poor,No,Occasional,Medium,Night
+10.552808,76.218569,Puthur,12,Moderate,No,Occasional,High,Night
+10.549633,76.216752,Puthur,9,Poor,No,Occasional,Low,Morning
+10.554408,76.214441,Puthur,12,Poor,No,Occasional,High,Afternoon
+10.548203,76.21852,Puthur,8,Poor,Yes,Frequent,Low,Evening
+10.550529,76.213446,Puthur,7,Poor,Yes,Occasional,Medium,Evening
+10.551094,76.213645,Puthur,11,Moderate,Yes,Frequent,Medium,Night
+10.549177,76.215384,Puthur,10,Poor,No,Rare,Low,Night
+10.548986,76.215461,Puthur,9,Poor,No,Occasional,Low,Morning
+10.555408,76.214294,Puthur,10,Good,Yes,Rare,Low,Evening
+10.555076,76.217432,Puthur,13,Poor,No,Rare,High,Afternoon
+10.552276,76.214564,Puthur,8,Poor,No,Rare,High,Evening
+10.554079,76.215711,Puthur,7,Poor,Yes,Frequent,High,Evening
+10.555616,76.218903,Puthur,11,Good,No,Frequent,Low,Night
+10.548397,76.215057,Puthur,10,Good,Yes,Frequent,Low,Afternoon
+10.55172,76.214816,Puthur,10,Moderate,No,Frequent,High,Afternoon
+10.55139,76.215737,Puthur,10,Poor,Yes,Frequent,Medium,Night
+10.503692,76.230559,Nadathara,6,Poor,No,Occasional,Medium,Night
+10.503276,76.231552,Nadathara,10,Poor,No,Occasional,High,Afternoon
+10.502097,76.233494,Nadathara,8,Poor,No,Occasional,Medium,Evening
+10.502788,76.229906,Nadathara,6,Poor,Yes,Frequent,High,Evening
+10.502351,76.234528,Nadathara,12,Good,No,Occasional,High,Afternoon
+10.502441,76.23376,Nadathara,11,Good,Yes,Rare,Medium,Night
+10.49916,76.22741,Nadathara,13,Moderate,Yes,Frequent,High,Afternoon
+10.499603,76.232992,Nadathara,8,Poor,Yes,Occasional,Low,Evening
+10.498856,76.232078,Nadathara,11,Poor,Yes,Frequent,Medium,Night
+10.500366,76.228633,Nadathara,9,Poor,No,Rare,Low,Afternoon
+10.498335,76.232989,Nadathara,7,Poor,No,Rare,Low,Morning
+10.503738,76.232721,Nadathara,10,Poor,No,Frequent,Medium,Morning
+10.503657,76.230417,Nadathara,12,Poor,Yes,Occasional,High,Afternoon
+10.5002,76.232658,Nadathara,10,Poor,No,Rare,Low,Night
+10.498017,76.230574,Nadathara,9,Poor,Yes,Rare,Low,Night
+10.496008,76.227314,Nadathara,9,Moderate,Yes,Rare,Medium,Night
+10.503818,76.228939,Nadathara,12,Moderate,No,Frequent,Medium,Night
+10.500405,76.228225,Nadathara,11,Poor,No,Frequent,Medium,Night
+10.501825,76.231802,Nadathara,11,Poor,Yes,Occasional,Medium,Afternoon
+10.503803,76.231589,Nadathara,11,Good,Yes,Occasional,Medium,Night
+10.498733,76.232188,Nadathara,9,Poor,No,Rare,High,Morning
+10.502526,76.231778,Nadathara,9,Moderate,Yes,Frequent,High,Evening
+10.499149,76.230787,Nadathara,9,Poor,No,Rare,Medium,Night
+10.502957,76.227705,Nadathara,12,Moderate,No,Rare,Low,Morning
+10.502214,76.23378,Nadathara,9,Moderate,No,Rare,High,Afternoon
+10.497324,76.232653,Nadathara,8,Poor,No,Frequent,Medium,Night
+10.500283,76.232083,Nadathara,9,Poor,No,Rare,High,Morning
+10.496332,76.229577,Nadathara,9,Moderate,Yes,Occasional,Low,Night
+10.500478,76.233863,Nadathara,9,Poor,No,Frequent,Low,Night
+10.503625,76.232754,Nadathara,13,Moderate,Yes,Rare,High,Morning
+10.503441,76.231221,Nadathara,9,Poor,No,Occasional,Low,Afternoon
+10.498422,76.23126,Nadathara,11,Poor,No,Frequent,Medium,Evening
+10.500515,76.231805,Nadathara,9,Moderate,No,Frequent,High,Night
+10.500938,76.234759,Nadathara,8,Poor,Yes,Rare,Low,Morning
+10.501821,76.234381,Nadathara,11,Good,No,Rare,Low,Night
+10.497536,76.232333,Nadathara,13,Poor,Yes,Rare,High,Morning
+10.500987,76.23182,Nadathara,16,Poor,No,Frequent,High,Morning
+10.498676,76.231155,Nadathara,8,Good,Yes,Occasional,High,Afternoon
+10.49758,76.233441,Nadathara,13,Moderate,Yes,Rare,Medium,Evening
+10.499502,76.229214,Nadathara,9,Poor,Yes,Rare,Low,Night
+10.500465,76.229776,Nadathara,6,Moderate,Yes,Rare,Low,Night
+10.501897,76.227294,Nadathara,10,Moderate,Yes,Rare,Low,Evening
+10.499798,76.229691,Nadathara,13,Good,No,Frequent,High,Evening
+10.49988,76.227683,Nadathara,11,Poor,Yes,Rare,High,Afternoon
+10.50378,76.231144,Nadathara,7,Moderate,No,Occasional,Medium,Night
+10.499868,76.230433,Nadathara,11,Good,No,Rare,Low,Evening
+10.496599,76.227849,Nadathara,9,Poor,No,Rare,High,Night
+10.49756,76.231039,Nadathara,11,Poor,No,Frequent,Medium,Morning
+10.50215,76.227496,Nadathara,8,Good,No,Rare,Medium,Night
+10.496292,76.227422,Nadathara,10,Poor,Yes,Occasional,Low,Evening
+10.502673,76.227944,Nadathara,10,Good,Yes,Rare,High,Night
+10.502752,76.229099,Nadathara,9,Moderate,No,Occasional,Medium,Morning
+10.499374,76.227319,Nadathara,14,Poor,No,Rare,Low,Morning
+10.500567,76.229659,Nadathara,7,Good,No,Rare,High,Morning
+10.498524,76.227853,Nadathara,8,Moderate,Yes,Rare,Medium,Afternoon
+10.502133,76.23473,Nadathara,9,Poor,No,Frequent,Low,Morning
+10.503761,76.233921,Nadathara,13,Good,Yes,Rare,Medium,Afternoon
+10.498282,76.232046,Nadathara,11,Poor,Yes,Frequent,Medium,Afternoon
+10.499645,76.230856,Nadathara,8,Poor,Yes,Rare,Low,Afternoon
+10.498544,76.234397,Nadathara,12,Good,Yes,Frequent,Medium,Night
+10.49645,76.230885,Nadathara,10,Poor,Yes,Occasional,Medium,Evening
+10.500371,76.228998,Nadathara,11,Good,No,Frequent,Low,Night
+10.498746,76.233816,Nadathara,11,Poor,Yes,Frequent,Medium,Night
+10.496797,76.227128,Nadathara,15,Moderate,Yes,Rare,Medium,Afternoon
+10.503709,76.230016,Nadathara,9,Poor,No,Rare,Low,Evening
+10.501465,76.234461,Nadathara,10,Poor,No,Rare,High,Night
+10.500605,76.228009,Nadathara,13,Moderate,No,Frequent,High,Evening
+10.499251,76.234039,Nadathara,11,Poor,Yes,Frequent,Low,Evening
+10.501189,76.234194,Nadathara,8,Good,Yes,Frequent,Low,Morning
+10.498478,76.228614,Nadathara,10,Good,No,Frequent,Medium,Night
+10.561271,76.200083,Ollur,7,Moderate,Yes,Rare,Medium,Night
+10.555472,76.200052,Ollur,11,Good,Yes,Rare,High,Night
+10.557793,76.195806,Ollur,8,Good,No,Rare,Medium,Morning
+10.556609,76.197748,Ollur,9,Poor,No,Frequent,High,Afternoon
+10.555184,76.201877,Ollur,9,Poor,Yes,Frequent,Medium,Morning
+10.555628,76.200152,Ollur,9,Moderate,Yes,Occasional,High,Morning
+10.557404,76.198523,Ollur,12,Good,No,Occasional,High,Evening
+10.561082,76.194694,Ollur,9,Good,No,Frequent,High,Evening
+10.558307,76.201306,Ollur,11,Moderate,No,Rare,Low,Morning
+10.55507,76.201483,Ollur,9,Good,Yes,Rare,High,Afternoon
+10.560011,76.201531,Ollur,7,Poor,Yes,Frequent,Medium,Night
+10.561505,76.196205,Ollur,12,Good,Yes,Rare,High,Evening
+10.556657,76.199606,Ollur,10,Moderate,No,Rare,Medium,Afternoon
+10.559908,76.19451,Ollur,8,Poor,Yes,Rare,High,Afternoon
+10.557098,76.196262,Ollur,12,Good,No,Occasional,High,Evening
+10.561813,76.197018,Ollur,11,Good,Yes,Rare,Medium,Morning
+10.560415,76.197476,Ollur,9,Poor,Yes,Rare,Medium,Evening
+10.561581,76.19575,Ollur,10,Poor,Yes,Frequent,High,Morning
+10.55661,76.20005,Ollur,12,Poor,No,Rare,Medium,Morning
+10.557557,76.199939,Ollur,6,Good,No,Rare,Medium,Evening
+10.555827,76.194468,Ollur,9,Good,Yes,Rare,Low,Evening
+10.555344,76.196838,Ollur,6,Moderate,Yes,Rare,Medium,Evening
+10.5572,76.194459,Ollur,11,Good,Yes,Frequent,Medium,Evening
+10.555214,76.198782,Ollur,10,Poor,Yes,Occasional,High,Afternoon
+10.559318,76.197355,Ollur,8,Poor,No,Occasional,Medium,Afternoon
+10.558037,76.194059,Ollur,12,Moderate,Yes,Occasional,High,Night
+10.559534,76.199291,Ollur,9,Poor,Yes,Rare,High,Evening
+10.561832,76.197366,Ollur,9,Moderate,Yes,Occasional,High,Evening
+10.558016,76.201279,Ollur,10,Poor,No,Frequent,Medium,Morning
+10.560382,76.200915,Ollur,12,Good,Yes,Rare,Low,Morning
+10.557655,76.197801,Ollur,10,Poor,No,Rare,High,Morning
+10.559577,76.194666,Ollur,9,Poor,Yes,Rare,High,Night
+10.560904,76.197844,Ollur,9,Poor,Yes,Frequent,High,Afternoon
+10.557337,76.201022,Ollur,8,Moderate,No,Rare,High,Morning
+10.555632,76.200612,Ollur,8,Good,Yes,Rare,Medium,Night
+10.561775,76.198101,Ollur,9,Moderate,No,Occasional,Medium,Morning
+10.556327,76.197755,Ollur,8,Good,No,Frequent,Medium,Evening
+10.555541,76.195033,Ollur,11,Poor,No,Frequent,Medium,Evening
+10.556383,76.20024,Ollur,6,Good,Yes,Rare,Low,Night
+10.555329,76.196662,Ollur,9,Poor,No,Rare,High,Morning
+10.561519,76.196744,Ollur,9,Poor,Yes,Rare,High,Evening
+10.555433,76.201129,Ollur,10,Poor,No,Frequent,High,Evening
+10.557683,76.199677,Ollur,10,Good,No,Frequent,Low,Evening
+10.556255,76.195474,Ollur,8,Poor,Yes,Frequent,Low,Afternoon
+10.554315,76.194175,Ollur,8,Good,No,Occasional,Medium,Evening
+10.557742,76.198847,Ollur,10,Good,No,Frequent,Low,Afternoon
+10.557427,76.194217,Ollur,10,Poor,No,Rare,High,Evening
+10.557463,76.198284,Ollur,10,Moderate,Yes,Rare,High,Night
+10.557816,76.197114,Ollur,11,Good,Yes,Frequent,Low,Morning
+10.561415,76.201696,Ollur,6,Good,Yes,Frequent,Low,Afternoon
+10.558072,76.197623,Ollur,10,Good,Yes,Frequent,High,Night
+10.55626,76.196232,Ollur,7,Good,No,Rare,High,Afternoon
+10.55724,76.20199,Ollur,9,Good,Yes,Occasional,Low,Evening
+10.554661,76.195236,Ollur,8,Good,No,Rare,Medium,Afternoon
+10.557517,76.198084,Ollur,8,Good,No,Occasional,Low,Morning
+10.554696,76.196426,Ollur,7,Moderate,No,Frequent,Low,Afternoon
+10.561732,76.201558,Ollur,11,Good,Yes,Frequent,Medium,Afternoon
+10.561277,76.194049,Ollur,6,Poor,No,Frequent,Low,Afternoon
+10.560485,76.201587,Ollur,9,Poor,No,Rare,Low,Morning
+10.554114,76.196061,Ollur,10,Moderate,No,Occasional,Medium,Evening
+10.5096,76.191543,Thalore,10,Poor,Yes,Rare,Medium,Morning
+10.510267,76.189245,Thalore,6,Moderate,Yes,Frequent,High,Afternoon
+10.507353,76.19382,Thalore,9,Good,No,Occasional,Low,Morning
+10.510826,76.187818,Thalore,11,Poor,Yes,Rare,Medium,Night
+10.51035,76.19156,Thalore,10,Poor,No,Occasional,Low,Afternoon
+10.510891,76.188968,Thalore,9,Good,Yes,Occasional,High,Morning
+10.512177,76.187364,Thalore,6,Poor,Yes,Rare,High,Night
+10.509454,76.192254,Thalore,7,Moderate,No,Occasional,High,Afternoon
+10.509873,76.192352,Thalore,6,Poor,No,Occasional,High,Night
+10.51248,76.187906,Thalore,11,Good,Yes,Occasional,Low,Morning
+10.507795,76.190036,Thalore,9,Poor,Yes,Rare,Low,Afternoon
+10.509564,76.193736,Thalore,13,Moderate,Yes,Rare,High,Afternoon
+10.51057,76.192907,Thalore,10,Good,No,Rare,Medium,Morning
+10.512944,76.190665,Thalore,7,Good,No,Rare,Low,Night
+10.511744,76.188976,Thalore,9,Moderate,Yes,Occasional,High,Evening
+10.509156,76.192936,Thalore,8,Moderate,No,Frequent,High,Evening
+10.507952,76.193734,Thalore,11,Poor,Yes,Rare,High,Morning
+10.513733,76.189548,Thalore,9,Moderate,Yes,Rare,Low,Afternoon
+10.508568,76.190209,Thalore,7,Poor,Yes,Rare,High,Night
+10.511892,76.186413,Thalore,11,Moderate,No,Occasional,High,Night
+10.506394,76.18909,Thalore,7,Moderate,Yes,Frequent,High,Afternoon
+10.509928,76.188566,Thalore,7,Good,No,Occasional,Medium,Afternoon
+10.507538,76.188476,Thalore,9,Moderate,Yes,Frequent,Medium,Afternoon
+10.509558,76.190612,Thalore,10,Good,Yes,Rare,Medium,Morning
+10.513867,76.187933,Thalore,11,Poor,No,Rare,Medium,Night
+10.510859,76.186709,Thalore,11,Poor,No,Rare,Low,Evening
+10.511415,76.186513,Thalore,12,Poor,Yes,Frequent,Low,Afternoon
+10.507688,76.192733,Thalore,10,Moderate,No,Rare,Medium,Evening
+10.506243,76.192751,Thalore,7,Moderate,No,Frequent,Low,Evening
+10.50707,76.193626,Thalore,9,Poor,No,Occasional,High,Night
+10.506581,76.187593,Thalore,11,Moderate,Yes,Rare,Medium,Night
+10.510358,76.187005,Thalore,6,Moderate,Yes,Occasional,Low,Afternoon
+10.508318,76.18791,Thalore,8,Good,Yes,Occasional,High,Evening
+10.511632,76.18774,Thalore,7,Moderate,Yes,Occasional,Low,Afternoon
+10.508933,76.189127,Thalore,8,Moderate,No,Frequent,Low,Night
+10.506544,76.188535,Thalore,11,Good,Yes,Rare,Low,Morning
+10.508134,76.190047,Thalore,10,Poor,Yes,Rare,Medium,Morning
+10.512759,76.188877,Thalore,10,Good,No,Occasional,High,Morning
+10.511498,76.188503,Thalore,9,Moderate,No,Rare,Medium,Night
+10.506079,76.189273,Thalore,9,Moderate,No,Frequent,High,Morning
+10.508635,76.191547,Thalore,8,Good,No,Rare,High,Night
+10.512493,76.188351,Thalore,11,Moderate,No,Occasional,High,Morning
+10.509571,76.191816,Thalore,10,Poor,Yes,Rare,Medium,Afternoon
+10.510877,76.193321,Thalore,7,Moderate,Yes,Rare,Low,Morning
+10.507251,76.192014,Thalore,6,Good,No,Frequent,Low,Afternoon
+10.509795,76.18867,Thalore,10,Poor,Yes,Frequent,Medium,Night
+10.510635,76.193112,Thalore,13,Good,No,Frequent,Medium,Afternoon
+10.51015,76.186409,Thalore,11,Good,No,Frequent,Low,Morning
+10.507863,76.189936,Thalore,8,Moderate,Yes,Rare,Low,Morning
+10.510033,76.188582,Thalore,8,Moderate,Yes,Occasional,Low,Afternoon
+10.508065,76.189712,Thalore,10,Moderate,No,Rare,High,Afternoon
+10.50685,76.192207,Thalore,10,Poor,Yes,Rare,Medium,Evening
+10.512464,76.192142,Thalore,10,Moderate,Yes,Frequent,High,Afternoon
+10.512675,76.190619,Thalore,8,Poor,Yes,Occasional,Medium,Night
+10.511171,76.189667,Thalore,8,Poor,Yes,Rare,Medium,Afternoon
+10.511112,76.186652,Thalore,9,Good,Yes,Rare,Medium,Evening
+10.50948,76.188341,Thalore,7,Poor,No,Occasional,High,Evening
+10.511533,76.19236,Thalore,9,Poor,No,Frequent,Medium,Afternoon
+10.507307,76.186835,Thalore,5,Poor,No,Frequent,Low,Night
+10.506854,76.191196,Thalore,13,Moderate,No,Rare,High,Evening
+10.502944,76.192625,Vadanapilly,8,Moderate,No,Rare,Medium,Evening
+10.496899,76.186394,Vadanapilly,9,Moderate,No,Rare,Low,Evening
+10.49806,76.187085,Vadanapilly,8,Poor,No,Frequent,High,Afternoon
+10.503544,76.190883,Vadanapilly,6,Good,Yes,Occasional,High,Afternoon
+10.50268,76.191683,Vadanapilly,9,Good,No,Rare,High,Morning
+10.498201,76.191113,Vadanapilly,8,Poor,Yes,Rare,High,Afternoon
+10.498728,76.193981,Vadanapilly,7,Moderate,No,Rare,Low,Afternoon
+10.503445,76.186197,Vadanapilly,7,Moderate,No,Frequent,Low,Night
+10.501574,76.191803,Vadanapilly,10,Moderate,No,Occasional,Low,Night
+10.501179,76.187027,Vadanapilly,11,Poor,No,Frequent,Low,Evening
+10.501201,76.19386,Vadanapilly,9,Poor,Yes,Frequent,Low,Morning
+10.49632,76.188898,Vadanapilly,10,Moderate,No,Rare,Low,Evening
+10.502611,76.191612,Vadanapilly,8,Poor,Yes,Rare,Low,Night
+10.499415,76.189752,Vadanapilly,9,Poor,No,Rare,High,Afternoon
+10.503428,76.191129,Vadanapilly,9,Poor,Yes,Occasional,Low,Evening
+10.496528,76.193781,Vadanapilly,5,Poor,No,Rare,Medium,Morning
+10.49888,76.189823,Vadanapilly,11,Poor,Yes,Rare,High,Afternoon
+10.501298,76.191723,Vadanapilly,7,Poor,Yes,Frequent,Medium,Evening
+10.498145,76.188525,Vadanapilly,9,Poor,Yes,Occasional,Low,Afternoon
+10.496318,76.190781,Vadanapilly,7,Good,Yes,Frequent,High,Evening
+10.502958,76.193127,Vadanapilly,6,Moderate,No,Frequent,High,Morning
+10.496616,76.191366,Vadanapilly,5,Moderate,No,Rare,Low,Afternoon
+10.50257,76.187957,Vadanapilly,11,Good,No,Frequent,Medium,Morning
+10.503017,76.187945,Vadanapilly,8,Poor,No,Occasional,High,Morning
+10.500405,76.18754,Vadanapilly,10,Moderate,Yes,Rare,Medium,Night
+10.49639,76.19275,Vadanapilly,10,Good,No,Occasional,High,Morning
+10.499504,76.188739,Vadanapilly,7,Poor,Yes,Frequent,Medium,Evening
+10.502053,76.190659,Vadanapilly,9,Poor,No,Rare,High,Afternoon
+10.497493,76.187506,Vadanapilly,11,Good,Yes,Frequent,High,Evening
+10.49614,76.186392,Vadanapilly,9,Good,Yes,Rare,High,Afternoon
+10.500582,76.192556,Vadanapilly,7,Poor,No,Frequent,Low,Evening
+10.500771,76.188194,Vadanapilly,6,Moderate,No,Rare,Low,Afternoon
+10.496213,76.191882,Vadanapilly,11,Good,Yes,Frequent,Low,Morning
+10.501933,76.191402,Vadanapilly,12,Moderate,No,Frequent,High,Morning
+10.497647,76.18882,Vadanapilly,10,Good,No,Frequent,Low,Morning
+10.503702,76.191027,Vadanapilly,10,Good,Yes,Rare,Medium,Afternoon
+10.497473,76.186845,Vadanapilly,9,Poor,Yes,Frequent,Medium,Night
+10.500946,76.192252,Vadanapilly,11,Poor,Yes,Rare,High,Night
+10.501626,76.192676,Vadanapilly,8,Moderate,No,Rare,Low,Afternoon
+10.501124,76.188513,Vadanapilly,10,Poor,Yes,Occasional,Medium,Evening
+10.503664,76.186267,Vadanapilly,7,Poor,Yes,Occasional,High,Morning
+10.501698,76.187407,Vadanapilly,9,Poor,No,Frequent,High,Night
+10.497883,76.189955,Vadanapilly,10,Moderate,Yes,Frequent,High,Morning
+10.500005,76.193294,Vadanapilly,8,Poor,No,Rare,High,Morning
+10.497173,76.191167,Vadanapilly,8,Good,Yes,Frequent,Medium,Morning
+10.501467,76.190749,Vadanapilly,8,Good,Yes,Rare,High,Evening
+10.502039,76.188476,Vadanapilly,5,Good,Yes,Occasional,Low,Night
+10.503873,76.188338,Vadanapilly,7,Moderate,Yes,Frequent,Low,Evening
+10.498359,76.188836,Vadanapilly,6,Poor,No,Occasional,Low,Evening
+10.503322,76.188125,Vadanapilly,10,Poor,Yes,Rare,High,Afternoon
+10.503167,76.186828,Vadanapilly,10,Good,No,Frequent,High,Afternoon
+10.49735,76.193747,Vadanapilly,9,Moderate,No,Rare,High,Morning
+10.499623,76.193566,Vadanapilly,7,Poor,No,Rare,High,Evening
+10.497506,76.18843,Vadanapilly,11,Good,No,Rare,Medium,Morning
+10.496744,76.187151,Vadanapilly,8,Good,Yes,Frequent,Low,Afternoon
+10.502365,76.187131,Vadanapilly,7,Poor,Yes,Frequent,High,Evening
+10.497043,76.191147,Vadanapilly,8,Good,No,Rare,Low,Evening
+10.501247,76.190298,Vadanapilly,11,Good,Yes,Rare,Medium,Afternoon
+10.501417,76.191461,Vadanapilly,6,Good,Yes,Occasional,High,Night
+10.496312,76.189645,Vadanapilly,10,Poor,No,Rare,Medium,Afternoon
+10.540128,76.190556,Edavilangu,10,Moderate,Yes,Frequent,Medium,Evening
+10.538394,76.19384,Edavilangu,7,Poor,No,Frequent,Medium,Evening
+10.540885,76.191493,Edavilangu,10,Moderate,No,Occasional,Low,Night
+10.533856,76.192246,Edavilangu,8,Moderate,Yes,Occasional,High,Morning
+10.540282,76.189063,Edavilangu,7,Good,Yes,Rare,High,Afternoon
+10.536502,76.188483,Edavilangu,12,Poor,Yes,Rare,Low,Morning
+10.539097,76.193489,Edavilangu,9,Poor,No,Frequent,Low,Evening
+10.535023,76.186538,Edavilangu,10,Poor,No,Frequent,High,Night
+10.535144,76.193298,Edavilangu,11,Poor,Yes,Frequent,Low,Afternoon
+10.535057,76.191755,Edavilangu,10,Moderate,Yes,Frequent,Medium,Afternoon
+10.533225,76.189003,Edavilangu,7,Good,Yes,Frequent,High,Morning
+10.539584,76.18788,Edavilangu,9,Poor,Yes,Rare,Low,Morning
+10.538218,76.189242,Edavilangu,7,Poor,Yes,Frequent,High,Night
+10.533135,76.193277,Edavilangu,9,Moderate,No,Occasional,High,Evening
+10.535157,76.192557,Edavilangu,10,Poor,Yes,Frequent,Low,Morning
+10.540724,76.193327,Edavilangu,7,Moderate,Yes,Frequent,High,Afternoon
+10.537023,76.192361,Edavilangu,8,Moderate,No,Frequent,Medium,Night
+10.535174,76.192528,Edavilangu,8,Moderate,Yes,Frequent,Medium,Afternoon
+10.536027,76.186707,Edavilangu,7,Good,Yes,Rare,Medium,Afternoon
+10.534332,76.193889,Edavilangu,12,Good,Yes,Rare,High,Morning
+10.539567,76.188252,Edavilangu,9,Poor,No,Occasional,Low,Night
+10.54043,76.189974,Edavilangu,7,Poor,Yes,Frequent,Low,Morning
+10.539744,76.189567,Edavilangu,11,Poor,No,Rare,Medium,Afternoon
+10.534392,76.18889,Edavilangu,10,Poor,Yes,Frequent,Low,Evening
+10.538098,76.186566,Edavilangu,10,Good,No,Occasional,High,Morning
+10.54097,76.189796,Edavilangu,5,Poor,Yes,Rare,High,Morning
+10.539528,76.189457,Edavilangu,10,Good,No,Rare,Medium,Evening
+10.540093,76.189288,Edavilangu,11,Good,No,Rare,Medium,Evening
+10.537834,76.19104,Edavilangu,7,Moderate,No,Rare,High,Morning
+10.533748,76.186133,Edavilangu,8,Moderate,No,Rare,Low,Night
+10.539988,76.187892,Edavilangu,10,Poor,No,Frequent,Low,Night
+10.53556,76.190048,Edavilangu,7,Good,No,Frequent,Low,Afternoon
+10.5343,76.193678,Edavilangu,11,Moderate,Yes,Rare,Medium,Evening
+10.534151,76.186069,Edavilangu,8,Poor,No,Frequent,Low,Night
+10.53316,76.190693,Edavilangu,11,Good,No,Frequent,Low,Morning
+10.53306,76.189381,Edavilangu,4,Poor,No,Occasional,High,Morning
+10.538745,76.189542,Edavilangu,7,Moderate,Yes,Rare,Low,Morning
+10.539505,76.190707,Edavilangu,10,Poor,Yes,Rare,Low,Morning
+10.534686,76.187894,Edavilangu,11,Poor,Yes,Rare,High,Night
+10.536325,76.188066,Edavilangu,10,Good,No,Occasional,Medium,Afternoon
+10.539936,76.191354,Edavilangu,8,Moderate,No,Frequent,Low,Evening
+10.534634,76.191014,Edavilangu,4,Moderate,No,Rare,Low,Evening
+10.53587,76.193965,Edavilangu,5,Moderate,Yes,Frequent,High,Night
+10.537527,76.193334,Edavilangu,4,Good,Yes,Frequent,Low,Morning
+10.539407,76.189609,Edavilangu,10,Poor,Yes,Occasional,Low,Morning
+10.536939,76.187539,Edavilangu,12,Good,No,Rare,Medium,Night
+10.536711,76.187967,Edavilangu,8,Poor,Yes,Rare,High,Night
+10.540618,76.190264,Edavilangu,10,Good,Yes,Rare,Low,Night
+10.538052,76.190344,Edavilangu,8,Poor,No,Rare,Medium,Night
+10.533793,76.190984,Edavilangu,7,Good,Yes,Rare,Medium,Afternoon
+10.536575,76.192224,Edavilangu,8,Poor,No,Frequent,High,Night
+10.536251,76.193413,Edavilangu,8,Poor,No,Frequent,High,Afternoon
+10.538683,76.189351,Edavilangu,7,Poor,Yes,Rare,Low,Evening
+10.540877,76.191331,Edavilangu,9,Poor,No,Frequent,Medium,Morning
+10.535283,76.190686,Edavilangu,10,Poor,Yes,Frequent,Medium,Evening
+10.534964,76.19174,Edavilangu,7,Poor,Yes,Occasional,Medium,Evening
+10.539215,76.191387,Edavilangu,10,Good,Yes,Frequent,Medium,Afternoon
+10.533629,76.188647,Edavilangu,9,Moderate,No,Rare,High,Morning
+10.534986,76.193904,Edavilangu,11,Poor,No,Frequent,High,Afternoon
+10.538478,76.187697,Edavilangu,8,Poor,No,Frequent,Medium,Evening
+10.487912,76.20725,Chiyyaram,7,Poor,No,Rare,Medium,Evening
+10.486157,76.212035,Chiyyaram,9,Good,No,Frequent,High,Morning
+10.493725,76.207733,Chiyyaram,11,Poor,No,Rare,High,Morning
+10.487173,76.206277,Chiyyaram,11,Moderate,Yes,Rare,Low,Afternoon
+10.492321,76.20993,Chiyyaram,10,Poor,Yes,Rare,Medium,Morning
+10.488471,76.20795,Chiyyaram,9,Moderate,No,Occasional,Medium,Morning
+10.492158,76.211487,Chiyyaram,11,Good,Yes,Frequent,Medium,Evening
+10.489252,76.211175,Chiyyaram,9,Moderate,Yes,Occasional,Low,Afternoon
+10.489871,76.21218,Chiyyaram,9,Poor,No,Occasional,Medium,Night
+10.492441,76.211801,Chiyyaram,11,Good,No,Frequent,Low,Evening
+10.488313,76.212618,Chiyyaram,14,Good,Yes,Occasional,High,Morning
+10.491161,76.205136,Chiyyaram,12,Poor,No,Occasional,Medium,Night
+10.493683,76.205357,Chiyyaram,11,Moderate,No,Occasional,High,Night
+10.491328,76.211581,Chiyyaram,10,Poor,No,Rare,Low,Afternoon
+10.486106,76.209336,Chiyyaram,9,Good,Yes,Frequent,Medium,Night
+10.486578,76.210475,Chiyyaram,4,Poor,Yes,Rare,Low,Night
+10.490026,76.211121,Chiyyaram,7,Poor,No,Frequent,High,Evening
+10.491186,76.206379,Chiyyaram,10,Good,Yes,Rare,Low,Morning
+10.492979,76.209905,Chiyyaram,8,Good,No,Frequent,Medium,Evening
+10.491015,76.207026,Chiyyaram,10,Good,No,Rare,High,Afternoon
+10.49243,76.211543,Chiyyaram,10,Moderate,Yes,Rare,High,Afternoon
+10.48964,76.211028,Chiyyaram,10,Poor,No,Frequent,Low,Night
+10.48706,76.209375,Chiyyaram,8,Moderate,No,Rare,High,Evening
+10.489344,76.211826,Chiyyaram,10,Moderate,No,Frequent,High,Morning
+10.492849,76.205794,Chiyyaram,9,Good,Yes,Rare,Low,Evening
+10.492998,76.206031,Chiyyaram,9,Moderate,No,Occasional,Low,Morning
+10.49176,76.205809,Chiyyaram,7,Moderate,Yes,Frequent,High,Morning
+10.492311,76.20687,Chiyyaram,12,Poor,No,Rare,Low,Evening
+10.491114,76.206885,Chiyyaram,11,Good,No,Rare,Low,Afternoon
+10.487014,76.211933,Chiyyaram,10,Poor,No,Occasional,High,Morning
+10.490749,76.206017,Chiyyaram,7,Poor,No,Rare,Low,Morning
+10.491603,76.211071,Chiyyaram,9,Good,Yes,Occasional,Medium,Evening
+10.486846,76.209049,Chiyyaram,11,Poor,No,Rare,Low,Afternoon
+10.490286,76.208154,Chiyyaram,10,Poor,Yes,Frequent,High,Morning
+10.492786,76.208944,Chiyyaram,8,Good,Yes,Rare,Low,Night
+10.492774,76.211656,Chiyyaram,4,Poor,Yes,Rare,High,Morning
+10.489228,76.207666,Chiyyaram,15,Poor,No,Frequent,Low,Morning
+10.487907,76.211352,Chiyyaram,9,Moderate,No,Frequent,Low,Morning
+10.489892,76.207672,Chiyyaram,9,Poor,Yes,Rare,Low,Evening
+10.493594,76.207441,Chiyyaram,9,Poor,No,Frequent,Medium,Afternoon
+10.487351,76.208685,Chiyyaram,10,Moderate,No,Occasional,High,Evening
+10.490414,76.207852,Chiyyaram,6,Poor,Yes,Frequent,High,Afternoon
+10.489578,76.212724,Chiyyaram,7,Poor,No,Occasional,Low,Night
+10.487948,76.208662,Chiyyaram,8,Good,No,Frequent,Medium,Afternoon
+10.492076,76.206648,Chiyyaram,12,Good,No,Occasional,Medium,Evening
+10.48871,76.20951,Chiyyaram,9,Poor,No,Rare,Low,Evening
+10.48764,76.210936,Chiyyaram,10,Good,Yes,Rare,High,Morning
+10.48882,76.210781,Chiyyaram,9,Poor,Yes,Frequent,Medium,Evening
+10.488554,76.212247,Chiyyaram,9,Poor,Yes,Occasional,Medium,Afternoon
+10.489944,76.205656,Chiyyaram,9,Poor,Yes,Rare,Medium,Evening
+10.487568,76.21255,Chiyyaram,10,Moderate,Yes,Rare,Low,Night
+10.493386,76.209359,Chiyyaram,10,Moderate,No,Rare,Low,Evening
+10.488158,76.210619,Chiyyaram,11,Moderate,No,Occasional,Medium,Morning
+10.486416,76.205909,Chiyyaram,7,Poor,Yes,Occasional,Low,Evening
+10.486031,76.212996,Chiyyaram,11,Moderate,Yes,Rare,Medium,Evening
+10.490078,76.207401,Chiyyaram,11,Poor,Yes,Rare,High,Night
+10.48721,76.207277,Chiyyaram,12,Good,Yes,Frequent,Medium,Morning
+10.490317,76.20562,Chiyyaram,8,Poor,Yes,Occasional,High,Morning
+10.486144,76.205819,Chiyyaram,11,Good,Yes,Frequent,Medium,Night
+10.491099,76.211415,Chiyyaram,9,Moderate,Yes,Rare,High,Evening
+10.557731,76.213293,Viyyur,8,Good,No,Rare,Medium,Night
+10.558098,76.214299,Viyyur,10,Poor,Yes,Rare,Low,Morning
+10.559001,76.217969,Viyyur,11,Good,No,Rare,Low,Evening
+10.554403,76.210903,Viyyur,14,Good,No,Rare,High,Evening
+10.555499,76.21066,Viyyur,11,Poor,No,Rare,High,Morning
+10.555088,76.217089,Viyyur,11,Poor,No,Frequent,Medium,Morning
+10.555238,76.212809,Viyyur,8,Good,No,Rare,Medium,Afternoon
+10.556037,76.214312,Viyyur,7,Good,No,Frequent,Medium,Afternoon
+10.557259,76.218293,Viyyur,10,Moderate,No,Rare,Medium,Night
+10.554436,76.217092,Viyyur,8,Good,Yes,Frequent,Low,Night
+10.558096,76.214616,Viyyur,7,Good,No,Rare,High,Evening
+10.555582,76.212951,Viyyur,10,Moderate,No,Rare,Low,Afternoon
+10.558748,76.212081,Viyyur,8,Poor,Yes,Rare,High,Night
+10.555085,76.211565,Viyyur,11,Moderate,Yes,Frequent,High,Afternoon
+10.559579,76.215542,Viyyur,8,Good,Yes,Occasional,Low,Evening
+10.555948,76.217138,Viyyur,10,Good,Yes,Rare,High,Morning
+10.555674,76.21098,Viyyur,8,Good,Yes,Rare,Low,Afternoon
+10.56136,76.215602,Viyyur,12,Good,No,Rare,Medium,Evening
+10.554723,76.217983,Viyyur,8,Good,Yes,Frequent,Low,Morning
+10.557218,76.21081,Viyyur,7,Moderate,No,Rare,Low,Morning
+10.557972,76.211387,Viyyur,6,Poor,Yes,Rare,Medium,Morning
+10.560183,76.216825,Viyyur,7,Poor,Yes,Rare,High,Evening
+10.555227,76.213332,Viyyur,7,Poor,Yes,Rare,Low,Night
+10.560388,76.216058,Viyyur,9,Moderate,Yes,Rare,Low,Night
+10.555523,76.213334,Viyyur,10,Poor,Yes,Rare,Low,Morning
+10.554971,76.218287,Viyyur,8,Moderate,Yes,Frequent,High,Morning
+10.560245,76.213522,Viyyur,11,Poor,Yes,Frequent,High,Night
+10.558433,76.211796,Viyyur,10,Moderate,Yes,Rare,High,Evening
+10.55703,76.217145,Viyyur,12,Good,Yes,Occasional,High,Evening
+10.560935,76.217552,Viyyur,12,Good,No,Frequent,Low,Night
+10.561358,76.211159,Viyyur,12,Poor,Yes,Occasional,High,Morning
+10.560055,76.215254,Viyyur,10,Moderate,Yes,Frequent,High,Night
+10.555334,76.216779,Viyyur,9,Moderate,No,Occasional,High,Afternoon
+10.55771,76.211792,Viyyur,10,Moderate,Yes,Rare,High,Morning
+10.5567,76.210545,Viyyur,11,Good,No,Rare,Low,Evening
+10.558957,76.215708,Viyyur,5,Poor,No,Rare,Medium,Morning
+10.56069,76.212124,Viyyur,9,Good,Yes,Occasional,Medium,Evening
+10.561851,76.211179,Viyyur,12,Good,Yes,Rare,Medium,Morning
+10.556425,76.215506,Viyyur,10,Poor,No,Frequent,Low,Night
+10.554525,76.214795,Viyyur,9,Good,No,Rare,Medium,Night
+10.558727,76.215622,Viyyur,8,Moderate,No,Occasional,Low,Afternoon
+10.560749,76.21196,Viyyur,7,Poor,No,Occasional,High,Morning
+10.560615,76.214901,Viyyur,11,Good,No,Rare,High,Night
+10.55566,76.214951,Viyyur,11,Good,Yes,Occasional,High,Evening
+10.560942,76.213857,Viyyur,9,Poor,No,Frequent,High,Evening
+10.555142,76.213515,Viyyur,10,Moderate,No,Frequent,High,Morning
+10.561614,76.212958,Viyyur,8,Poor,Yes,Frequent,Low,Evening
+10.559796,76.212892,Viyyur,9,Moderate,Yes,Occasional,Low,Afternoon
+10.560263,76.213941,Viyyur,12,Poor,No,Rare,Low,Night
+10.557059,76.213945,Viyyur,9,Good,Yes,Occasional,Low,Evening
+10.55701,76.213339,Viyyur,12,Moderate,Yes,Rare,Medium,Evening
+10.556894,76.214594,Viyyur,10,Good,No,Frequent,Medium,Evening
+10.559366,76.212556,Viyyur,10,Good,Yes,Frequent,Medium,Morning
+10.559788,76.215017,Viyyur,9,Poor,Yes,Frequent,Low,Morning
+10.559182,76.210634,Viyyur,10,Moderate,No,Rare,Low,Night
+10.558366,76.213275,Viyyur,14,Moderate,Yes,Occasional,High,Evening
+10.554652,76.211947,Viyyur,9,Moderate,Yes,Rare,Medium,Afternoon
+10.557733,76.210822,Viyyur,10,Poor,Yes,Frequent,Medium,Evening
+10.554301,76.216137,Viyyur,11,Poor,No,Occasional,Low,Afternoon
+10.555945,76.216358,Viyyur,15,Good,No,Occasional,Medium,Night
+10.522346,76.238519,Arimpur,6,Moderate,Yes,Occasional,Low,Evening
+10.52298,76.242162,Arimpur,9,Good,Yes,Frequent,High,Morning
+10.526208,76.243596,Arimpur,8,Good,No,Rare,High,Evening
+10.523189,76.24484,Arimpur,9,Poor,No,Rare,High,Evening
+10.52577,76.242678,Arimpur,9,Good,No,Occasional,Low,Night
+10.5213,76.241554,Arimpur,9,Poor,No,Rare,Medium,Morning
+10.528366,76.244747,Arimpur,5,Moderate,No,Frequent,Low,Evening
+10.52856,76.242389,Arimpur,13,Good,No,Occasional,High,Morning
+10.521519,76.240726,Arimpur,9,Poor,No,Frequent,Low,Afternoon
+10.524644,76.241657,Arimpur,6,Good,No,Frequent,High,Evening
+10.523854,76.238314,Arimpur,12,Poor,Yes,Occasional,Low,Afternoon
+10.526312,76.239707,Arimpur,9,Poor,Yes,Rare,Medium,Morning
+10.528484,76.244298,Arimpur,11,Poor,Yes,Occasional,High,Night
+10.528743,76.244119,Arimpur,10,Good,No,Frequent,High,Afternoon
+10.525804,76.24124,Arimpur,13,Moderate,No,Rare,High,Morning
+10.525458,76.242941,Arimpur,8,Poor,No,Occasional,Medium,Afternoon
+10.523238,76.24152,Arimpur,9,Poor,Yes,Occasional,Medium,Evening
+10.527001,76.242547,Arimpur,8,Poor,No,Rare,Medium,Evening
+10.528925,76.239223,Arimpur,5,Poor,Yes,Rare,Medium,Night
+10.524525,76.243856,Arimpur,9,Poor,No,Occasional,Medium,Evening
+10.526474,76.24406,Arimpur,10,Good,No,Frequent,Low,Evening
+10.521478,76.244109,Arimpur,9,Poor,No,Occasional,Medium,Afternoon
+10.523633,76.239517,Arimpur,10,Moderate,Yes,Rare,High,Night
+10.521382,76.239818,Arimpur,9,Moderate,No,Rare,High,Evening
+10.527853,76.240168,Arimpur,9,Good,Yes,Frequent,Medium,Evening
+10.524084,76.244323,Arimpur,7,Moderate,Yes,Frequent,Medium,Night
+10.527095,76.241041,Arimpur,9,Poor,Yes,Frequent,Medium,Evening
+10.521466,76.239098,Arimpur,10,Poor,Yes,Frequent,Low,Night
+10.524489,76.238255,Arimpur,10,Moderate,No,Rare,Low,Morning
+10.526772,76.24453,Arimpur,6,Poor,No,Frequent,Medium,Afternoon
+10.528053,76.241122,Arimpur,10,Good,Yes,Rare,Low,Night
+10.525422,76.237918,Arimpur,12,Moderate,Yes,Occasional,Low,Morning
+10.522009,76.241236,Arimpur,11,Poor,No,Rare,High,Afternoon
+10.528751,76.240874,Arimpur,13,Poor,No,Frequent,Low,Afternoon
+10.521509,76.241414,Arimpur,6,Moderate,No,Frequent,Low,Afternoon
+10.528253,76.23853,Arimpur,8,Moderate,No,Rare,High,Morning
+10.525923,76.240246,Arimpur,9,Poor,Yes,Occasional,Low,Morning
+10.523122,76.242489,Arimpur,9,Good,No,Frequent,Medium,Afternoon
+10.52859,76.239144,Arimpur,8,Good,No,Occasional,Medium,Afternoon
+10.528472,76.243131,Arimpur,9,Good,Yes,Occasional,High,Afternoon
+10.526264,76.243591,Arimpur,10,Poor,No,Rare,Medium,Morning
+10.526712,76.244397,Arimpur,9,Moderate,Yes,Rare,High,Morning
+10.525137,76.237937,Arimpur,7,Poor,Yes,Frequent,Low,Evening
+10.52574,76.24086,Arimpur,9,Poor,No,Frequent,High,Evening
+10.525981,76.23708,Arimpur,9,Moderate,Yes,Frequent,Low,Evening
+10.528604,76.240069,Arimpur,7,Good,No,Occasional,Low,Night
+10.524395,76.242718,Arimpur,6,Poor,Yes,Frequent,Low,Night
+10.524287,76.238742,Arimpur,11,Good,No,Frequent,Low,Evening
+10.528728,76.238045,Arimpur,9,Good,No,Occasional,High,Morning
+10.522774,76.243244,Arimpur,9,Poor,Yes,Occasional,High,Morning
+10.522609,76.237641,Arimpur,9,Good,No,Rare,High,Morning
+10.521678,76.243461,Arimpur,9,Poor,No,Occasional,Medium,Morning
+10.527172,76.244321,Arimpur,10,Good,No,Rare,High,Evening
+10.521419,76.243263,Arimpur,11,Good,No,Occasional,High,Morning
+10.527764,76.243393,Arimpur,6,Moderate,Yes,Frequent,High,Morning
+10.527763,76.242817,Arimpur,9,Good,No,Rare,Low,Night
+10.528846,76.238246,Arimpur,8,Poor,Yes,Frequent,Low,Evening
+10.52734,76.238495,Arimpur,8,Moderate,Yes,Frequent,High,Morning
+10.521533,76.244988,Arimpur,11,Good,Yes,Frequent,High,Morning
+10.525437,76.244213,Arimpur,8,Poor,Yes,Rare,Low,Morning
+10.51341,76.234073,Mulankunnathukavu,9,Good,Yes,Occasional,High,Afternoon
+10.511355,76.241106,Mulankunnathukavu,9,Poor,No,Rare,High,Morning
+10.50968,76.238856,Mulankunnathukavu,10,Good,No,Occasional,Low,Evening
+10.513739,76.236149,Mulankunnathukavu,8,Good,Yes,Occasional,Medium,Evening
+10.509959,76.234689,Mulankunnathukavu,9,Poor,No,Rare,Medium,Evening
+10.507155,76.237537,Mulankunnathukavu,14,Good,No,Rare,Low,Night
+10.508673,76.238175,Mulankunnathukavu,9,Good,No,Rare,Medium,Afternoon
+10.512088,76.239704,Mulankunnathukavu,9,Poor,No,Rare,High,Morning
+10.50893,76.234423,Mulankunnathukavu,8,Moderate,Yes,Rare,Medium,Night
+10.507471,76.238615,Mulankunnathukavu,7,Poor,No,Rare,High,Morning
+10.507239,76.23685,Mulankunnathukavu,10,Poor,No,Occasional,High,Morning
+10.509092,76.237362,Mulankunnathukavu,12,Moderate,Yes,Occasional,High,Night
+10.510497,76.234047,Mulankunnathukavu,9,Moderate,Yes,Frequent,High,Morning
+10.51336,76.236165,Mulankunnathukavu,8,Good,No,Frequent,Medium,Evening
+10.508964,76.238551,Mulankunnathukavu,8,Poor,No,Occasional,Medium,Morning
+10.511353,76.237282,Mulankunnathukavu,9,Good,No,Frequent,High,Morning
+10.509766,76.234393,Mulankunnathukavu,10,Good,No,Occasional,Medium,Evening
+10.509632,76.236413,Mulankunnathukavu,8,Poor,Yes,Frequent,High,Evening
+10.509072,76.240835,Mulankunnathukavu,7,Good,Yes,Frequent,Low,Afternoon
+10.50694,76.236016,Mulankunnathukavu,11,Good,Yes,Occasional,Low,Afternoon
+10.513366,76.238653,Mulankunnathukavu,13,Poor,No,Frequent,High,Evening
+10.508928,76.240457,Mulankunnathukavu,10,Poor,No,Rare,Low,Morning
+10.510186,76.234934,Mulankunnathukavu,9,Moderate,Yes,Rare,Low,Afternoon
+10.513493,76.236467,Mulankunnathukavu,7,Moderate,No,Rare,Low,Evening
+10.512956,76.240113,Mulankunnathukavu,9,Poor,No,Rare,Low,Morning
+10.507597,76.23697,Mulankunnathukavu,8,Poor,No,Rare,Medium,Afternoon
+10.510014,76.239804,Mulankunnathukavu,9,Moderate,Yes,Occasional,Low,Afternoon
+10.509881,76.238327,Mulankunnathukavu,7,Moderate,Yes,Occasional,Medium,Morning
+10.512547,76.235373,Mulankunnathukavu,10,Poor,No,Rare,High,Evening
+10.510447,76.239596,Mulankunnathukavu,11,Good,Yes,Frequent,High,Evening
+10.509296,76.235107,Mulankunnathukavu,9,Moderate,Yes,Rare,Medium,Morning
+10.511115,76.236704,Mulankunnathukavu,13,Poor,Yes,Rare,High,Morning
+10.513255,76.238699,Mulankunnathukavu,9,Poor,Yes,Rare,Low,Night
+10.512051,76.240353,Mulankunnathukavu,7,Poor,Yes,Occasional,Medium,Evening
+10.509957,76.241158,Mulankunnathukavu,8,Moderate,Yes,Rare,High,Evening
+10.513189,76.24117,Mulankunnathukavu,6,Poor,Yes,Rare,High,Morning
+10.511486,76.240872,Mulankunnathukavu,7,Good,Yes,Occasional,High,Evening
+10.507915,76.237344,Mulankunnathukavu,8,Moderate,No,Rare,Low,Afternoon
+10.50801,76.236565,Mulankunnathukavu,8,Moderate,No,Occasional,High,Afternoon
+10.510578,76.237535,Mulankunnathukavu,8,Good,No,Rare,Medium,Morning
+10.508774,76.239972,Mulankunnathukavu,9,Poor,Yes,Occasional,High,Night
+10.508656,76.239956,Mulankunnathukavu,10,Poor,No,Rare,Medium,Evening
+10.507216,76.235043,Mulankunnathukavu,11,Good,Yes,Frequent,Medium,Morning
+10.507971,76.234506,Mulankunnathukavu,8,Poor,No,Frequent,High,Morning
+10.507054,76.24087,Mulankunnathukavu,7,Moderate,Yes,Occasional,High,Afternoon
+10.510442,76.238221,Mulankunnathukavu,10,Good,Yes,Frequent,High,Afternoon
+10.511243,76.235866,Mulankunnathukavu,8,Moderate,No,Rare,Low,Afternoon
+10.511553,76.234129,Mulankunnathukavu,10,Moderate,No,Occasional,High,Night
+10.508981,76.236814,Mulankunnathukavu,8,Good,No,Rare,Low,Afternoon
+10.512321,76.235742,Mulankunnathukavu,9,Good,No,Occasional,Low,Evening
+10.511416,76.240426,Mulankunnathukavu,12,Good,Yes,Rare,Low,Morning
+10.511295,76.236844,Mulankunnathukavu,10,Good,Yes,Occasional,Medium,Night
+10.512471,76.236358,Mulankunnathukavu,12,Poor,No,Frequent,Medium,Evening
+10.509032,76.236422,Mulankunnathukavu,10,Good,Yes,Frequent,Medium,Morning
+10.509675,76.240544,Mulankunnathukavu,9,Good,No,Frequent,Medium,Night
+10.511292,76.241226,Mulankunnathukavu,10,Good,No,Frequent,Medium,Night
+10.506788,76.235857,Mulankunnathukavu,10,Poor,Yes,Occasional,High,Morning
+10.512856,76.237321,Mulankunnathukavu,10,Moderate,Yes,Occasional,Medium,Night
+10.506715,76.237502,Mulankunnathukavu,8,Poor,No,Rare,Medium,Morning
+10.512178,76.234604,Mulankunnathukavu,7,Poor,Yes,Frequent,High,Night
+10.547621,76.237421,Vallathol Nagar,7,Good,No,Frequent,Low,Morning
+10.543699,76.234718,Vallathol Nagar,9,Moderate,No,Rare,Low,Evening
+10.548692,76.240458,Vallathol Nagar,6,Poor,Yes,Rare,Low,Morning
+10.548468,76.236757,Vallathol Nagar,8,Good,No,Frequent,High,Evening
+10.542288,76.238505,Vallathol Nagar,10,Poor,No,Occasional,Low,Afternoon
+10.544817,76.241957,Vallathol Nagar,9,Good,No,Frequent,Low,Morning
+10.546433,76.234593,Vallathol Nagar,9,Moderate,Yes,Frequent,Medium,Morning
+10.543434,76.234692,Vallathol Nagar,5,Moderate,No,Rare,Low,Night
+10.541011,76.237597,Vallathol Nagar,9,Moderate,Yes,Rare,High,Morning
+10.548994,76.236295,Vallathol Nagar,11,Good,Yes,Rare,Low,Evening
+10.543244,76.235278,Vallathol Nagar,8,Good,Yes,Occasional,Low,Afternoon
+10.547343,76.241246,Vallathol Nagar,7,Good,Yes,Frequent,Medium,Morning
+10.548801,76.235858,Vallathol Nagar,8,Poor,No,Frequent,Medium,Evening
+10.541903,76.24096,Vallathol Nagar,10,Poor,No,Frequent,Low,Morning
+10.546089,76.235318,Vallathol Nagar,5,Poor,Yes,Frequent,High,Afternoon
+10.546894,76.237627,Vallathol Nagar,7,Poor,No,Rare,Medium,Evening
+10.548914,76.234438,Vallathol Nagar,8,Poor,Yes,Occasional,Low,Afternoon
+10.545025,76.236527,Vallathol Nagar,5,Poor,No,Occasional,Medium,Afternoon
+10.546834,76.240998,Vallathol Nagar,9,Moderate,Yes,Frequent,Low,Afternoon
+10.547607,76.236428,Vallathol Nagar,11,Good,No,Frequent,Medium,Evening
+10.544188,76.236535,Vallathol Nagar,5,Moderate,No,Rare,Low,Night
+10.548693,76.236503,Vallathol Nagar,8,Moderate,Yes,Rare,Medium,Evening
+10.541784,76.238215,Vallathol Nagar,8,Moderate,Yes,Rare,High,Afternoon
+10.544466,76.240398,Vallathol Nagar,6,Good,Yes,Frequent,Medium,Afternoon
+10.546916,76.237411,Vallathol Nagar,6,Good,Yes,Rare,Low,Night
+10.547192,76.234417,Vallathol Nagar,6,Poor,No,Rare,Low,Night
+10.541103,76.240364,Vallathol Nagar,7,Good,Yes,Rare,Low,Night
+10.542885,76.24146,Vallathol Nagar,8,Good,Yes,Frequent,Low,Night
+10.547876,76.239678,Vallathol Nagar,13,Poor,No,Occasional,High,Night
+10.548802,76.241726,Vallathol Nagar,4,Good,No,Rare,Medium,Morning
+10.542722,76.240489,Vallathol Nagar,7,Good,Yes,Occasional,High,Morning
+10.546409,76.23724,Vallathol Nagar,7,Good,No,Occasional,High,Evening
+10.548452,76.234712,Vallathol Nagar,10,Moderate,Yes,Rare,Medium,Afternoon
+10.548233,76.235252,Vallathol Nagar,9,Poor,Yes,Occasional,Medium,Afternoon
+10.543933,76.238953,Vallathol Nagar,6,Good,Yes,Rare,High,Afternoon
+10.545792,76.234574,Vallathol Nagar,5,Moderate,No,Rare,Low,Morning
+10.542814,76.241452,Vallathol Nagar,9,Poor,No,Rare,Low,Morning
+10.541155,76.236616,Vallathol Nagar,9,Good,Yes,Occasional,High,Morning
+10.546024,76.236202,Vallathol Nagar,9,Good,Yes,Occasional,High,Evening
+10.541575,76.241272,Vallathol Nagar,10,Poor,No,Occasional,High,Night
+10.548662,76.234622,Vallathol Nagar,5,Good,No,Rare,Medium,Morning
+10.544143,76.235437,Vallathol Nagar,9,Good,Yes,Frequent,Low,Evening
+10.545625,76.241664,Vallathol Nagar,7,Poor,Yes,Frequent,Medium,Night
+10.54596,76.236722,Vallathol Nagar,9,Moderate,Yes,Occasional,Low,Evening
+10.547847,76.237477,Vallathol Nagar,8,Good,No,Rare,Low,Evening
+10.54715,76.236125,Vallathol Nagar,8,Good,No,Frequent,High,Night
+10.547138,76.235647,Vallathol Nagar,8,Poor,No,Occasional,Low,Night
+10.548546,76.241454,Vallathol Nagar,5,Moderate,Yes,Rare,Low,Evening
+10.542655,76.236866,Vallathol Nagar,9,Poor,Yes,Frequent,Medium,Morning
+10.544685,76.241206,Vallathol Nagar,6,Poor,Yes,Frequent,Medium,Afternoon
+10.54844,76.237069,Vallathol Nagar,10,Poor,Yes,Occasional,High,Afternoon
+10.547454,76.234029,Vallathol Nagar,8,Poor,No,Occasional,High,Afternoon
+10.54356,76.237374,Vallathol Nagar,7,Good,No,Frequent,Medium,Evening
+10.541302,76.239147,Vallathol Nagar,7,Good,Yes,Occasional,Medium,Evening
+10.5431,76.234419,Vallathol Nagar,10,Good,Yes,Rare,Low,Morning
+10.547812,76.237865,Vallathol Nagar,7,Poor,No,Rare,Medium,Morning
+10.544329,76.241823,Vallathol Nagar,7,Poor,Yes,Rare,High,Morning
+10.543335,76.235382,Vallathol Nagar,7,Poor,No,Occasional,Low,Night
+10.544035,76.241287,Vallathol Nagar,6,Moderate,Yes,Frequent,High,Morning
+10.548475,76.234388,Vallathol Nagar,12,Moderate,Yes,Frequent,Low,Evening
+10.549682,76.245527,Chelakkara,7,Good,No,Occasional,Medium,Afternoon
+10.551224,76.246193,Chelakkara,8,Moderate,No,Frequent,High,Night
+10.553585,76.246105,Chelakkara,7,Poor,No,Occasional,Low,Afternoon
+10.551417,76.24203,Chelakkara,8,Poor,Yes,Frequent,Low,Afternoon
+10.555581,76.244801,Chelakkara,10,Poor,Yes,Occasional,Low,Afternoon
+10.551984,76.24348,Chelakkara,7,Moderate,Yes,Frequent,High,Night
+10.554496,76.247937,Chelakkara,8,Good,No,Rare,High,Evening
+10.552531,76.247106,Chelakkara,8,Moderate,Yes,Occasional,Medium,Night
+10.549092,76.242829,Chelakkara,8,Moderate,No,Rare,Medium,Evening
+10.551574,76.241057,Chelakkara,11,Good,Yes,Rare,Low,Morning
+10.554555,76.243879,Chelakkara,12,Poor,No,Occasional,Low,Night
+10.553621,76.248648,Chelakkara,9,Poor,Yes,Rare,Low,Night
+10.552251,76.244198,Chelakkara,8,Poor,Yes,Rare,Low,Afternoon
+10.550385,76.242012,Chelakkara,9,Poor,No,Occasional,Medium,Morning
+10.55474,76.243897,Chelakkara,8,Moderate,Yes,Occasional,Medium,Evening
+10.549591,76.245813,Chelakkara,12,Good,Yes,Frequent,Low,Night
+10.548485,76.244307,Chelakkara,4,Good,No,Frequent,High,Morning
+10.553989,76.247623,Chelakkara,11,Good,No,Occasional,Medium,Evening
+10.55417,76.241311,Chelakkara,9,Good,No,Occasional,Low,Evening
+10.555479,76.24768,Chelakkara,6,Good,No,Frequent,Low,Morning
+10.55474,76.243426,Chelakkara,6,Poor,No,Frequent,High,Night
+10.549259,76.241249,Chelakkara,4,Moderate,No,Frequent,Low,Night
+10.555575,76.242926,Chelakkara,8,Moderate,Yes,Rare,Low,Evening
+10.555428,76.245638,Chelakkara,8,Good,Yes,Rare,Low,Evening
+10.553336,76.248293,Chelakkara,10,Good,Yes,Frequent,High,Evening
+10.54831,76.242494,Chelakkara,5,Moderate,No,Frequent,High,Evening
+10.55465,76.247134,Chelakkara,6,Good,No,Occasional,Medium,Night
+10.552268,76.241002,Chelakkara,6,Poor,Yes,Frequent,Low,Morning
+10.54993,76.242666,Chelakkara,10,Good,Yes,Occasional,High,Afternoon
+10.550237,76.242532,Chelakkara,7,Moderate,No,Rare,High,Morning
+10.552034,76.247925,Chelakkara,8,Good,Yes,Occasional,Low,Evening
+10.550851,76.246981,Chelakkara,8,Good,Yes,Frequent,High,Evening
+10.552406,76.247534,Chelakkara,8,Moderate,No,Occasional,High,Evening
+10.548321,76.248875,Chelakkara,13,Poor,No,Occasional,High,Morning
+10.551068,76.242218,Chelakkara,6,Poor,Yes,Occasional,High,Morning
+10.552686,76.245694,Chelakkara,10,Poor,No,Frequent,Low,Night
+10.551566,76.247689,Chelakkara,8,Moderate,Yes,Occasional,High,Evening
+10.552302,76.246309,Chelakkara,5,Moderate,Yes,Rare,Low,Morning
+10.554272,76.244158,Chelakkara,6,Poor,No,Frequent,High,Morning
+10.555461,76.244064,Chelakkara,9,Poor,Yes,Rare,High,Morning
+10.553836,76.241163,Chelakkara,8,Poor,No,Frequent,High,Afternoon
+10.555026,76.245218,Chelakkara,6,Poor,Yes,Rare,Low,Afternoon
+10.555439,76.24487,Chelakkara,6,Moderate,No,Rare,Low,Evening
+10.554421,76.242976,Chelakkara,8,Poor,Yes,Rare,Low,Evening
+10.555197,76.248287,Chelakkara,8,Moderate,No,Occasional,Medium,Evening
+10.553417,76.247228,Chelakkara,9,Poor,No,Occasional,Medium,Afternoon
+10.549048,76.245808,Chelakkara,8,Good,Yes,Frequent,High,Afternoon
+10.549239,76.242463,Chelakkara,7,Poor,No,Occasional,High,Evening
+10.55092,76.244459,Chelakkara,7,Poor,No,Rare,Medium,Evening
+10.55203,76.242461,Chelakkara,9,Good,No,Frequent,Medium,Morning
+10.552592,76.246099,Chelakkara,11,Moderate,Yes,Occasional,Medium,Night
+10.550685,76.247121,Chelakkara,9,Poor,Yes,Occasional,High,Morning
+10.551462,76.244873,Chelakkara,10,Moderate,Yes,Frequent,Low,Afternoon
+10.550479,76.241686,Chelakkara,11,Poor,Yes,Rare,Low,Evening
+10.548727,76.248386,Chelakkara,7,Moderate,No,Frequent,Medium,Night
+10.550854,76.24574,Chelakkara,9,Poor,Yes,Rare,High,Afternoon
+10.554685,76.241349,Chelakkara,9,Poor,No,Rare,High,Evening
+10.548073,76.242611,Chelakkara,8,Moderate,No,Frequent,Medium,Morning
+10.555672,76.245907,Chelakkara,8,Poor,Yes,Rare,Medium,Morning
+10.548226,76.242958,Chelakkara,8,Good,No,Rare,High,Afternoon
+10.521052,76.226327,East Fort,12,Good,Yes,Occasional,High,Morning
+10.517264,76.22453,East Fort,12,Poor,No,Occasional,Low,Night
+10.518137,76.230265,East Fort,12,Poor,Yes,Rare,Low,Afternoon
+10.52126,76.22398,East Fort,14,Moderate,Yes,Occasional,High,Morning
+10.518272,76.230036,East Fort,10,Poor,No,Rare,High,Morning
+10.514564,76.225225,East Fort,7,Good,No,Frequent,High,Afternoon
+10.516596,76.230561,East Fort,11,Poor,Yes,Frequent,Medium,Morning
+10.51937,76.224297,East Fort,8,Good,No,Occasional,Medium,Evening
+10.517892,76.228908,East Fort,12,Moderate,No,Occasional,High,Night
+10.519352,76.22401,East Fort,13,Poor,No,Occasional,Medium,Morning
+10.521566,76.224061,East Fort,10,Moderate,Yes,Occasional,Medium,Evening
+10.521469,76.22876,East Fort,13,Moderate,Yes,Rare,Low,Morning
+10.520031,76.224752,East Fort,15,Poor,No,Rare,Low,Night
+10.52016,76.223832,East Fort,9,Poor,No,Rare,High,Evening
+10.521699,76.230122,East Fort,13,Poor,No,Occasional,Low,Night
+10.518147,76.226694,East Fort,10,Poor,No,Occasional,Medium,Morning
+10.516515,76.227648,East Fort,10,Poor,Yes,Occasional,High,Morning
+10.519034,76.228595,East Fort,14,Poor,No,Rare,High,Morning
+10.519689,76.223416,East Fort,11,Poor,No,Rare,High,Evening
+10.516099,76.224934,East Fort,13,Moderate,No,Occasional,High,Night
+10.517864,76.230095,East Fort,14,Poor,Yes,Rare,High,Evening
+10.514775,76.226808,East Fort,10,Poor,No,Frequent,High,Morning
+10.521933,76.229164,East Fort,11,Moderate,No,Frequent,Medium,Afternoon
+10.515869,76.226276,East Fort,9,Poor,Yes,Rare,Medium,Night
+10.520241,76.22917,East Fort,8,Poor,No,Rare,High,Evening
+10.518015,76.227841,East Fort,14,Poor,No,Rare,Medium,Evening
+10.518479,76.226891,East Fort,9,Moderate,No,Rare,High,Morning
+10.520502,76.227334,East Fort,11,Poor,No,Rare,Low,Afternoon
+10.515049,76.229129,East Fort,10,Poor,Yes,Frequent,High,Night
+10.518147,76.223901,East Fort,11,Good,No,Frequent,High,Afternoon
+10.521472,76.224469,East Fort,10,Poor,Yes,Rare,High,Night
+10.517065,76.229357,East Fort,9,Poor,No,Rare,High,Morning
+10.517651,76.224366,East Fort,11,Poor,Yes,Frequent,Medium,Evening
+10.51518,76.227893,East Fort,8,Good,No,Rare,Low,Morning
+10.518526,76.228718,East Fort,11,Good,No,Occasional,High,Evening
+10.521161,76.230776,East Fort,10,Poor,No,Occasional,Medium,Morning
+10.520875,76.22388,East Fort,11,Poor,No,Occasional,High,Afternoon
+10.514074,76.226539,East Fort,12,Poor,No,Rare,Medium,Evening
+10.514369,76.227351,East Fort,11,Poor,No,Frequent,High,Afternoon
+10.518905,76.22995,East Fort,8,Poor,Yes,Rare,Low,Morning
+10.519295,76.226472,East Fort,11,Moderate,No,Rare,Medium,Evening
+10.516276,76.223376,East Fort,9,Moderate,No,Occasional,Medium,Evening
+10.519348,76.229902,East Fort,12,Poor,No,Rare,High,Evening
+10.520827,76.230315,East Fort,11,Moderate,Yes,Rare,Medium,Afternoon
+10.516122,76.230232,East Fort,12,Moderate,No,Rare,Low,Morning
+10.514404,76.223351,East Fort,8,Poor,No,Rare,Medium,Evening
+10.519763,76.226556,East Fort,10,Moderate,Yes,Rare,Medium,Afternoon
+10.51936,76.223003,East Fort,10,Moderate,Yes,Occasional,High,Morning
+10.520447,76.223634,East Fort,10,Good,Yes,Occasional,High,Night
+10.517879,76.22584,East Fort,9,Poor,Yes,Rare,Medium,Morning
+10.516566,76.230711,East Fort,11,Moderate,No,Frequent,High,Afternoon
+10.517441,76.23,East Fort,11,Moderate,No,Occasional,Medium,Evening
+10.516412,76.223756,East Fort,12,Moderate,No,Occasional,High,Evening
+10.518563,76.223429,East Fort,14,Moderate,No,Rare,Medium,Evening
+10.515124,76.22798,East Fort,11,Poor,No,Rare,High,Night
+10.518359,76.225268,East Fort,9,Poor,No,Rare,Medium,Night
+10.521587,76.22974,East Fort,11,Moderate,Yes,Occasional,Medium,Afternoon
+10.514849,76.226942,East Fort,12,Poor,No,Occasional,Low,Night
+10.515286,76.230826,East Fort,11,Moderate,No,Frequent,Medium,Morning
+10.516913,76.228115,East Fort,9,Poor,No,Occasional,High,Afternoon
+10.515032,76.226443,East Fort,12,Moderate,No,Occasional,High,Morning
+10.514325,76.23031,East Fort,11,Good,Yes,Rare,High,Afternoon
+10.520664,76.225381,East Fort,11,Poor,No,Rare,Low,Afternoon
+10.516426,76.225901,East Fort,12,Good,Yes,Rare,Medium,Morning
+10.514531,76.230915,East Fort,11,Good,No,Frequent,High,Night
+10.517542,76.230591,East Fort,11,Good,No,Frequent,High,Morning
+10.515968,76.227257,East Fort,15,Poor,No,Rare,Low,Afternoon
+10.514544,76.22455,East Fort,11,Good,No,Frequent,Low,Night
+10.515717,76.228905,East Fort,12,Good,No,Occasional,High,Night
+10.515722,76.229893,East Fort,9,Poor,No,Rare,High,Morning
+10.521537,76.202148,West Fort,9,Poor,No,Occasional,High,Morning
+10.514398,76.200148,West Fort,10,Good,Yes,Frequent,High,Night
+10.519234,76.202269,West Fort,11,Moderate,No,Occasional,Low,Morning
+10.519551,76.201915,West Fort,12,Good,Yes,Rare,High,Afternoon
+10.518101,76.200142,West Fort,8,Poor,No,Occasional,High,Morning
+10.519653,76.205525,West Fort,7,Poor,No,Frequent,High,Evening
+10.516635,76.198338,West Fort,17,Moderate,No,Rare,Medium,Evening
+10.515348,76.204084,West Fort,11,Good,No,Occasional,Medium,Afternoon
+10.521879,76.205566,West Fort,12,Moderate,Yes,Occasional,High,Afternoon
+10.519636,76.201631,West Fort,11,Moderate,No,Rare,Medium,Afternoon
+10.518325,76.204797,West Fort,7,Poor,Yes,Frequent,High,Night
+10.517946,76.202633,West Fort,10,Moderate,Yes,Occasional,High,Afternoon
+10.515513,76.205207,West Fort,13,Poor,No,Frequent,High,Night
+10.514796,76.202833,West Fort,14,Moderate,No,Frequent,High,Evening
+10.514968,76.19863,West Fort,7,Poor,No,Rare,High,Night
+10.51871,76.198714,West Fort,12,Poor,Yes,Rare,High,Evening
+10.517448,76.199398,West Fort,11,Moderate,No,Rare,High,Morning
+10.519499,76.200603,West Fort,12,Good,No,Frequent,High,Morning
+10.514758,76.205807,West Fort,10,Moderate,No,Rare,High,Afternoon
+10.519199,76.198198,West Fort,8,Moderate,Yes,Frequent,High,Evening
+10.520482,76.202293,West Fort,11,Good,Yes,Occasional,Medium,Morning
+10.5153,76.20516,West Fort,11,Good,Yes,Frequent,High,Evening
+10.519488,76.199999,West Fort,11,Moderate,No,Rare,High,Afternoon
+10.518579,76.201236,West Fort,10,Poor,Yes,Frequent,Low,Evening
+10.516909,76.199735,West Fort,12,Moderate,Yes,Rare,High,Afternoon
+10.517393,76.201574,West Fort,9,Poor,No,Frequent,Medium,Night
+10.516033,76.204601,West Fort,16,Poor,Yes,Rare,Low,Morning
+10.516438,76.199454,West Fort,9,Moderate,Yes,Rare,Medium,Afternoon
+10.514687,76.203713,West Fort,12,Moderate,No,Occasional,High,Morning
+10.517123,76.201326,West Fort,9,Good,Yes,Rare,Medium,Night
+10.517753,76.200942,West Fort,10,Poor,No,Rare,High,Afternoon
+10.51931,76.203326,West Fort,10,Good,Yes,Rare,High,Evening
+10.51629,76.201681,West Fort,10,Moderate,Yes,Occasional,Low,Evening
+10.514184,76.205174,West Fort,10,Poor,No,Rare,Low,Morning
+10.515686,76.19982,West Fort,10,Moderate,No,Rare,High,Morning
+10.519114,76.198601,West Fort,10,Moderate,No,Rare,High,Evening
+10.515074,76.203158,West Fort,13,Poor,No,Rare,High,Afternoon
+10.518459,76.200048,West Fort,9,Moderate,No,Rare,High,Morning
+10.519207,76.19893,West Fort,7,Poor,No,Frequent,High,Evening
+10.516143,76.202832,West Fort,14,Poor,No,Rare,High,Afternoon
+10.520971,76.205991,West Fort,8,Good,Yes,Frequent,Medium,Night
+10.515802,76.200057,West Fort,14,Poor,Yes,Occasional,High,Evening
+10.517836,76.200938,West Fort,11,Poor,No,Rare,Medium,Evening
+10.516988,76.201068,West Fort,12,Poor,No,Occasional,Low,Night
+10.520693,76.203206,West Fort,8,Moderate,Yes,Occasional,Low,Night
+10.520543,76.198307,West Fort,13,Poor,No,Rare,High,Evening
+10.520966,76.202102,West Fort,11,Moderate,No,Frequent,High,Evening
+10.519339,76.198102,West Fort,6,Good,Yes,Rare,Medium,Night
+10.520972,76.201574,West Fort,9,Good,No,Frequent,High,Night
+10.517516,76.201971,West Fort,10,Moderate,No,Occasional,Medium,Night
+10.517229,76.203429,West Fort,12,Poor,Yes,Rare,High,Night
+10.518794,76.20446,West Fort,11,Good,Yes,Rare,High,Night
+10.514875,76.201178,West Fort,12,Good,No,Frequent,High,Evening
+10.520889,76.198627,West Fort,8,Moderate,No,Rare,Medium,Evening
+10.514581,76.204803,West Fort,12,Moderate,No,Occasional,Low,Evening
+10.518343,76.204663,West Fort,9,Good,No,Occasional,High,Morning
+10.515001,76.199038,West Fort,12,Good,No,Frequent,Low,Evening
+10.51732,76.200616,West Fort,11,Poor,No,Rare,High,Night
+10.518854,76.205444,West Fort,13,Poor,No,Rare,Low,Evening
+10.516282,76.199914,West Fort,12,Poor,No,Frequent,High,Night
+10.520296,76.198451,West Fort,11,Good,No,Rare,Medium,Morning
+10.518483,76.203829,West Fort,7,Good,No,Rare,High,Morning
+10.516839,76.202901,West Fort,13,Moderate,No,Occasional,High,Evening
+10.519124,76.200076,West Fort,15,Moderate,No,Frequent,Low,Morning
+10.514677,76.198954,West Fort,11,Moderate,No,Occasional,High,Night
+10.520724,76.20361,West Fort,8,Good,No,Frequent,High,Night
+10.520312,76.200808,West Fort,8,Moderate,Yes,Occasional,Medium,Afternoon
+10.515535,76.19849,West Fort,8,Good,No,Rare,High,Night
+10.518727,76.205914,West Fort,10,Poor,Yes,Rare,Medium,Night
+10.520637,76.203631,West Fort,12,Moderate,No,Occasional,High,Afternoon
+10.541565,76.209271,North Fort,10,Good,No,Rare,High,Afternoon
+10.539045,76.209597,North Fort,14,Poor,Yes,Rare,Low,Afternoon
+10.535509,76.210063,North Fort,13,Good,No,Frequent,Medium,Morning
+10.539884,76.21131,North Fort,11,Good,No,Rare,Low,Evening
+10.534907,76.211765,North Fort,12,Poor,No,Frequent,Low,Evening
+10.541359,76.206441,North Fort,11,Poor,No,Rare,High,Night
+10.540565,76.206302,North Fort,12,Poor,No,Rare,Low,Afternoon
+10.535185,76.211971,North Fort,7,Moderate,Yes,Frequent,Medium,Night
+10.534067,76.207349,North Fort,14,Poor,Yes,Frequent,High,Morning
+10.541333,76.211644,North Fort,12,Moderate,Yes,Rare,High,Evening
+10.539374,76.209155,North Fort,14,Moderate,No,Frequent,Low,Evening
+10.53734,76.211845,North Fort,11,Good,No,Frequent,Medium,Night
+10.538175,76.206593,North Fort,12,Good,No,Frequent,Medium,Evening
+10.539799,76.213158,North Fort,10,Moderate,No,Frequent,Low,Morning
+10.53494,76.213922,North Fort,9,Moderate,No,Rare,High,Evening
+10.538642,76.213232,North Fort,12,Moderate,Yes,Rare,High,Afternoon
+10.536561,76.211362,North Fort,12,Poor,No,Frequent,High,Morning
+10.536692,76.20769,North Fort,9,Moderate,No,Rare,Low,Evening
+10.536505,76.207431,North Fort,10,Moderate,No,Rare,High,Afternoon
+10.535962,76.209587,North Fort,12,Good,Yes,Rare,Medium,Morning
+10.536564,76.211955,North Fort,11,Good,Yes,Rare,High,Evening
+10.540888,76.210527,North Fort,12,Poor,No,Occasional,Low,Evening
+10.535258,76.211525,North Fort,15,Poor,No,Occasional,Medium,Night
+10.541117,76.209523,North Fort,11,Poor,Yes,Rare,Medium,Afternoon
+10.541209,76.212005,North Fort,15,Poor,No,Frequent,High,Morning
+10.536605,76.213869,North Fort,10,Poor,No,Occasional,Medium,Night
+10.539339,76.206351,North Fort,13,Good,Yes,Rare,High,Night
+10.534451,76.206191,North Fort,8,Moderate,No,Frequent,Low,Morning
+10.5376,76.208662,North Fort,8,Moderate,No,Rare,High,Afternoon
+10.535318,76.211513,North Fort,10,Moderate,Yes,Occasional,Medium,Morning
+10.538117,76.207601,North Fort,12,Poor,No,Rare,High,Evening
+10.534578,76.20718,North Fort,8,Good,Yes,Rare,High,Evening
+10.534586,76.212499,North Fort,12,Moderate,No,Occasional,High,Morning
+10.539731,76.211355,North Fort,12,Poor,No,Frequent,Low,Afternoon
+10.537816,76.211138,North Fort,11,Poor,No,Occasional,Medium,Night
+10.540223,76.210003,North Fort,10,Poor,Yes,Occasional,High,Night
+10.53686,76.208219,North Fort,13,Moderate,No,Occasional,Medium,Morning
+10.540968,76.208739,North Fort,13,Poor,No,Occasional,High,Afternoon
+10.540158,76.210491,North Fort,11,Moderate,Yes,Occasional,Low,Morning
+10.538141,76.210623,North Fort,13,Poor,Yes,Occasional,Low,Evening
+10.539995,76.213718,North Fort,11,Good,Yes,Occasional,Low,Night
+10.538919,76.209859,North Fort,12,Poor,No,Frequent,Low,Evening
+10.534749,76.212145,North Fort,9,Poor,No,Frequent,Low,Afternoon
+10.53645,76.212703,North Fort,13,Good,Yes,Occasional,Medium,Afternoon
+10.534579,76.213049,North Fort,12,Moderate,No,Rare,High,Afternoon
+10.541488,76.211425,North Fort,8,Moderate,No,Rare,Low,Afternoon
+10.537315,76.211516,North Fort,8,Moderate,No,Rare,High,Afternoon
+10.541973,76.212006,North Fort,9,Moderate,No,Rare,Low,Afternoon
+10.539158,76.208842,North Fort,14,Good,No,Rare,High,Morning
+10.538299,76.212726,North Fort,11,Good,No,Rare,High,Night
+10.534267,76.208934,North Fort,10,Poor,No,Occasional,Low,Morning
+10.534579,76.213633,North Fort,8,Poor,No,Rare,High,Morning
+10.535786,76.213378,North Fort,11,Poor,Yes,Rare,High,Afternoon
+10.538432,76.213447,North Fort,11,Good,Yes,Frequent,Medium,Afternoon
+10.534043,76.211986,North Fort,10,Poor,No,Frequent,Low,Night
+10.541469,76.210339,North Fort,9,Poor,Yes,Rare,High,Night
+10.53822,76.207129,North Fort,11,Moderate,No,Occasional,Low,Evening
+10.541317,76.207669,North Fort,9,Poor,Yes,Occasional,Medium,Night
+10.539322,76.20663,North Fort,9,Good,No,Occasional,High,Morning
+10.539888,76.20841,North Fort,11,Poor,No,Rare,Medium,Morning
+10.537707,76.210795,North Fort,12,Good,No,Frequent,High,Afternoon
+10.536421,76.211299,North Fort,9,Moderate,Yes,Occasional,High,Afternoon
+10.535266,76.211505,North Fort,10,Poor,No,Occasional,High,Evening
+10.535978,76.211987,North Fort,9,Poor,No,Frequent,Medium,Night
+10.536096,76.213054,North Fort,11,Good,No,Rare,High,Evening
+10.538911,76.206702,North Fort,11,Good,Yes,Rare,High,Evening
+10.537132,76.211707,North Fort,13,Moderate,Yes,Rare,Medium,Afternoon
+10.53626,76.209024,North Fort,13,Moderate,No,Rare,Medium,Night
+10.534824,76.211752,North Fort,14,Poor,Yes,Frequent,High,Night
+10.535992,76.208596,North Fort,11,Moderate,Yes,Frequent,Medium,Morning
+10.506674,76.211206,South Fort,13,Good,No,Rare,High,Night
+10.511178,76.215146,South Fort,10,Good,No,Occasional,High,Night
+10.507644,76.211247,South Fort,11,Moderate,Yes,Occasional,Low,Night
+10.506735,76.218394,South Fort,13,Poor,No,Frequent,High,Evening
+10.504195,76.215651,South Fort,9,Poor,No,Rare,High,Evening
+10.507431,76.216218,South Fort,12,Poor,Yes,Rare,High,Evening
+10.509817,76.211006,South Fort,10,Moderate,Yes,Occasional,High,Evening
+10.504303,76.211984,South Fort,10,Moderate,No,Occasional,Low,Evening
+10.511891,76.213522,South Fort,13,Good,No,Occasional,High,Night
+10.506056,76.211167,South Fort,12,Poor,Yes,Frequent,Low,Afternoon
+10.505785,76.211452,South Fort,11,Poor,No,Rare,Medium,Night
+10.505839,76.215128,South Fort,10,Good,No,Rare,Medium,Evening
+10.506028,76.218524,South Fort,12,Moderate,No,Rare,Low,Evening
+10.506835,76.214049,South Fort,13,Good,No,Occasional,High,Evening
+10.507295,76.216821,South Fort,13,Poor,No,Rare,Low,Afternoon
+10.511553,76.213688,South Fort,11,Good,Yes,Rare,Medium,Night
+10.508486,76.21176,South Fort,11,Good,Yes,Frequent,High,Afternoon
+10.50565,76.218012,South Fort,9,Moderate,No,Rare,Medium,Evening
+10.505266,76.214645,South Fort,14,Poor,Yes,Frequent,Low,Morning
+10.507065,76.217953,South Fort,13,Good,No,Rare,Medium,Afternoon
+10.508547,76.214516,South Fort,11,Poor,Yes,Frequent,High,Afternoon
+10.510566,76.215916,South Fort,10,Good,No,Occasional,High,Night
+10.510657,76.214952,South Fort,13,Poor,No,Rare,High,Night
+10.510322,76.213366,South Fort,9,Moderate,No,Frequent,High,Night
+10.507965,76.214369,South Fort,9,Poor,No,Frequent,Medium,Evening
+10.505091,76.212574,South Fort,10,Poor,No,Rare,High,Evening
+10.504443,76.212585,South Fort,10,Good,No,Rare,High,Afternoon
+10.506863,76.211068,South Fort,9,Moderate,Yes,Frequent,Medium,Night
+10.510714,76.211256,South Fort,15,Moderate,No,Occasional,High,Evening
+10.50923,76.214096,South Fort,15,Poor,No,Rare,Medium,Night
+10.509178,76.211358,South Fort,11,Poor,No,Rare,Medium,Night
+10.508397,76.218103,South Fort,10,Good,No,Occasional,Low,Morning
+10.504837,76.217581,South Fort,10,Poor,No,Occasional,High,Evening
+10.506533,76.214201,South Fort,9,Moderate,No,Occasional,High,Morning
+10.505204,76.215029,South Fort,11,Poor,No,Occasional,High,Night
+10.507925,76.21779,South Fort,14,Poor,No,Occasional,Medium,Evening
+10.509648,76.214924,South Fort,12,Good,No,Rare,High,Evening
+10.508616,76.212769,South Fort,11,Moderate,Yes,Rare,Medium,Morning
+10.506153,76.217425,South Fort,12,Moderate,Yes,Occasional,High,Afternoon
+10.507158,76.214938,South Fort,11,Good,Yes,Frequent,High,Afternoon
+10.511045,76.214303,South Fort,10,Poor,No,Occasional,High,Evening
+10.504019,76.212958,South Fort,11,Good,No,Rare,High,Night
+10.509445,76.21197,South Fort,11,Poor,No,Occasional,High,Afternoon
+10.509183,76.216697,South Fort,10,Poor,Yes,Rare,Medium,Night
+10.505428,76.211637,South Fort,10,Poor,No,Occasional,Low,Morning
+10.510574,76.217154,South Fort,12,Good,Yes,Rare,Low,Morning
+10.508774,76.213698,South Fort,10,Poor,No,Rare,High,Morning
+10.508078,76.215682,South Fort,11,Good,No,Rare,High,Evening
+10.506875,76.214803,South Fort,14,Moderate,No,Rare,High,Afternoon
+10.51121,76.212311,South Fort,9,Moderate,No,Frequent,High,Afternoon
+10.507051,76.212127,South Fort,14,Moderate,No,Rare,High,Afternoon
+10.511455,76.213231,South Fort,13,Good,Yes,Rare,Medium,Morning
+10.511602,76.211506,South Fort,10,Moderate,Yes,Rare,Low,Afternoon
+10.51115,76.215238,South Fort,12,Good,No,Frequent,High,Afternoon
+10.509355,76.217653,South Fort,11,Moderate,No,Occasional,Low,Night
+10.505032,76.214748,South Fort,13,Poor,Yes,Frequent,Low,Afternoon
+10.508786,76.211248,South Fort,13,Poor,Yes,Frequent,Medium,Night
+10.511861,76.216096,South Fort,11,Good,Yes,Occasional,High,Morning
+10.505293,76.218247,South Fort,9,Moderate,No,Rare,Low,Night
+10.511374,76.21706,South Fort,11,Poor,No,Rare,Medium,Afternoon
+10.509854,76.216673,South Fort,10,Poor,Yes,Occasional,High,Night
+10.509506,76.212758,South Fort,10,Poor,No,Rare,High,Evening
+10.507509,76.217256,South Fort,11,Moderate,Yes,Frequent,Medium,Morning
+10.510338,76.217709,South Fort,14,Moderate,No,Occasional,Low,Afternoon
+10.509238,76.212827,South Fort,10,Poor,No,Occasional,High,Evening
+10.504934,76.213185,South Fort,9,Moderate,No,Rare,Medium,Night
+10.505676,76.214643,South Fort,13,Good,Yes,Frequent,High,Morning
+10.504766,76.218381,South Fort,13,Poor,Yes,Rare,High,Evening
+10.508548,76.21391,South Fort,10,Poor,No,Frequent,Low,Morning
+10.509548,76.211318,South Fort,13,Poor,Yes,Frequent,High,Evening

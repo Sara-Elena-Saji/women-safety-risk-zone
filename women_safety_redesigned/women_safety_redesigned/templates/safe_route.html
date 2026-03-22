@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Safe Route Finder — SafeCity</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+<style>
+:root {
+  --rose: #b5294e;
+  --rose-dark: #8c1a38;
+  --rose-light: #f9eef2;
+  --rose-mid: #e8c4d0;
+  --ink: #1a1218;
+  --ink-muted: #5a4d53;
+  --ink-faint: #9a8d92;
+  --surface: #ffffff;
+  --bg: #faf7f8;
+  --border: #eddde3;
+  --shadow: 0 1px 3px rgba(26,18,24,0.06), 0 4px 16px rgba(26,18,24,0.04);
+}
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'DM Sans', sans-serif; background: var(--bg); color: var(--ink); height: 100vh; overflow: hidden; display: flex; flex-direction: column; }
+
+/* NAV */
+.nav { background: rgba(255,255,255,0.95); backdrop-filter: blur(12px); border-bottom: 1px solid var(--border); padding: 0 40px; display: flex; align-items: center; height: 60px; gap: 32px; flex-shrink: 0; z-index: 200; }
+.nav-brand { font-family: 'DM Serif Display', serif; font-size: 18px; color: var(--rose); text-decoration: none; margin-right: auto; }
+.nav-link { font-size: 14px; font-weight: 500; color: var(--ink-muted); text-decoration: none; transition: color 0.15s; }
+.nav-link:hover, .nav-link.active { color: var(--rose); }
+
+/* LAYOUT */
+.page { display: grid; grid-template-columns: 380px 1fr; flex: 1; overflow: hidden; }
+
+/* SIDEBAR */
+.sidebar { background: var(--surface); border-right: 1px solid var(--border); overflow-y: auto; display: flex; flex-direction: column; gap: 0; }
+.sidebar-top { padding: 24px 24px 0; }
+.sidebar-title { font-family: 'DM Serif Display', serif; font-size: 22px; color: var(--ink); margin-bottom: 4px; }
+.sidebar-sub { font-size: 13px; color: var(--ink-faint); margin-bottom: 24px; }
+
+.sidebar-section { padding: 0 24px 20px; border-bottom: 1px solid var(--border); }
+.sidebar-section:last-child { border-bottom: none; }
+.section-label { font-size: 11px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink-faint); margin-bottom: 10px; }
+
+.form-group { display: flex; flex-direction: column; gap: 6px; margin-bottom: 10px; }
+.form-group label { font-size: 12px; font-weight: 600; color: var(--ink-muted); letter-spacing: 0.04em; text-transform: uppercase; }
+.input-row { display: flex; gap: 8px; }
+.input-row input { flex: 1; padding: 10px 14px; border: 1px solid var(--border); border-radius: 10px; font-size: 13.5px; font-family: 'DM Sans', sans-serif; outline: none; background: var(--bg); color: var(--ink); transition: border-color 0.15s; }
+.input-row input:focus { border-color: var(--rose); background: var(--surface); }
+.btn-search { padding: 10px 14px; background: var(--rose); color: white; border: none; border-radius: 10px; font-size: 12px; font-weight: 700; cursor: pointer; white-space: nowrap; font-family: 'DM Sans', sans-serif; letter-spacing: 0.03em; text-transform: uppercase; transition: background 0.15s; }
+.btn-search:hover { background: var(--rose-dark); }
+.coord-box { background: var(--bg); border: 1px solid var(--border); border-radius: 8px; padding: 8px 12px; font-size: 12px; color: var(--ink-faint); min-height: 34px; line-height: 1.5; }
+.coord-box.filled { color: var(--ink-muted); }
+
+.divider { height: 1px; background: var(--border); margin: 0 24px; }
+
+.btn-find { margin: 20px 24px; padding: 14px; background: var(--rose); color: white; border: none; border-radius: 12px; font-size: 15px; font-weight: 600; cursor: pointer; font-family: 'DM Sans', sans-serif; transition: background 0.2s, opacity 0.2s; letter-spacing: -0.01em; }
+.btn-find:hover:not(:disabled) { background: var(--rose-dark); }
+.btn-find:disabled { opacity: 0.4; cursor: not-allowed; }
+
+#statusMsg { margin: 0 24px 16px; font-size: 13px; text-align: center; padding: 8px 12px; border-radius: 8px; display: none; }
+#statusMsg.show { display: block; color: var(--ink-faint); }
+#statusMsg.show.error { color: #c62828; background: #fff5f5; border: 1px solid #ffd0d0; }
+#statusMsg.show.info { color: #1565c0; background: #eff3ff; border: 1px solid #c7d7ff; }
+
+/* RESULT SECTION */
+#resultSection { display: none; flex-direction: column; gap: 12px; padding: 0 24px 24px; }
+#resultSection.show { display: flex; }
+
+.route-card { border-radius: 14px; padding: 16px; border: 1px solid; }
+.card-safe  { background: #f4faf5; border-color: #b8ddbf; }
+.card-risky { background: #fff5f5; border-color: #f5c0c0; }
+.card-same  { background: #fffbf0; border-color: #f5e0a0; }
+
+.card-header { display: flex; align-items: center; gap: 10px; margin-bottom: 10px; }
+.card-indicator { width: 10px; height: 10px; border-radius: 50%; flex-shrink: 0; }
+.card-safe  .card-indicator { background: #2a6b3a; }
+.card-risky .card-indicator { background: #b52929; }
+.card-same  .card-indicator { background: #c07a00; }
+.card-label { font-size: 13px; font-weight: 700; flex: 1; }
+.card-safe  .card-label { color: #2a6b3a; }
+.card-risky .card-label { color: #b52929; }
+.card-same  .card-label { color: #c07a00; }
+.badge { padding: 3px 10px; border-radius: 20px; font-size: 11px; font-weight: 700; letter-spacing: 0.05em; }
+.badge-safe  { background: #c8e6c9; color: #2a6b3a; }
+.badge-risky { background: #ffcdd2; color: #b52929; }
+.badge-same  { background: #ffe0b2; color: #c07a00; }
+.card-meta { font-size: 12.5px; color: var(--ink-muted); line-height: 1.9; }
+.card-meta strong { color: var(--ink); }
+
+.btn-explain { margin-top: 12px; width: 100%; padding: 10px; background: var(--ink); color: white; border: none; border-radius: 8px; font-size: 13px; font-weight: 600; cursor: pointer; font-family: 'DM Sans', sans-serif; transition: background 0.15s; }
+.btn-explain:hover:not(:disabled) { background: #2a1e26; }
+.btn-explain:disabled { opacity: 0.4; cursor: not-allowed; }
+
+/* EXPLAIN PANEL */
+#explainPanel { display: none; background: #1a1218; border-radius: 14px; padding: 16px; color: white; }
+#explainPanel.show { display: block; }
+#explainPanel h4 { color: var(--rose-mid); font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 8px; }
+#explainSummary { font-size: 12.5px; color: #b0a8ad; margin-bottom: 12px; line-height: 1.6; }
+#explainReasons { display: flex; flex-direction: column; gap: 6px; margin-bottom: 14px; }
+.reason-item { background: rgba(255,255,255,0.07); border-radius: 8px; padding: 8px 12px; font-size: 12px; color: #d8d0d4; line-height: 1.5; }
+#zoneCardsTitle { color: var(--rose-mid); font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; margin: 4px 0 10px; display: none; }
+#zoneCards { display: flex; flex-direction: column; gap: 8px; }
+.zone-card { background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.1); border-radius: 10px; padding: 12px; }
+.zone-card-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 8px; }
+.zone-name { font-size: 13px; font-weight: 600; color: #fff; }
+.zone-score-badge { font-size: 11px; font-weight: 700; padding: 2px 8px; border-radius: 20px; }
+.score-high { background: #ffcdd2; color: #b52929; }
+.score-med  { background: #ffe0b2; color: #c07a00; }
+.zone-factors { display: flex; flex-wrap: wrap; gap: 5px; }
+.factor-tag { font-size: 11px; padding: 3px 8px; border-radius: 10px; background: rgba(255,255,255,0.1); color: #ccc; }
+.factor-tag.bad  { background: rgba(181,41,41,0.3); color: #ffcdd2; }
+.factor-tag.warn { background: rgba(192,122,0,0.3); color: #ffe0b2; }
+.factor-tag.ok   { background: rgba(42,107,58,0.3); color: #c8e6c9; }
+#explainLoading { font-size: 12.5px; color: #888; text-align: center; padding: 12px; display: none; }
+
+/* LEGEND */
+.legend-section { padding: 0 24px 24px; margin-top: auto; }
+.legend-title { font-size: 11px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink-faint); margin-bottom: 10px; }
+.legend-items { display: flex; flex-direction: column; gap: 8px; }
+.legend-item { display: flex; align-items: center; gap: 10px; font-size: 12.5px; color: var(--ink-muted); }
+.leg-line { width: 24px; height: 4px; border-radius: 2px; flex-shrink: 0; }
+.leg-dash { width: 24px; height: 0; border-top: 3px dashed; flex-shrink: 0; }
+.leg-dot  { width: 10px; height: 10px; border-radius: 50%; flex-shrink: 0; }
+
+/* MAP */
+#map { width: 100%; height: 100%; }
+
+/* LOADING */
+#loadingOverlay { position: fixed; inset: 0; background: rgba(250,247,248,0.8); backdrop-filter: blur(6px); z-index: 9999; display: none; flex-direction: column; align-items: center; justify-content: center; gap: 16px; }
+#loadingOverlay.show { display: flex; }
+.spinner { width: 40px; height: 40px; border: 3px solid var(--rose-mid); border-top-color: var(--rose); border-radius: 50%; animation: spin 0.8s linear infinite; }
+@keyframes spin { to { transform: rotate(360deg); } }
+#loadingMsg { font-size: 14px; color: var(--ink-muted); font-weight: 500; }
+
+@media (max-width: 768px) {
+  .page { grid-template-columns: 1fr; grid-template-rows: auto 1fr; }
+  .sidebar { max-height: 55vh; overflow-y: auto; }
+  body { overflow: auto; }
+  .nav { padding: 0 20px; }
+}
+</style>
+</head>
+<body>
+
+<div id="loadingOverlay">
+  <div class="spinner"></div>
+  <p id="loadingMsg">Calculating routes...</p>
+</div>
+
+<nav class="nav">
+  <a href="/" class="nav-brand">SafeCity</a>
+  <a href="/" class="nav-link">Home</a>
+  <a href="/dashboard" class="nav-link">Heatmap</a>
+  <a href="/safe-route" class="nav-link active">Safe Route</a>
+</nav>
+
+<div class="page">
+  <div class="sidebar">
+    <div class="sidebar-top">
+      <div class="sidebar-title">Safe Route Finder</div>
+      <div class="sidebar-sub">Compare routes and find the path with lowest risk exposure</div>
+    </div>
+
+    <div class="sidebar-section">
+      <div class="section-label">Start Location</div>
+      <div class="form-group">
+        <div class="input-row">
+          <input id="startInput" type="text" placeholder="e.g. Swaraj Round, Thrissur"/>
+          <button class="btn-search" onclick="searchLocation('start')">Go</button>
+        </div>
+      </div>
+      <div class="coord-box" id="startCoords">Enter a place and click Go</div>
+    </div>
+
+    <div class="sidebar-section">
+      <div class="section-label">Destination</div>
+      <div class="form-group">
+        <div class="input-row">
+          <input id="endInput" type="text" placeholder="e.g. Thrissur Zoo"/>
+          <button class="btn-search" onclick="searchLocation('end')">Go</button>
+        </div>
+      </div>
+      <div class="coord-box" id="endCoords">Enter a place and click Go</div>
+    </div>
+
+    <button class="btn-find" id="findBtn" onclick="findRoutes()" disabled>Find Safe Route</button>
+
+    <div id="statusMsg"></div>
+
+    <div id="resultSection">
+      <div class="route-card card-safe" id="safeCard">
+        <div class="card-header">
+          <div class="card-indicator"></div>
+          <span class="card-label" id="safeCardTitle">Recommended Safe Route</span>
+          <span class="badge badge-safe" id="safeBadge">SAFE</span>
+        </div>
+        <div class="card-meta" id="safeMeta"></div>
+      </div>
+
+      <div class="route-card card-risky" id="riskyCard" style="display:none;">
+        <div class="card-header">
+          <div class="card-indicator"></div>
+          <span class="card-label">Shortest Route</span>
+          <span class="badge badge-risky">HIGHER RISK</span>
+        </div>
+        <div class="card-meta" id="riskyMeta"></div>
+        <button class="btn-explain" id="explainBtn" onclick="explainRiskyRoute()">Why is this route risky?</button>
+      </div>
+
+      <div id="explainPanel">
+        <h4>Explainable AI — Risk Analysis</h4>
+        <div id="explainLoading">Analysing risk factors...</div>
+        <div id="explainSummary"></div>
+        <div id="explainReasons"></div>
+        <div id="zoneCardsTitle">High-Risk Zones Along This Route</div>
+        <div id="zoneCards"></div>
+      </div>
+    </div>
+
+    <div class="legend-section">
+      <div class="legend-title">Map Legend</div>
+      <div class="legend-items">
+        <div class="legend-item"><div class="leg-line" style="background:#2a6b3a;"></div> Recommended safe route</div>
+        <div class="legend-item"><div class="leg-dash" style="border-color:#b52929;"></div> Shortest (higher risk) route</div>
+        <div class="legend-item"><div class="leg-dot" style="background:red;"></div> High-risk zone</div>
+        <div class="legend-item"><div class="leg-dot" style="background:#e07a14;"></div> Medium-risk zone</div>
+        <div class="legend-item"><div class="leg-dot" style="background:#2a6b3a;"></div> Low-risk zone</div>
+      </div>
+    </div>
+  </div>
+
+  <div id="map"></div>
+</div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+const RISK_ZONES = {{ risk_zones | safe }};
+const state = { start: null, end: null, riskyZones: [] };
+
+const map = L.map('map').setView([10.5276, 76.2144], 14);
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { attribution: '&copy; OpenStreetMap', maxZoom: 19 }).addTo(map);
+
+RISK_ZONES.forEach(zone => {
+  const s = zone.Risk_Score;
+  const color = s >= 0.7 ? 'red' : s >= 0.4 ? '#e07a14' : '#2a6b3a';
+  const label = s >= 0.7 ? 'High Risk' : s >= 0.4 ? 'Medium Risk' : 'Low Risk';
+  L.circleMarker([zone.Latitude, zone.Longitude], { radius: 5, color, fillColor: color, fillOpacity: 0.7, weight: 1 }).addTo(map)
+    .bindPopup(`<b style="font-family:DM Sans,sans-serif;">${zone.Area_Name}</b><br><span style="font-family:DM Sans,sans-serif;font-size:13px;">Risk: ${(s*100).toFixed(1)}% — ${label}</span>`);
+});
+
+function makePinIcon(bg) {
+  return L.divIcon({ className: '', html: `<div style="width:32px;height:32px;background:${bg};border:3px solid #fff;border-radius:50% 50% 50% 0;transform:rotate(-45deg);box-shadow:0 3px 12px rgba(0,0,0,0.25);"></div>`, iconSize: [32,32], iconAnchor: [16,32], popupAnchor: [0,-36] });
+}
+const ICON_START = makePinIcon('#1565c0');
+const ICON_END   = makePinIcon('#b5294e');
+let markerStart = null, markerEnd = null;
+
+function placeMarker(latlng, type, label) {
+  if (type==='start') { if(markerStart) map.removeLayer(markerStart); markerStart=L.marker(latlng,{icon:ICON_START,zIndexOffset:2000}).addTo(map).bindPopup(`<b style="font-family:DM Sans,sans-serif;">Start: ${label}</b>`); }
+  else { if(markerEnd) map.removeLayer(markerEnd); markerEnd=L.marker(latlng,{icon:ICON_END,zIndexOffset:2000}).addTo(map).bindPopup(`<b style="font-family:DM Sans,sans-serif;">Destination: ${label}</b>`); }
+}
+
+let layerSafe=null, layerRisky=null;
+function clearRoutes() { if(layerSafe){map.removeLayer(layerSafe);layerSafe=null;} if(layerRisky){map.removeLayer(layerRisky);layerRisky=null;} }
+
+async function geocode(query) {
+  const res=await fetch(`https://nominatim.openstreetmap.org/search?q=${encodeURIComponent(query)}&format=json&limit=1`,{headers:{'Accept-Language':'en'}});
+  const data=await res.json();
+  if(!data.length) throw new Error(`Location not found: "${query}"`);
+  return {lat:parseFloat(data[0].lat),lng:parseFloat(data[0].lon),name:data[0].display_name};
+}
+
+async function searchLocation(type) {
+  const inputId=type==='start'?'startInput':'endInput';
+  const coordId=type==='start'?'startCoords':'endCoords';
+  const query=document.getElementById(inputId).value.trim();
+  if(!query) return showStatus('Please enter a place name.','error');
+  showStatus('Searching...','info');
+  try {
+    const loc=await geocode(query);
+    state[type]=loc;
+    const el=document.getElementById(coordId);
+    el.textContent=`${loc.lat.toFixed(5)}, ${loc.lng.toFixed(5)}`;
+    el.classList.add('filled');
+    placeMarker([loc.lat,loc.lng],type,loc.name.split(',')[0]);
+    map.setView([loc.lat,loc.lng],15);
+    clearStatus();
+    document.getElementById('findBtn').disabled=!(state.start&&state.end);
+  } catch(err) { showStatus(err.message,'error'); }
+}
+
+document.addEventListener('DOMContentLoaded',()=>{
+  document.getElementById('startInput').addEventListener('keypress',e=>{if(e.key==='Enter')searchLocation('start');});
+  document.getElementById('endInput').addEventListener('keypress',e=>{if(e.key==='Enter')searchLocation('end');});
+});
+
+function haversineM(lat1,lng1,lat2,lng2){const R=6371000,f1=lat1*Math.PI/180,f2=lat2*Math.PI/180,df=(lat2-lat1)*Math.PI/180,dl=(lng2-lng1)*Math.PI/180,a=Math.sin(df/2)**2+Math.cos(f1)*Math.cos(f2)*Math.sin(dl/2)**2;return R*2*Math.atan2(Math.sqrt(a),Math.sqrt(1-a));}
+function pointToSegDist(px,py,ax,ay,bx,by){const dx=bx-ax,dy=by-ay,L=dx*dx+dy*dy;if(L===0)return haversineM(px,py,ax,ay);const t=Math.max(0,Math.min(1,((px-ax)*dx+(py-ay)*dy)/L));return haversineM(px,py,ax+t*dx,ay+t*dy);}
+
+const RISK_RADIUS_M=300;
+function scoreRoute(coords){
+  let totalRisk=0,highCount=0,medCount=0;const nearbyZones=[];
+  RISK_ZONES.forEach(zone=>{
+    if(zone.Risk_Score<0.4)return;
+    let minDist=Infinity;
+    for(let i=0;i<coords.length-1;i++){const d=pointToSegDist(zone.Latitude,zone.Longitude,coords[i][0],coords[i][1],coords[i+1][0],coords[i+1][1]);if(d<minDist)minDist=d;}
+    if(minDist<=RISK_RADIUS_M){totalRisk+=zone.Risk_Score*(1-minDist/RISK_RADIUS_M);if(zone.Risk_Score>=0.7)highCount++;else medCount++;nearbyZones.push({name:zone.Area_Name,lat:zone.Latitude,lng:zone.Longitude,score:zone.Risk_Score});}
+  });
+  return{totalRisk,highCount,medCount,nearbyZones};
+}
+
+async function osrmGet(coordString){
+  const url=`https://router.project-osrm.org/route/v1/driving/${coordString}?overview=full&geometries=geojson&steps=false`;
+  const res=await fetch(url);const data=await res.json();
+  if(data.code!=='Ok'||!data.routes?.length)return null;
+  const r=data.routes[0];return{coords:r.geometry.coordinates.map(c=>[c[1],c[0]]),distance_km:(r.distance/1000).toFixed(2),duration_min:Math.round(r.duration/60)};
+}
+
+async function buildRoutes(sLat,sLng,eLat,eLng){
+  const directRoute=await osrmGet(`${sLng},${sLat};${eLng},${eLat}`);
+  if(!directRoute)throw new Error('Could not find a road route between these locations.');
+  directRoute.scored=scoreRoute(directRoute.coords);
+  const straightDist=haversineM(sLat,sLng,eLat,eLng),corridorHalfWidth=Math.max(straightDist*0.8,500);
+  const dLat=eLat-sLat,dLng=eLng-sLng,len=Math.sqrt(dLat*dLat+dLng*dLng)||1;
+  const uLat=dLat/len,uLng=dLng/len,pLat=-uLng,pLng=uLat;
+  const zonesInCorridor=RISK_ZONES.map(z=>{const rL=z.Latitude-sLat,rG=z.Longitude-sLng,along=rL*uLat+rG*uLng,perpM=Math.abs(-rG*uLat+rL*uLng)*111320;return{...z,along,perpM};}).filter(z=>z.along>0.0001&&z.along<len-0.0001&&z.perpM<corridorHalfWidth).sort((a,b)=>a.Risk_Score-b.Risk_Score);
+  const lowRiskCandidates=zonesInCorridor.filter(z=>z.Risk_Score<0.5).slice(0,12);
+  const midLat=(sLat+eLat)/2,midLng=(sLng+eLng)/2;
+  const PERP_OFFSETS=[0.004,0.007,0.011,-0.004,-0.007,-0.011,0.015,-0.015];
+  const perpWaypoints=PERP_OFFSETS.map(off=>({Latitude:midLat+pLat*off,Longitude:midLng+pLng*off,Risk_Score:999}));
+  const allCandidates=[...lowRiskCandidates,...perpWaypoints];
+  let bestSafeRoute=null,bestSafeScore=Infinity;
+  for(const wp of allCandidates){const route=await osrmGet(`${sLng},${sLat};${wp.Longitude},${wp.Latitude};${eLng},${eLat}`);if(!route)continue;const scored=scoreRoute(route.coords);const score=scored.totalRisk*1000+parseFloat(route.distance_km);if(score<bestSafeScore){bestSafeScore=score;bestSafeRoute={...route,scored};}}
+  const topCombo=zonesInCorridor.filter(z=>z.Risk_Score<0.4).slice(0,6);
+  for(let i=0;i<topCombo.length;i++){for(let j=i+1;j<topCombo.length;j++){const w1=topCombo[i],w2=topCombo[j];const first=w1.along<w2.along?w1:w2,second=w1.along<w2.along?w2:w1;const route=await osrmGet(`${sLng},${sLat};${first.Longitude},${first.Latitude};${second.Longitude},${second.Latitude};${eLng},${eLat}`);if(!route)continue;const scored=scoreRoute(route.coords);const score=scored.totalRisk*1000+parseFloat(route.distance_km);if(score<bestSafeScore){bestSafeScore=score;bestSafeRoute={...route,scored};}}}
+  if(!bestSafeRoute)bestSafeRoute={...directRoute,scored:directRoute.scored};
+  function sig(coords){const pts=[coords[0],coords[Math.floor(coords.length/2)],coords[coords.length-1]];return pts.map(p=>`${p[0].toFixed(4)},${p[1].toFixed(4)}`).join('|');}
+  const isSame=(sig(directRoute.coords)===sig(bestSafeRoute.coords))||(directRoute.scored.totalRisk<=bestSafeRoute.scored.totalRisk);
+  return{directRoute,bestSafeRoute,isSame};
+}
+
+async function findRoutes(){
+  if(!state.start||!state.end)return;
+  setLoading(true,'Analysing all possible routes...');
+  clearRoutes();
+  document.getElementById('resultSection').classList.remove('show');
+  document.getElementById('explainPanel').classList.remove('show');
+  document.getElementById('riskyCard').style.display='none';
+  state.riskyZones=[];clearStatus();
+  try{
+    const{lat:sLat,lng:sLng,name:sName}=state.start,{lat:eLat,lng:eLng,name:eName}=state.end;
+    const{directRoute,bestSafeRoute,isSame}=await buildRoutes(sLat,sLng,eLat,eLng);
+    state.riskyZones=directRoute.scored.nearbyZones||[];
+    if(isSame){layerSafe=L.polyline(directRoute.coords,{color:'#2a6b3a',weight:6,opacity:0.9}).addTo(map);}
+    else{layerRisky=L.polyline(directRoute.coords,{color:'#b52929',weight:5,opacity:0.85,dashArray:'10 7'}).addTo(map);layerSafe=L.polyline(bestSafeRoute.coords,{color:'#2a6b3a',weight:6,opacity:0.9}).addTo(map);}
+    placeMarker([sLat,sLng],'start',sName.split(',')[0]);
+    placeMarker([eLat,eLng],'end',eName.split(',')[0]);
+    const allCoords=[...directRoute.coords,...(isSame?[]:bestSafeRoute.coords)];
+    map.fitBounds(L.latLngBounds(allCoords),{padding:[50,50]});
+    renderCards(directRoute,bestSafeRoute,isSame);
+  }catch(err){showStatus(err.message,'error');console.error(err);}finally{setLoading(false);}
+}
+
+function renderCards(directRoute,safeRoute,isSame){
+  document.getElementById('resultSection').classList.add('show');
+  const safeCard=document.getElementById('safeCard'),riskyCard=document.getElementById('riskyCard');
+  const safeMeta=document.getElementById('safeMeta'),riskyMeta=document.getElementById('riskyMeta');
+  const safeTitle=document.getElementById('safeCardTitle'),safeBadge=document.getElementById('safeBadge');
+  if(isSame){
+    safeCard.className='route-card card-same';safeBadge.className='badge badge-same';
+    safeBadge.textContent='SHORTEST + SAFE';safeTitle.textContent='Best Route';riskyCard.style.display='none';
+    safeMeta.innerHTML=`<strong>Distance:</strong> ${directRoute.distance_km} km &nbsp;&middot;&nbsp; <strong>ETA:</strong> ~${directRoute.duration_min} min<br><strong>High-risk zones:</strong> ${directRoute.scored.highCount} &nbsp;&middot;&nbsp; <strong>Medium-risk zones:</strong> ${directRoute.scored.medCount}<br>This is already both the shortest and safest available route.`;
+  }else{
+    safeCard.className='route-card card-safe';safeBadge.className='badge badge-safe';
+    safeBadge.textContent='RECOMMENDED';safeTitle.textContent='Safest Route';riskyCard.style.display='';
+    safeMeta.innerHTML=`<strong>Distance:</strong> ${safeRoute.distance_km} km &nbsp;&middot;&nbsp; <strong>ETA:</strong> ~${safeRoute.duration_min} min<br><strong>High-risk zones:</strong> ${safeRoute.scored.highCount} &nbsp;&middot;&nbsp; <strong>Medium-risk zones:</strong> ${safeRoute.scored.medCount}<br>Avoids more high-risk areas — may be slightly longer.`;
+    riskyMeta.innerHTML=`<strong>Distance:</strong> ${directRoute.distance_km} km &nbsp;&middot;&nbsp; <strong>ETA:</strong> ~${directRoute.duration_min} min<br><strong>High-risk zones:</strong> ${directRoute.scored.highCount} &nbsp;&middot;&nbsp; <strong>Medium-risk zones:</strong> ${directRoute.scored.medCount}<br>Shortest path, but passes near more risk zones.`;
+  }
+}
+
+async function explainRiskyRoute(){
+  const panel=document.getElementById('explainPanel'),loading=document.getElementById('explainLoading');
+  const summaryEl=document.getElementById('explainSummary'),reasonsEl=document.getElementById('explainReasons');
+  const zoneCardsEl=document.getElementById('zoneCards'),zoneCardsTitle=document.getElementById('zoneCardsTitle');
+  const btn=document.getElementById('explainBtn');
+  panel.classList.add('show');loading.style.display='block';
+  summaryEl.textContent='';reasonsEl.innerHTML='';zoneCardsEl.innerHTML='';zoneCardsTitle.style.display='none';btn.disabled=true;
+  try{
+    const res=await fetch('/explain-route',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({zones:state.riskyZones})});
+    const data=await res.json();loading.style.display='none';
+    if(data.summary)summaryEl.textContent=data.summary;
+    (data.reasons||[]).forEach(r=>{const div=document.createElement('div');div.className='reason-item';div.textContent=r;reasonsEl.appendChild(div);});
+    if(data.zone_details&&data.zone_details.length){
+      zoneCardsTitle.style.display='block';
+      data.zone_details.forEach(zone=>{
+        const card=document.createElement('div');card.className='zone-card';
+        const scoreClass=zone.score>=0.7?'score-high':'score-med';
+        const tagsHtml=zone.factors.map(f=>{const isBad=f.toLowerCase().includes('poor')||f.toLowerCase().includes('no cctv')||f.toLowerCase().includes('rare')||f.toLowerCase().includes('high')||f.toLowerCase().includes('night');const isWarn=f.toLowerCase().includes('moderate')||f.toLowerCase().includes('occasional')||f.toLowerCase().includes('evening');const cls=isBad?'bad':isWarn?'warn':'ok';return`<span class="factor-tag ${cls}">${f}</span>`;}).join('');
+        card.innerHTML=`<div class="zone-card-header"><span class="zone-name">${zone.name}</span><span class="zone-score-badge ${scoreClass}">${zone.level} &middot; ${(zone.score*100).toFixed(0)}%</span></div><div class="zone-factors">${tagsHtml||'<span class="factor-tag">No major factors</span>'}</div>`;
+        zoneCardsEl.appendChild(card);
+      });
+    }
+  }catch(err){loading.style.display='none';summaryEl.textContent='Could not load explanation. Please try again.';}
+  finally{btn.disabled=false;}
+}
+
+function setLoading(on,msg){document.getElementById('loadingOverlay').classList.toggle('show',on);if(msg)document.getElementById('loadingMsg').textContent=msg;}
+function showStatus(msg,type){const el=document.getElementById('statusMsg');el.textContent=msg;el.className=`show ${type}`;}
+function clearStatus(){const el=document.getElementById('statusMsg');el.textContent='';el.className='';}
+</script>
+</body>
+</html>

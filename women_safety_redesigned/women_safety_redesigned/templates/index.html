@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SafeCity — Women Safety Risk Prediction</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<style>
+:root {
+  --rose: #b5294e;
+  --rose-dark: #8c1a38;
+  --rose-light: #f9eef2;
+  --rose-mid: #e8c4d0;
+  --ink: #1a1218;
+  --ink-muted: #5a4d53;
+  --ink-faint: #9a8d92;
+  --surface: #ffffff;
+  --bg: #faf7f8;
+  --border: #eddde3;
+  --shadow: 0 1px 3px rgba(26,18,24,0.06), 0 4px 16px rgba(26,18,24,0.04);
+  --shadow-hover: 0 4px 12px rgba(26,18,24,0.1), 0 12px 32px rgba(26,18,24,0.08);
+}
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'DM Sans', sans-serif; background: var(--bg); color: var(--ink); min-height: 100vh; line-height: 1.6; }
+
+/* NAV */
+.nav { position: sticky; top: 0; z-index: 100; background: rgba(255,255,255,0.92); backdrop-filter: blur(12px); border-bottom: 1px solid var(--border); padding: 0 40px; display: flex; align-items: center; height: 60px; gap: 32px; }
+.nav-brand { font-family: 'DM Serif Display', serif; font-size: 18px; color: var(--rose); text-decoration: none; margin-right: auto; letter-spacing: -0.01em; }
+.nav-link { font-size: 14px; font-weight: 500; color: var(--ink-muted); text-decoration: none; transition: color 0.15s; }
+.nav-link:hover, .nav-link.active { color: var(--rose); }
+
+/* HERO */
+.hero { padding: 72px 40px 56px; max-width: 960px; margin: 0 auto; display: grid; grid-template-columns: 1fr auto; align-items: center; gap: 48px; }
+.hero-eyebrow { display: inline-flex; align-items: center; gap: 8px; font-size: 11px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: var(--rose); background: var(--rose-light); border: 1px solid var(--rose-mid); padding: 4px 12px; border-radius: 20px; margin-bottom: 20px; }
+.hero-eyebrow span { width: 6px; height: 6px; border-radius: 50%; background: var(--rose); }
+.hero h1 { font-family: 'DM Serif Display', serif; font-size: clamp(36px, 5vw, 52px); line-height: 1.1; color: var(--ink); letter-spacing: -0.02em; margin-bottom: 16px; }
+.hero h1 em { font-style: italic; color: var(--rose); }
+.hero-sub { font-size: 17px; color: var(--ink-muted); line-height: 1.7; max-width: 480px; }
+.hero-stat-block { display: flex; flex-direction: column; gap: 16px; }
+.stat-card { background: var(--surface); border: 1px solid var(--border); border-radius: 16px; padding: 20px 24px; text-align: center; min-width: 140px; box-shadow: var(--shadow); }
+.stat-num { font-family: 'DM Serif Display', serif; font-size: 32px; color: var(--rose); line-height: 1; margin-bottom: 4px; }
+.stat-label { font-size: 12px; color: var(--ink-faint); font-weight: 500; letter-spacing: 0.03em; }
+
+/* MAIN */
+.main { max-width: 960px; margin: 0 auto; padding: 0 40px 80px; display: flex; flex-direction: column; gap: 24px; }
+.section-label { font-size: 11px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink-faint); margin-bottom: 12px; }
+
+/* OVERVIEW */
+.overview-card { background: var(--surface); border: 1px solid var(--border); border-radius: 20px; padding: 32px; box-shadow: var(--shadow); display: grid; grid-template-columns: 1fr 1px 1fr; gap: 32px; align-items: center; }
+.overview-text { font-size: 15px; color: var(--ink-muted); line-height: 1.8; }
+.overview-text strong { color: var(--ink); font-weight: 600; }
+.overview-divider { background: var(--border); align-self: stretch; }
+.overview-points { display: flex; flex-direction: column; gap: 12px; }
+.overview-point { display: flex; align-items: flex-start; gap: 12px; }
+.point-marker { width: 8px; height: 8px; border-radius: 50%; background: var(--rose); margin-top: 7px; flex-shrink: 0; }
+.point-text { font-size: 14px; color: var(--ink); font-weight: 500; }
+.point-sub { font-size: 12.5px; color: var(--ink-faint); }
+
+/* FEATURES */
+.features-card { background: var(--surface); border: 1px solid var(--border); border-radius: 20px; padding: 32px; box-shadow: var(--shadow); }
+.features-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1px; background: var(--border); border-radius: 12px; overflow: hidden; margin-top: 16px; }
+.feature-cell { background: var(--bg); padding: 20px 18px; transition: background 0.15s; }
+.feature-cell:hover { background: var(--rose-light); }
+.feature-name { font-size: 13px; font-weight: 600; color: var(--ink); margin-bottom: 4px; }
+.feature-desc { font-size: 12px; color: var(--ink-faint); line-height: 1.5; }
+
+/* TOOLS */
+.tools-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; }
+.tool-card { background: var(--surface); border: 1px solid var(--border); border-radius: 20px; padding: 28px; text-decoration: none; display: flex; flex-direction: column; gap: 12px; box-shadow: var(--shadow); cursor: pointer; transition: box-shadow 0.2s, transform 0.2s, border-color 0.2s; font-family: 'DM Sans', sans-serif; text-align: left; position: relative; overflow: hidden; }
+.tool-card:hover { box-shadow: var(--shadow-hover); transform: translateY(-2px); border-color: var(--rose-mid); }
+.tool-card::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 3px; background: var(--rose); transform: scaleX(0); transform-origin: left; transition: transform 0.2s; }
+.tool-card:hover::before { transform: scaleX(1); }
+.tool-icon { width: 40px; height: 40px; border-radius: 10px; background: var(--rose-light); border: 1px solid var(--rose-mid); display: flex; align-items: center; justify-content: center; }
+.tool-icon svg { width: 20px; height: 20px; stroke: var(--rose); fill: none; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+.tool-title { font-size: 16px; font-weight: 600; color: var(--ink); }
+.tool-desc { font-size: 13.5px; color: var(--ink-muted); line-height: 1.6; }
+.tool-arrow { margin-top: auto; font-size: 12px; font-weight: 600; color: var(--rose); letter-spacing: 0.03em; text-transform: uppercase; display: flex; align-items: center; gap: 6px; }
+.tool-arrow::after { content: ''; width: 16px; height: 1.5px; background: var(--rose); transition: width 0.2s; }
+.tool-card:hover .tool-arrow::after { width: 24px; }
+
+/* MODALS */
+.modal-overlay { display: none; position: fixed; inset: 0; background: rgba(26,18,24,0.5); backdrop-filter: blur(4px); z-index: 1000; justify-content: center; align-items: center; padding: 24px; }
+.modal-overlay.active { display: flex; }
+.modal-header { display: flex; align-items: flex-start; justify-content: space-between; margin-bottom: 28px; gap: 16px; }
+.modal-title { font-family: 'DM Serif Display', serif; font-size: 22px; color: var(--ink); }
+.modal-close { width: 36px; height: 36px; border-radius: 50%; border: 1px solid var(--border); background: var(--bg); cursor: pointer; font-size: 18px; display: flex; align-items: center; justify-content: center; color: var(--ink-muted); transition: all 0.15s; flex-shrink: 0; }
+.modal-close:hover { background: var(--rose-light); color: var(--rose); border-color: var(--rose-mid); }
+
+/* CHART MODAL */
+.chart-modal { background: var(--surface); border-radius: 24px; padding: 36px; width: 100%; max-width: 880px; max-height: 88vh; overflow-y: auto; position: relative; box-shadow: 0 24px 64px rgba(26,18,24,0.2); }
+.tab-bar { display: flex; gap: 4px; margin-bottom: 28px; background: var(--bg); border: 1px solid var(--border); border-radius: 12px; padding: 4px; flex-wrap: wrap; }
+.tab-btn { padding: 8px 16px; border-radius: 8px; border: none; background: transparent; color: var(--ink-muted); font-size: 13px; font-weight: 500; cursor: pointer; font-family: 'DM Sans', sans-serif; transition: all 0.15s; }
+.tab-btn.active, .tab-btn:hover { background: var(--surface); color: var(--rose); font-weight: 600; box-shadow: 0 1px 4px rgba(26,18,24,0.08); }
+.chart-panel { display: none; }
+.chart-panel.active { display: block; }
+.chart-wrap { position: relative; height: 320px; }
+#chartLoading { text-align: center; color: var(--ink-faint); padding: 48px; font-size: 14px; }
+#chartError { text-align: center; color: #c62828; padding: 20px; display: none; }
+
+/* ADD MODAL */
+.add-modal { background: var(--surface); border-radius: 24px; padding: 36px; width: 90%; max-width: 480px; max-height: 88vh; overflow-y: auto; position: relative; box-shadow: 0 24px 64px rgba(26,18,24,0.2); }
+.add-modal-sub { font-size: 13.5px; color: var(--ink-faint); margin-bottom: 28px; margin-top: 4px; }
+.form-group { margin-bottom: 16px; }
+.form-group label { display: block; font-size: 12px; font-weight: 600; color: var(--ink-muted); margin-bottom: 6px; letter-spacing: 0.04em; text-transform: uppercase; }
+.form-group input, .form-group select { width: 100%; padding: 10px 14px; border: 1px solid var(--border); border-radius: 10px; font-size: 14px; font-family: 'DM Sans', sans-serif; background: var(--bg); color: var(--ink); transition: border-color 0.15s; outline: none; }
+.form-group input:focus, .form-group select:focus { border-color: var(--rose); background: var(--surface); }
+input[readonly] { background: var(--rose-light) !important; color: var(--ink-muted); }
+.form-row { display: flex; gap: 12px; }
+.form-row .form-group { flex: 1; }
+.input-with-btn { display: flex; gap: 8px; }
+.input-with-btn input { flex: 1; }
+.btn-inline { padding: 10px 16px; background: var(--rose); color: white; border: none; border-radius: 10px; font-size: 13px; font-weight: 600; cursor: pointer; font-family: 'DM Sans', sans-serif; white-space: nowrap; transition: background 0.15s; }
+.btn-inline:hover { background: var(--rose-dark); }
+.status-text { font-size: 12px; margin-top: 5px; color: var(--ink-faint); min-height: 18px; }
+.status-text.ok { color: #2e7d32; }
+.status-text.err { color: #c62828; }
+.submit-btn { width: 100%; padding: 14px; background: var(--rose); color: white; border: none; border-radius: 12px; font-size: 15px; font-weight: 600; cursor: pointer; font-family: 'DM Sans', sans-serif; margin-top: 8px; transition: background 0.15s; }
+.submit-btn:hover { background: var(--rose-dark); }
+.success-msg { display: none; text-align: center; color: #2e7d32; font-weight: 600; font-size: 14px; margin-top: 14px; padding: 12px; background: #f1f8f1; border-radius: 10px; }
+
+/* FOOTER */
+.footer { border-top: 1px solid var(--border); padding: 24px 40px; text-align: center; font-size: 12.5px; color: var(--ink-faint); }
+
+@media (max-width: 768px) {
+  .hero { grid-template-columns: 1fr; padding: 48px 20px 32px; }
+  .hero-stat-block { flex-direction: row; }
+  .stat-card { flex: 1; }
+  .main { padding: 0 20px 60px; }
+  .overview-card { grid-template-columns: 1fr; }
+  .overview-divider { height: 1px; width: 100%; }
+  .features-grid { grid-template-columns: repeat(2, 1fr); }
+  .tools-grid { grid-template-columns: 1fr; }
+  .nav { padding: 0 20px; }
+}
+</style>
+</head>
+<body>
+
+<nav class="nav">
+  <a href="/" class="nav-brand">SafeCity</a>
+  <a href="/" class="nav-link active">Home</a>
+  <a href="/dashboard" class="nav-link">Heatmap</a>
+  <a href="/safe-route" class="nav-link">Safe Route</a>
+</nav>
+
+<section class="hero">
+  <div>
+    <div class="hero-eyebrow"><span></span>Thrissur, Kerala</div>
+    <h1>Safety intelligence<br>for <em>every woman</em></h1>
+    <p class="hero-sub">A data-driven system that analyses crime patterns, infrastructure gaps, and time-based risk to map unsafe areas and guide safer movement across the city.</p>
+  </div>
+  <div class="hero-stat-block">
+    <div class="stat-card">
+      <div class="stat-num">ML</div>
+      <div class="stat-label">Powered Scores</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-num">8</div>
+      <div class="stat-label">Risk Factors</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-num">Live</div>
+      <div class="stat-label">Heatmap Data</div>
+    </div>
+  </div>
+</section>
+
+<main class="main">
+
+  <div class="section-label">About the Project</div>
+  <div class="overview-card">
+    <div>
+      <p class="overview-text">
+        Women's safety requires <strong>proactive, data-driven solutions</strong> rather than reactive measures.
+        This system analyses crime data, location infrastructure, and time-based patterns to identify unsafe
+        areas in Thrissur. It assigns ML-predicted safety scores and visualises risk zones on interactive
+        heatmaps — helping users make informed travel decisions before they step out.
+      </p>
+    </div>
+    <div class="overview-divider"></div>
+    <div class="overview-points">
+      <div class="overview-point">
+        <div class="point-marker"></div>
+        <div>
+          <div class="point-text">Predictive Risk Scoring</div>
+          <div class="point-sub">ML model trained on Thrissur crime data</div>
+        </div>
+      </div>
+      <div class="overview-point">
+        <div class="point-marker"></div>
+        <div>
+          <div class="point-text">Time-Aware Analysis</div>
+          <div class="point-sub">Risk changes by morning, evening and night</div>
+        </div>
+      </div>
+      <div class="overview-point">
+        <div class="point-marker"></div>
+        <div>
+          <div class="point-text">Community Reporting</div>
+          <div class="point-sub">Anyone can contribute local safety data</div>
+        </div>
+      </div>
+      <div class="overview-point">
+        <div class="point-marker"></div>
+        <div>
+          <div class="point-text">Explainable AI</div>
+          <div class="point-sub">Understand why a route or zone is flagged</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="features-card">
+    <div class="section-label">Core Capabilities</div>
+    <div class="features-grid">
+      <div class="feature-cell"><div class="feature-name">Risk Zone Prediction</div><div class="feature-desc">ML-scored zones across the city</div></div>
+      <div class="feature-cell"><div class="feature-name">Interactive Heatmap</div><div class="feature-desc">Live colour-coded risk overlay</div></div>
+      <div class="feature-cell"><div class="feature-name">Time-Based Analysis</div><div class="feature-desc">Risk varies by time of day</div></div>
+      <div class="feature-cell"><div class="feature-name">Safety Scores</div><div class="feature-desc">Quantified per-area ratings</div></div>
+      <div class="feature-cell"><div class="feature-name">Explainable AI</div><div class="feature-desc">Factor-level risk breakdown</div></div>
+      <div class="feature-cell"><div class="feature-name">Trend Detection</div><div class="feature-desc">Historical pattern analysis</div></div>
+      <div class="feature-cell"><div class="feature-name">Safe Route Finder</div><div class="feature-desc">AI-guided route comparison</div></div>
+      <div class="feature-cell"><div class="feature-name">Data Reporting</div><div class="feature-desc">Crowdsourced location reporting</div></div>
+    </div>
+  </div>
+
+  <div class="section-label">Tools</div>
+  <div class="tools-grid">
+
+    <a class="tool-card" href="/dashboard">
+      <div class="tool-icon">
+        <svg viewBox="0 0 24 24"><path d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-1.447-.894L15 9m0 8V9m0 0L9 7"/></svg>
+      </div>
+      <div class="tool-title">Risk Heatmap</div>
+      <div class="tool-desc">Explore the live ML-predicted risk zone map for Thrissur. Filter by time of day to see how risk levels shift.</div>
+      <div class="tool-arrow">Open Heatmap</div>
+    </a>
+
+    <a class="tool-card" href="/safe-route">
+      <div class="tool-icon">
+        <svg viewBox="0 0 24 24"><path d="M12 22s-8-4.5-8-11.8A8 8 0 0112 2a8 8 0 018 8.2c0 7.3-8 11.8-8 11.8z"/><circle cx="12" cy="10" r="3"/></svg>
+      </div>
+      <div class="tool-title">Safe Route Finder</div>
+      <div class="tool-desc">Compare routes between two locations. Get AI analysis on which path avoids the most high-risk zones.</div>
+      <div class="tool-arrow">Find Route</div>
+    </a>
+
+    <button class="tool-card" onclick="openChartModal()">
+      <div class="tool-icon">
+        <svg viewBox="0 0 24 24"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+      </div>
+      <div class="tool-title">Risk Analytics</div>
+      <div class="tool-desc">Visualise risk distribution, area rankings, time-based trends, and the impact of street lighting and patrol frequency.</div>
+      <div class="tool-arrow">View Charts</div>
+    </button>
+
+    <button class="tool-card" onclick="openAddModal()">
+      <div class="tool-icon">
+        <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="16"/><line x1="8" y1="12" x2="16" y2="12"/></svg>
+      </div>
+      <div class="tool-title">Report Location Data</div>
+      <div class="tool-desc">Submit safety information for an area in Thrissur. Community data improves prediction accuracy for everyone.</div>
+      <div class="tool-arrow">Add Data</div>
+    </button>
+
+  </div>
+</main>
+
+<footer class="footer">
+  SafeCity — Women Safety Intelligence for Thrissur &nbsp;&middot;&nbsp; Built with ML-powered risk prediction
+</footer>
+
+<!-- CHART MODAL -->
+<div class="modal-overlay" id="chartModal">
+  <div class="chart-modal">
+    <div class="modal-header">
+      <div class="modal-title">Risk Analytics</div>
+      <button class="modal-close" onclick="closeChartModal()">&#x2715;</button>
+    </div>
+    <div id="chartLoading">Loading chart data...</div>
+    <div id="chartError">Failed to load data. Please try again.</div>
+    <div id="chartContent" style="display:none;">
+      <div class="tab-bar">
+        <button class="tab-btn active" onclick="switchTab('dist',this)">Distribution</button>
+        <button class="tab-btn" onclick="switchTab('time',this)">By Time</button>
+        <button class="tab-btn" onclick="switchTab('top10',this)">Top 10 Areas</button>
+        <button class="tab-btn" onclick="switchTab('hist',this)">Histogram</button>
+        <button class="tab-btn" onclick="switchTab('light',this)">Lighting</button>
+        <button class="tab-btn" onclick="switchTab('patrol',this)">Patrol</button>
+      </div>
+      <div class="chart-panel active" id="panel-dist"><div class="chart-wrap"><canvas id="chartDist"></canvas></div></div>
+      <div class="chart-panel" id="panel-time"><div class="chart-wrap"><canvas id="chartTime"></canvas></div></div>
+      <div class="chart-panel" id="panel-top10"><div class="chart-wrap" style="height:380px;"><canvas id="chartTop10"></canvas></div></div>
+      <div class="chart-panel" id="panel-hist"><div class="chart-wrap"><canvas id="chartHist"></canvas></div></div>
+      <div class="chart-panel" id="panel-light"><div class="chart-wrap"><canvas id="chartLight"></canvas></div></div>
+      <div class="chart-panel" id="panel-patrol"><div class="chart-wrap"><canvas id="chartPatrol"></canvas></div></div>
+    </div>
+  </div>
+</div>
+
+<!-- ADD MODAL -->
+<div class="modal-overlay" id="addModal">
+  <div class="add-modal">
+    <div class="modal-header">
+      <div>
+        <div class="modal-title">Report Location Data</div>
+        <div class="add-modal-sub">Help improve predictions by submitting area safety info</div>
+      </div>
+      <button class="modal-close" onclick="closeAddModal()">&#x2715;</button>
+    </div>
+    <div class="form-group">
+      <label>Search Location</label>
+      <div class="input-with-btn">
+        <input type="text" id="location_search" placeholder="e.g. MG Road, Thrissur">
+        <button class="btn-inline" onclick="searchLocation()">Search</button>
+      </div>
+      <div class="status-text" id="location_status"></div>
+    </div>
+    <div class="form-group">
+      <label>Area Name</label>
+      <input type="text" id="area_name" placeholder="Auto-filled or enter manually">
+    </div>
+    <div class="form-row">
+      <div class="form-group"><label>Latitude</label><input type="number" step="any" id="latitude" placeholder="Auto-filled" readonly></div>
+      <div class="form-group"><label>Longitude</label><input type="number" step="any" id="longitude" placeholder="Auto-filled" readonly></div>
+    </div>
+    <div class="form-group"><label>Crime Count</label><input type="number" id="crime_count" placeholder="e.g. 5"></div>
+    <div class="form-row">
+      <div class="form-group"><label>Street Light</label><select id="street_light"><option value="Poor">Poor</option><option value="Moderate">Moderate</option><option value="Good">Good</option></select></div>
+      <div class="form-group"><label>CCTV</label><select id="cctv"><option value="No">No</option><option value="Yes">Yes</option></select></div>
+    </div>
+    <div class="form-row">
+      <div class="form-group"><label>Police Patrol</label><select id="police_patrol"><option value="Rare">Rare</option><option value="Occasional">Occasional</option><option value="Frequent">Frequent</option></select></div>
+      <div class="form-group"><label>Isolation Level</label><select id="isolation_level"><option value="Low">Low</option><option value="Medium">Medium</option><option value="High">High</option></select></div>
+    </div>
+    <div class="form-group"><label>Time Period</label><select id="time_period"><option value="Morning">Morning</option><option value="Afternoon">Afternoon</option><option value="Evening">Evening</option><option value="Night">Night</option></select></div>
+    <button class="submit-btn" onclick="submitData()">Submit Report</button>
+    <div class="success-msg" id="successMsg">Location data submitted successfully.</div>
+  </div>
+</div>
+
+<script>
+function openAddModal()  { document.getElementById('addModal').classList.add('active'); }
+function closeAddModal() { document.getElementById('addModal').classList.remove('active'); document.getElementById('successMsg').style.display='none'; }
+document.getElementById('addModal').addEventListener('click', e => { if (e.target===e.currentTarget) closeAddModal(); });
+
+function searchLocation() {
+  const query=document.getElementById('location_search').value.trim();
+  const status=document.getElementById('location_status');
+  if (!query) { status.className='status-text err'; status.textContent='Please enter a location.'; return; }
+  status.className='status-text'; status.textContent='Searching...';
+  fetch(`https://nominatim.openstreetmap.org/search?q=${encodeURIComponent(query)}&format=json&limit=1`,{headers:{'Accept-Language':'en'}})
+  .then(r=>r.json()).then(results => {
+    if (!results.length) { status.className='status-text err'; status.textContent='Location not found. Try a more specific name.'; return; }
+    const place=results[0];
+    document.getElementById('latitude').value=parseFloat(place.lat).toFixed(6);
+    document.getElementById('longitude').value=parseFloat(place.lon).toFixed(6);
+    if (!document.getElementById('area_name').value) document.getElementById('area_name').value=place.display_name.split(',')[0].trim();
+    status.className='status-text ok'; status.textContent='Found: '+place.display_name.split(',').slice(0,2).join(',');
+  }).catch(()=>{ status.className='status-text err'; status.textContent='Search failed. Check your connection.'; });
+}
+document.addEventListener('DOMContentLoaded',()=>{ document.getElementById('location_search').addEventListener('keypress',e=>{ if(e.key==='Enter') searchLocation(); }); });
+
+function submitData() {
+  const data={Latitude:document.getElementById('latitude').value,Longitude:document.getElementById('longitude').value,Area_Name:document.getElementById('area_name').value,Crime_Count:document.getElementById('crime_count').value,Street_Light:document.getElementById('street_light').value,CCTV:document.getElementById('cctv').value,Police_Patrol:document.getElementById('police_patrol').value,Isolation_Level:document.getElementById('isolation_level').value,Time_Period:document.getElementById('time_period').value};
+  if (!data.Latitude||!data.Longitude||!data.Crime_Count||!data.Area_Name) { alert('Please search for a location and enter the Crime Count.'); return; }
+  fetch('/add-data',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(data)})
+  .then(r=>r.json()).then(result=>{ if(result.status==='success'){document.getElementById('successMsg').style.display='block';setTimeout(()=>closeAddModal(),1800);}else{alert(result.message||'Something went wrong.');}})
+  .catch(()=>alert('Something went wrong. Please try again.'));
+}
+
+let chartsBuilt=false, chartInstances={};
+function openChartModal() { document.getElementById('chartModal').classList.add('active'); if(!chartsBuilt) loadCharts(); }
+function closeChartModal() { document.getElementById('chartModal').classList.remove('active'); }
+document.getElementById('chartModal').addEventListener('click',e=>{ if(e.target===e.currentTarget) closeChartModal(); });
+
+function switchTab(id,btn) {
+  document.querySelectorAll('.chart-panel').forEach(p=>p.classList.remove('active'));
+  document.querySelectorAll('.tab-btn').forEach(b=>b.classList.remove('active'));
+  document.getElementById('panel-'+id).classList.add('active'); btn.classList.add('active');
+}
+
+async function loadCharts() {
+  const loading=document.getElementById('chartLoading'),error=document.getElementById('chartError'),content=document.getElementById('chartContent');
+  loading.style.display='block'; error.style.display='none'; content.style.display='none';
+  try {
+    const res=await fetch('/risk-chart-data'); const data=await res.json();
+    loading.style.display='none'; content.style.display='block';
+    buildDistChart(data.distribution); buildTimeChart(data.by_time); buildTop10Chart(data.top10);
+    buildHistChart(data.histogram); buildLightChart(data.by_light); buildPatrolChart(data.by_patrol);
+    chartsBuilt=true;
+  } catch(err) { loading.style.display='none'; error.style.display='block'; }
+}
+
+const ROSE='#b5294e',ORANGE='#e07a14',GREEN='#2a6b3a',RED='#b52929',BLUE='#1b5fa8';
+const fontOpts={family:'DM Sans',size:13};
+
+function destroyIfExists(id) { if(chartInstances[id]) chartInstances[id].destroy(); }
+
+function buildDistChart(dist) {
+  destroyIfExists('dist');
+  chartInstances['dist']=new Chart(document.getElementById('chartDist').getContext('2d'),{type:'doughnut',data:{labels:['Low Risk','Medium Risk','High Risk'],datasets:[{data:[dist['Low']||0,dist['Medium']||0,dist['High']||0],backgroundColor:[GREEN,ORANGE,RED],borderWidth:3,borderColor:'#fff'}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{labels:{font:fontOpts,color:'#5a4d53'}},title:{display:true,text:'Overall Risk Distribution',font:{...fontOpts,size:14},color:'#1a1218'}}}});
+}
+function buildTimeChart(byTime) {
+  destroyIfExists('time');
+  const labels=Object.keys(byTime),values=labels.map(k=>byTime[k]);
+  chartInstances['time']=new Chart(document.getElementById('chartTime').getContext('2d'),{type:'bar',data:{labels,datasets:[{label:'Average Risk Score',data:values,backgroundColor:[BLUE,ORANGE,ROSE,RED],borderRadius:6}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false},title:{display:true,text:'Average Risk Score by Time Period',font:{...fontOpts,size:14},color:'#1a1218'}},scales:{y:{beginAtZero:true,max:1.0}}}});
+}
+function buildTop10Chart(top10) {
+  destroyIfExists('top10');
+  const labels=top10.map(z=>z.Area_Name),values=top10.map(z=>z.Risk_Score);
+  chartInstances['top10']=new Chart(document.getElementById('chartTop10').getContext('2d'),{type:'bar',data:{labels,datasets:[{label:'Risk Score',data:values,backgroundColor:values.map(v=>v>=0.7?RED:ORANGE),borderRadius:4}]},options:{indexAxis:'y',responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false},title:{display:true,text:'Top 10 Highest-Risk Areas',font:{...fontOpts,size:14},color:'#1a1218'}},scales:{x:{beginAtZero:true,max:1.0}}}});
+}
+function buildHistChart(histogram) {
+  destroyIfExists('hist');
+  const labels=histogram.map(b=>b.label),values=histogram.map(b=>b.count);
+  chartInstances['hist']=new Chart(document.getElementById('chartHist').getContext('2d'),{type:'bar',data:{labels,datasets:[{label:'Number of Zones',data:values,backgroundColor:labels.map((_,i)=>i>=7?RED:i>=4?ORANGE:GREEN),borderRadius:4}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false},title:{display:true,text:'Risk Score Distribution',font:{...fontOpts,size:14},color:'#1a1218'}}}});
+}
+function buildLightChart(byLight) {
+  destroyIfExists('light');
+  const order=['Poor','Moderate','Good'],labels=order.filter(k=>byLight[k]!==undefined),values=labels.map(k=>byLight[k]);
+  chartInstances['light']=new Chart(document.getElementById('chartLight').getContext('2d'),{type:'bar',data:{labels,datasets:[{label:'Average Risk Score',data:values,backgroundColor:[RED,ORANGE,GREEN],borderRadius:6}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false},title:{display:true,text:'Risk vs Street Lighting Quality',font:{...fontOpts,size:14},color:'#1a1218'}},scales:{y:{beginAtZero:true,max:1.0}}}});
+}
+function buildPatrolChart(byPatrol) {
+  destroyIfExists('patrol');
+  const order=['Rare','Occasional','Frequent'],labels=order.filter(k=>byPatrol[k]!==undefined),values=labels.map(k=>byPatrol[k]);
+  chartInstances['patrol']=new Chart(document.getElementById('chartPatrol').getContext('2d'),{type:'bar',data:{labels,datasets:[{label:'Average Risk Score',data:values,backgroundColor:[RED,ORANGE,GREEN],borderRadius:6}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false},title:{display:true,text:'Risk vs Police Patrol Frequency',font:{...fontOpts,size:14},color:'#1a1218'}},scales:{y:{beginAtZero:true,max:1.0}}}});
+}
+</script>
+</body>
+</html>
